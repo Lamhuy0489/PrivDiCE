@@ -1,0 +1,3 @@
+method,valid_cfe_yield_at_k,coverage_at_1,full_k_success,robust_yield_at_k,robust_full_k_success,proximity,sparsity,diversity,plausibility,constraint_validity,runtime_seconds_mean,aggregation
+official_dice_genetic,0.7025,0.995,0.16499999999999998,0.6825,0.15500000000000003,0.3497700998345108,0.04851516042256784,0.18652098600084732,1.5369450786663061,1.0,4.691707821820008,equal-direction macro (0.5 per direction)
+official_dice_random,0.43100000000000005,0.895,0.0,0.3325,0.0,0.0467888109189471,0.8322516222006442,0.06173765202170324,0.6529171679910528,1.0,4.179478887244991,equal-direction macro (0.5 per direction)

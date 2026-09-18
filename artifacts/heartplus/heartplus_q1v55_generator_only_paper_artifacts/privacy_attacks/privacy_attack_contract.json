@@ -1,0 +1,6 @@
+{
+  "membership": "members are outer-development train rows; nonmembers are untouched outer-test rows; score is negative generator target-plus-distance objective",
+  "distance": "DCR and NNDR use processed features normalized by development-only robust ranges and at most 20,000 train references",
+  "attribute_inversion": "Ridge predicts the highest-variance actionable factual feature from the remaining generated CFE features; MAE is normalized by its robust range",
+  "interpretation": "diagnostic attack, not a universal privacy proof; DP accounting remains the formal training guarantee"
+}

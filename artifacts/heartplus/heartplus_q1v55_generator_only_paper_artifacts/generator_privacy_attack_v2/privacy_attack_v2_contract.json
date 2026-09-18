@@ -1,0 +1,47 @@
+{
+  "protocol": "GENERATOR_PRIVACY_ATTACK_V2",
+  "dataset": "heartplus",
+  "paper_numbers": true,
+  "outer_test_used_for_attack_evaluation_only": true,
+  "generator_training_seed_count": 1,
+  "generator_training_seeds": [
+    11
+  ],
+  "contract": {
+    "calibration_rows_per_group": 1000,
+    "evaluation_rows_per_group": 1000,
+    "latent_draws": 16,
+    "attack_seeds": [
+      101,
+      202,
+      303,
+      404,
+      505,
+      606,
+      707,
+      808,
+      909,
+      1010
+    ],
+    "low_fpr_levels": [
+      0.001,
+      0.01,
+      0.05
+    ],
+    "reference_rows": 20000
+  },
+  "score_orientation_selection": "calibration only",
+  "threshold_selection": "calibration Youden J only",
+  "evaluation_labels_used_for_attack_selection": false,
+  "dp_scope": "record-level conditional GAN training; only the generator is deployed, while generator and discriminator optimizer steps remain conservatively covered by basic composed accounting; oracle and preprocessing are public auxiliary",
+  "mia_common_random_numbers_across_variants": true,
+  "deployment_release": "generator_only",
+  "released_discriminator_primary_attack_surface": false,
+  "discriminator_release_ablation_included": true,
+  "attribute_inference_scope": "query-attribute leakage through conditional CFE outputs; this is not evidence about training membership and is not guaranteed by DP-SGD",
+  "secure_rng_limitation": true,
+  "patient_level_dp": false,
+  "formal_dp_is_primary": true,
+  "empirical_attack_interpretation": "attack-specific evidence; never a universal privacy proof",
+  "all_expected_rows": true
+}

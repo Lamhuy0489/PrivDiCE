@@ -1,0 +1,6 @@
+dataset,variant,attack,metric,mean,sd,ci95_low,ci95_high,attack_seeds
+ecg,countergan,calibrated_gaussian_reconstruction_likelihood,evaluation_auc,0.5155168,0.0141898208727242,0.5068585999999999,0.5237352625,10
+ecg,dp_eps16,multi_draw_mean_objective,evaluation_auc,0.4475461,0.0128532450502673,0.44013413,0.4551144900000001,10
+ecg,dp_eps2,calibrated_gaussian_reconstruction_likelihood,evaluation_auc,0.6054447,0.0184252017570741,0.5942234550000001,0.61546588,10
+ecg,dp_eps4,multi_draw_mean_objective,evaluation_auc,0.5015639999999999,0.0139135266078254,0.493485185,0.5095023500000001,10
+ecg,dp_eps8,multi_draw_mean_objective,evaluation_auc,0.45384655,0.0103330825949417,0.44820538625,0.4602286162499999,10

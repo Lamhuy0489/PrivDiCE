@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software or its experimental artifacts, please cite the PrivDiCE manuscript and the underlying datasets."
+title: "PrivDiCE: Privacy-Preserving Actionable Counterfactual Explanations with Differential Privacy and Homomorphic Encryption"
+type: software
+authors:
+  - family-names: Nguyen
+    given-names: Viet-Nhat
+  - family-names: Tran
+    given-names: Anh-Tu
+  - family-names: Luong
+    given-names: The-Dung
+  - family-names: Huynh
+    given-names: Van-Nam
+date-released: 2026-09-19
+keywords:
+  - counterfactual explanations
+  - differential privacy
+  - homomorphic encryption
+  - explainable artificial intelligence

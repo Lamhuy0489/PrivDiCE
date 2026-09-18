@@ -1,0 +1,1537 @@
+candidate_cohort_seed,cohort_position,query_id,method,method_family,direction,candidate_budget,rank,cfe_logit
+101,0,86,uniform_random,Baseline,disease_to_no_disease,512,8,-2.0652260780334477
+101,1,65,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,1,-4.375400543212891
+101,2,42,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,1,-14.249911308288574
+101,3,54,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,1,-2.1453089714050293
+101,4,11,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,10,-0.5457167625427246
+101,5,8,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,10,-9.585646629333496
+101,6,147,genetic_cfe,Baseline,no_disease_to_disease,512,2,0.6766219139099121
+101,7,142,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,1,0.9582962989807128
+101,8,169,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,1,0.7284626960754395
+101,9,159,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,1,0.879737377166748
+101,10,169,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,1,0.2836489677429199
+101,11,192,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,10,0.8602852821350098
+101,12,49,genetic_cfe,Baseline,disease_to_no_disease,512,9,-15.139138221740724
+101,13,30,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,2,-21.059253692626957
+101,14,45,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,1,-0.8596644401550293
+101,15,71,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,4,-5.241012096405029
+101,16,46,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,7,-1.7408032417297363
+101,17,41,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,8,-5.773353576660156
+101,18,140,dice_gradient_style,Baseline,no_disease_to_disease,512,1,11.11090850830078
+101,19,197,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,10,2.7201552391052246
+101,20,137,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,5,3.523298740386963
+101,21,146,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,8,2.0531229972839355
+101,22,162,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,7,8.614870071411133
+101,23,145,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,10,6.992726802825928
+101,24,22,uniform_random,Baseline,disease_to_no_disease,512,6,-3.7572178840637207
+101,25,1,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,9,-2.4015278816223145
+101,26,88,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,7,-19.439342498779297
+101,27,94,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,10,-4.351254463195801
+101,28,56,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,8,-1.6968789100646973
+101,29,10,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,9,-4.391056537628174
+101,30,111,uniform_random,Baseline,no_disease_to_disease,512,10,7.360599040985107
+101,31,190,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,5,4.3002800941467285
+101,32,155,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,4,0.5737013816833496
+101,33,117,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,6,3.635646343231201
+101,34,100,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,4,5.32050371170044
+101,35,188,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,10,7.812597751617432
+101,36,48,genetic_cfe,Baseline,disease_to_no_disease,512,6,-13.11926555633545
+101,37,52,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,1,-5.965643882751465
+101,38,8,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,10,-0.1062874794006347
+101,39,24,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,5,-6.739861965179443
+101,40,62,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,8,-9.161489486694336
+101,41,92,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,5,-11.037994384765623
+101,42,131,dice_gradient_style,Baseline,no_disease_to_disease,512,1,9.67929458618164
+101,43,162,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,2,0.8537716865539551
+101,44,158,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,6,27.73308563232422
+101,45,122,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,6,0.6098513603210449
+101,46,124,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,10,2.016082286834717
+101,47,136,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,3,10.65913200378418
+101,48,21,uniform_random,Baseline,disease_to_no_disease,512,6,-0.3331828117370605
+101,49,28,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,4,-11.107521057128906
+101,50,96,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,1,-21.92459297180176
+101,51,36,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,1,-3.133896350860596
+101,52,48,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,9,-1.5170822143554688
+101,53,98,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,2,-0.1235108375549316
+101,54,155,uniform_random,Baseline,no_disease_to_disease,512,2,4.655013561248779
+101,55,116,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,9,1.099231243133545
+101,56,163,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,4,3.442430019378662
+101,57,104,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,9,15.355609893798828
+101,58,181,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,5,30.40522766113281
+101,59,137,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,9,13.632396697998049
+101,60,59,genetic_cfe,Baseline,disease_to_no_disease,512,3,-7.782845497131348
+101,61,28,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,6,-9.567728996276855
+101,62,97,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,6,-14.534255981445312
+101,63,50,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,9,-14.060739517211914
+101,64,68,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,8,-0.2137417793273925
+101,65,31,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,9,-19.032421112060547
+101,66,169,genetic_cfe,Baseline,no_disease_to_disease,512,1,15.86427116394043
+101,67,186,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,6,27.486106872558597
+101,68,185,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,10,1.766063213348389
+101,69,113,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,5,4.885322093963623
+101,70,189,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,9,1.93558931350708
+101,71,133,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,5,4.881367206573486
+101,72,2,uniform_random,Baseline,disease_to_no_disease,512,4,-10.345938682556152
+101,73,38,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,4,-38.863258361816406
+101,74,39,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,5,-18.61419677734375
+101,75,5,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,8,-10.1016845703125
+101,76,78,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,3,-15.894832611083984
+101,77,74,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,7,-0.1302218437194824
+101,78,199,uniform_random,Baseline,no_disease_to_disease,512,8,3.242509365081787
+101,79,170,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,8,0.9849390983581544
+101,80,112,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,2,5.669856548309326
+101,81,180,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,10,10.68556022644043
+101,82,114,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,3,5.8591628074646
+101,83,114,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,9,5.393626689910889
+101,84,1,genetic_cfe,Baseline,disease_to_no_disease,512,7,-16.580286026000977
+101,85,91,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,7,-10.121706008911133
+101,86,35,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,1,-4.855404376983643
+101,87,8,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,4,-13.77383041381836
+101,88,36,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,9,-4.726167678833008
+101,89,73,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,10,-40.083282470703125
+101,90,196,uniform_random,Baseline,no_disease_to_disease,512,7,4.1927571296691895
+101,91,115,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,8,2.6563029289245605
+101,92,143,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,4,11.444612503051758
+101,93,138,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,2,0.621192455291748
+101,94,166,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,5,0.8013882637023926
+101,95,124,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,9,5.986358165740967
+101,96,7,uniform_random,Baseline,disease_to_no_disease,512,10,-1.3543763160705566
+101,97,98,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,6,-4.393259048461914
+101,98,21,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,5,-4.673402309417725
+101,99,66,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,6,-7.505731582641602
+101,100,85,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,6,-3.616288661956787
+101,101,96,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,10,-3.0168676376342773
+101,102,190,genetic_cfe,Baseline,no_disease_to_disease,512,6,14.114042282104492
+101,103,187,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,2,0.718818187713623
+101,104,119,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,10,0.933790683746338
+101,105,154,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,9,1.390617847442627
+101,106,148,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,7,0.6781058311462402
+101,107,101,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,7,6.583019733428955
+101,108,35,genetic_cfe,Baseline,disease_to_no_disease,512,7,-1.7426881790161133
+101,109,79,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,2,-4.033072471618652
+101,110,77,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,1,-6.258254051208496
+101,111,33,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,5,-18.27706527709961
+101,112,37,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,4,-1.961040496826172
+101,113,42,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,10,-7.961673259735107
+101,114,195,genetic_cfe,Baseline,no_disease_to_disease,512,9,6.873429775238037
+101,115,176,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,7,1.900216579437256
+101,116,115,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,2,3.4841036796569824
+101,117,180,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,3,12.258359909057615
+101,118,139,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,10,3.8410239219665527
+101,119,192,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,7,1.3177542686462402
+101,120,71,uniform_random,Baseline,disease_to_no_disease,512,4,-8.457592964172363
+101,121,40,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,2,-36.08146667480469
+101,122,71,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,6,-12.60609531402588
+101,123,78,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,3,-0.3909797668457031
+101,124,40,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,8,-15.403656959533691
+101,125,79,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,4,-11.34067726135254
+101,126,125,dice_gradient_style,Baseline,no_disease_to_disease,512,1,9.19989013671875
+101,127,121,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,8,8.194255828857422
+101,128,168,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,9,42.93383026123047
+101,129,198,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,4,2.900063991546631
+101,130,149,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,9,2.376370906829834
+101,131,141,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,4,10.110773086547852
+101,132,89,genetic_cfe,Baseline,disease_to_no_disease,512,1,-11.308974266052246
+101,133,31,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,6,-28.522314071655277
+101,134,38,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,2,-24.990922927856445
+101,135,42,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,6,-3.159144878387451
+101,136,99,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,3,-4.476055145263672
+101,137,71,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,2,-5.241446018218994
+101,138,198,genetic_cfe,Baseline,no_disease_to_disease,512,9,2.9117236137390137
+101,139,188,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,5,1.557606220245361
+101,140,101,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,10,1.3499503135681152
+101,141,179,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,8,3.97577428817749
+101,142,130,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,3,0.6621127128601074
+101,143,133,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,8,2.525437831878662
+101,144,82,genetic_cfe,Baseline,disease_to_no_disease,512,9,-8.789405822753906
+101,145,89,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,10,-32.33421325683594
+101,146,72,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,4,-6.6461381912231445
+101,147,38,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,4,-0.4152283668518066
+101,148,4,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,5,-13.176002502441406
+101,149,0,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,2,-3.683338165283203
+101,150,129,uniform_random,Baseline,no_disease_to_disease,512,3,3.053435802459717
+101,151,169,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,5,14.430046081542969
+101,152,120,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,6,1.7994952201843262
+101,153,163,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,4,0.3588967323303222
+101,154,174,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,4,27.422264099121094
+101,155,140,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,2,12.190074920654297
+101,156,20,genetic_cfe,Baseline,disease_to_no_disease,512,10,-8.549549102783203
+101,157,5,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,3,-6.632770538330078
+101,158,41,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,2,-22.946897506713867
+101,159,87,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,10,-4.651972770690918
+101,160,86,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,7,-8.636075019836426
+101,161,39,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,1,-2.0886621475219727
+101,162,110,uniform_random,Baseline,no_disease_to_disease,512,2,2.3145852088928223
+101,163,129,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,10,1.7285923957824707
+101,164,131,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,6,2.90366792678833
+101,165,119,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,9,0.5893301963806152
+101,166,117,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,9,1.3139615058898926
+101,167,120,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,6,0.3254427909851074
+101,168,39,uniform_random,Baseline,disease_to_no_disease,512,4,-1.9578275680541992
+101,169,59,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,7,-2.9333200454711914
+101,170,7,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,2,-7.008275985717773
+101,171,38,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,1,-2.139770984649658
+101,172,32,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,1,-0.7591872215270996
+101,173,69,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,4,-3.543952465057373
+101,174,166,genetic_cfe,Baseline,no_disease_to_disease,512,1,1.5627894401550293
+101,175,197,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,8,1.346482753753662
+101,176,177,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,2,1.262296199798584
+101,177,183,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,3,5.228139400482178
+101,178,172,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,7,0.2220034599304199
+101,179,181,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,10,2.2717318534851074
+101,180,55,uniform_random,Baseline,disease_to_no_disease,512,1,-7.0667901039123535
+101,181,47,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,7,-2.3968281745910645
+101,182,99,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,5,-2.1813650131225586
+101,183,85,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,4,-4.905459403991699
+101,184,63,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,1,-13.090970993041992
+101,185,44,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,3,-4.0727057456970215
+101,186,116,genetic_cfe,Baseline,no_disease_to_disease,512,1,9.367393493652344
+101,187,133,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,1,1.25600004196167
+101,188,172,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,1,1.418154239654541
+101,189,197,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,10,1.1379103660583496
+101,190,187,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,1,4.200475215911865
+101,191,150,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,5,8.661567687988281
+101,192,13,uniform_random,Baseline,disease_to_no_disease,512,10,-7.1976470947265625
+101,193,75,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,9,-16.603862762451172
+101,194,66,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,7,-16.204927444458008
+101,195,43,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,3,-0.9741311073303224
+101,196,17,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,10,-13.658138275146484
+101,197,15,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,8,-6.881994724273682
+101,198,168,genetic_cfe,Baseline,no_disease_to_disease,512,1,0.7860808372497559
+101,199,155,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,8,0.5052886009216309
+101,200,129,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,2,0.6838364601135254
+101,201,190,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,5,2.489438533782959
+101,202,115,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,5,2.4151930809021
+101,203,148,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,9,5.636397838592529
+101,204,48,uniform_random,Baseline,disease_to_no_disease,512,6,-9.828794479370115
+101,205,41,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,7,-10.807559967041016
+101,206,53,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,10,-6.48381233215332
+101,207,84,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,4,-4.220564842224121
+101,208,19,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,2,-1.1906652450561523
+101,209,3,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,7,-12.926220893859863
+101,210,125,uniform_random,Baseline,no_disease_to_disease,512,9,2.4500603675842285
+101,211,128,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,1,1.810119152069092
+101,212,182,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,3,19.151853561401367
+101,213,151,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,9,1.9905362129211424
+101,214,188,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,5,1.9963479042053225
+101,215,142,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,6,9.709087371826172
+101,216,20,uniform_random,Baseline,disease_to_no_disease,512,9,-7.198549270629883
+101,217,20,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,6,-0.7471375465393066
+101,218,67,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,10,-24.96638298034668
+101,219,52,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,2,-2.5187811851501465
+101,220,71,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,8,-35.52825927734375
+101,221,33,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,2,-1.1601948738098145
+101,222,154,genetic_cfe,Baseline,no_disease_to_disease,512,3,6.5761027336120605
+101,223,103,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,3,1.8510165214538572
+101,224,174,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,10,22.27598571777344
+101,225,155,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,6,0.3363270759582519
+101,226,179,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,8,1.6129088401794434
+101,227,159,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,2,1.798346996307373
+101,228,47,wachter_style,Baseline,disease_to_no_disease,512,1,-11.53695297241211
+101,229,58,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,6,-4.51104736328125
+101,230,4,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,1,-3.7637276649475098
+101,231,77,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,3,-33.75941467285156
+101,232,74,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,9,-19.89619445800781
+101,233,25,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,4,-7.941791534423828
+101,234,175,uniform_random,Baseline,no_disease_to_disease,512,6,6.852856159210205
+101,235,164,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,7,0.6651034355163574
+101,236,147,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,10,31.158111572265625
+101,237,153,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,7,1.5540013313293457
+101,238,152,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,7,2.4599833488464355
+101,239,151,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,6,7.039493083953857
+101,240,50,wachter_style,Baseline,disease_to_no_disease,512,1,-10.576373100280762
+101,241,0,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,4,-0.3813023567199707
+101,242,42,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,7,-5.154426574707031
+101,243,69,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,10,-8.421656608581543
+101,244,26,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,5,-5.032366752624512
+101,245,74,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,4,-0.828580379486084
+101,246,188,wachter_style,Baseline,no_disease_to_disease,512,1,8.610145568847656
+101,247,167,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,10,4.245625019073486
+101,248,122,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,5,1.5906786918640137
+101,249,194,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,8,0.7203564643859863
+101,250,199,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,10,3.6167616844177246
+101,251,179,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,4,13.666091918945312
+101,252,71,genetic_cfe,Baseline,disease_to_no_disease,512,10,-7.506965637207031
+101,253,9,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,7,-2.918954372406006
+101,254,59,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,7,-0.6435966491699219
+101,255,36,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,4,-0.5791440010070801
+101,256,28,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,7,-14.027191162109377
+101,257,26,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,7,-1.0076570510864258
+101,258,124,genetic_cfe,Baseline,no_disease_to_disease,512,10,2.442594051361084
+101,259,158,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,1,1.4299778938293457
+101,260,182,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,6,2.7714476585388184
+101,261,109,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,4,11.768444061279297
+101,262,151,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,5,5.658812046051025
+101,263,155,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,1,5.621854305267334
+101,264,14,uniform_random,Baseline,disease_to_no_disease,512,10,-6.864029884338379
+101,265,19,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,5,-2.452788829803467
+101,266,80,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,10,-20.45419692993164
+101,267,32,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,10,-23.93694305419922
+101,268,60,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,1,-1.5603322982788086
+101,269,44,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,7,-2.0344643592834477
+101,270,102,genetic_cfe,Baseline,no_disease_to_disease,512,8,2.04817533493042
+101,271,100,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,6,18.230960845947266
+101,272,184,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,3,15.808841705322266
+101,273,150,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,9,0.7677454948425293
+101,274,124,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,2,2.248544216156006
+101,275,158,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,9,3.984801769256592
+101,276,15,genetic_cfe,Baseline,disease_to_no_disease,512,1,-4.23698616027832
+101,277,77,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,9,-22.97139358520508
+101,278,0,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,4,-2.822023868560791
+101,279,58,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,1,-6.430952072143555
+101,280,89,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,3,-7.863701820373535
+101,281,75,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,8,-12.454278945922852
+101,282,133,uniform_random,Baseline,no_disease_to_disease,512,10,0.3526606559753418
+101,283,170,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,1,1.4182076454162598
+101,284,142,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,1,15.92697525024414
+101,285,148,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,9,2.623168468475342
+101,286,129,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,4,5.113505840301514
+101,287,168,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,4,0.3517088890075683
+101,288,51,uniform_random,Baseline,disease_to_no_disease,512,9,-7.299386978149414
+101,289,7,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,5,-8.975484848022461
+101,290,39,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,3,-31.19382095336914
+101,291,40,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,1,-0.6736850738525391
+101,292,5,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,5,-4.820127487182617
+101,293,12,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,7,-3.00635290145874
+101,294,110,uniform_random,Baseline,no_disease_to_disease,512,8,13.775829315185549
+101,295,159,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,8,0.9244627952575684
+101,296,137,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,7,19.743921279907227
+101,297,134,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,1,1.0038142204284668
+101,298,123,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,3,0.8932547569274902
+101,299,168,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,7,2.1405491828918457
+101,300,79,uniform_random,Baseline,disease_to_no_disease,512,1,-0.6384067535400391
+101,301,78,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,7,-8.724123001098633
+101,302,34,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,10,-1.8066282272338867
+101,303,95,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,6,-15.052545547485352
+101,304,74,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,4,-7.147312164306641
+101,305,42,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,10,-6.729145050048828
+101,306,129,uniform_random,Baseline,no_disease_to_disease,512,9,4.749009609222412
+101,307,125,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,3,2.859092235565185
+101,308,118,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,3,1.5979657173156738
+101,309,196,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,1,1.3346896171569824
+101,310,174,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,10,1.2991585731506348
+101,311,147,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,7,4.393524646759033
+101,312,76,genetic_cfe,Baseline,disease_to_no_disease,512,7,-10.75280475616455
+101,313,37,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,6,-19.145523071289062
+101,314,13,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,3,-8.952231407165527
+101,315,82,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,6,-5.589886665344238
+101,316,82,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,8,-3.487339496612549
+101,317,61,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,9,-1.1830410957336426
+101,318,139,dice_gradient_style,Baseline,no_disease_to_disease,512,1,11.353147506713867
+101,319,195,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,5,0.4965834617614746
+101,320,157,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,1,0.4352049827575683
+101,321,135,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,4,31.047351837158203
+101,322,101,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,2,1.4201407432556152
+101,323,123,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,7,5.759887218475342
+101,324,25,uniform_random,Baseline,disease_to_no_disease,512,4,-6.779662609100342
+101,325,39,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,2,-2.0986337661743164
+101,326,77,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,8,-35.69050979614258
+101,327,99,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,2,-2.16674280166626
+101,328,47,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,10,-4.691964149475098
+101,329,15,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,6,-11.556544303894045
+101,330,165,uniform_random,Baseline,no_disease_to_disease,512,8,0.2622685432434082
+101,331,182,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,8,1.2629961967468262
+101,332,146,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,8,0.9113783836364746
+101,333,161,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,8,3.060176372528076
+101,334,192,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,2,0.6237988471984863
+101,335,176,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,10,10.57467269897461
+101,336,48,uniform_random,Baseline,disease_to_no_disease,512,4,-6.39334774017334
+101,337,92,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,4,-2.8000073432922363
+101,338,71,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,9,-42.41609191894531
+101,339,65,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,1,-2.2957067489624023
+101,340,35,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,3,-20.851266860961918
+101,341,64,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,4,-21.503173828125
+101,342,110,uniform_random,Baseline,no_disease_to_disease,512,6,0.5669951438903809
+101,343,135,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,2,11.599723815917969
+101,344,185,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,6,2.388946056365967
+101,345,144,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,1,2.3281445503234863
+101,346,123,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,5,0.2128500938415527
+101,347,182,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,8,8.138618469238281
+101,348,18,genetic_cfe,Baseline,disease_to_no_disease,512,3,-8.706509590148926
+101,349,6,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,1,-1.1450300216674805
+101,350,1,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,2,-3.008458137512207
+101,351,30,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,8,-14.661117553710938
+101,352,52,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,7,-0.3684439659118652
+101,353,99,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,6,-1.151350021362305
+101,354,186,wachter_style,Baseline,no_disease_to_disease,512,1,8.687801361083984
+101,355,183,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,1,1.6434712409973145
+101,356,170,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,3,13.099082946777344
+101,357,130,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,8,1.3683514595031738
+101,358,136,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,10,1.1028828620910645
+101,359,186,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,3,8.41938591003418
+101,360,68,genetic_cfe,Baseline,disease_to_no_disease,512,6,-7.718305587768555
+101,361,49,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,3,-10.825410842895508
+101,362,89,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,2,-8.050271987915039
+101,363,13,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,8,-8.91649055480957
+101,364,95,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,2,-4.277368068695068
+101,365,29,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,2,-1.6216139793395996
+101,366,180,genetic_cfe,Baseline,no_disease_to_disease,512,3,4.3648858070373535
+101,367,104,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,4,26.77239227294922
+101,368,173,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,2,1.5780797004699707
+101,369,180,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,9,0.6638493537902832
+101,370,104,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,5,14.22647476196289
+101,371,164,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,5,5.011655330657959
+101,372,47,genetic_cfe,Baseline,disease_to_no_disease,512,1,-2.050082206726074
+101,373,92,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,7,-5.485860824584961
+101,374,8,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,8,-8.031412124633789
+101,375,13,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,3,-34.328250885009766
+101,376,5,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,6,-9.297738075256348
+101,377,85,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,8,-0.7887239456176758
+101,378,105,uniform_random,Baseline,no_disease_to_disease,512,1,2.403876781463623
+101,379,100,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,7,1.937232494354248
+101,380,126,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,10,1.8464255332946775
+101,381,170,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,7,2.7143702507019043
+101,382,178,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,4,7.822227954864502
+101,383,147,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,2,9.084003448486328
+101,384,72,uniform_random,Baseline,disease_to_no_disease,512,2,-0.3085284233093261
+101,385,27,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,8,-18.28371810913086
+101,386,13,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,1,-4.719278335571289
+101,387,51,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,3,-7.763189315795898
+101,388,16,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,2,-0.5213727951049805
+101,389,85,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,2,-10.291868209838867
+101,390,134,dice_gradient_style,Baseline,no_disease_to_disease,512,1,10.926528930664062
+101,391,104,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,8,1.6943821907043457
+101,392,170,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,2,6.573634624481201
+101,393,170,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,4,11.40665054321289
+101,394,191,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,6,11.350858688354492
+101,395,126,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,8,4.561848163604736
+101,396,13,uniform_random,Baseline,disease_to_no_disease,512,2,-6.315524101257324
+101,397,61,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,3,-9.380212783813477
+101,398,98,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,8,-0.6315827369689941
+101,399,60,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,6,-3.053737163543701
+101,400,65,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,9,-20.968137741088867
+101,401,44,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,6,-1.6641721725463867
+101,402,170,genetic_cfe,Baseline,no_disease_to_disease,512,6,19.95966339111328
+101,403,126,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,3,3.156533718109131
+101,404,146,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,2,1.9302916526794436
+101,405,103,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,2,1.776033878326416
+101,406,143,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,6,0.8576979637145996
+101,407,125,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,5,5.253991603851318
+101,408,53,uniform_random,Baseline,disease_to_no_disease,512,3,-4.097378253936768
+101,409,86,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,7,-2.9428811073303223
+101,410,58,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,8,-0.8915243148803711
+101,411,59,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,4,-7.684852123260498
+101,412,20,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,8,-10.196934700012209
+101,413,6,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,2,-5.618587493896484
+101,414,132,genetic_cfe,Baseline,no_disease_to_disease,512,10,2.819715976715088
+101,415,102,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,1,4.443177700042725
+101,416,197,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,2,8.540058135986328
+101,417,126,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,2,0.5585694313049316
+101,418,116,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,7,4.44470739364624
+101,419,164,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,9,1.6706843376159668
+101,420,30,genetic_cfe,Baseline,disease_to_no_disease,512,4,-13.83182144165039
+101,421,13,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,5,-3.728103637695313
+101,422,32,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,8,-11.908720016479492
+101,423,9,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,7,-6.143952369689941
+101,424,84,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,9,-27.801006317138672
+101,425,58,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,10,-0.8617448806762695
+101,426,134,uniform_random,Baseline,no_disease_to_disease,512,10,3.584782123565674
+101,427,139,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,5,15.555286407470703
+101,428,108,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,10,3.097772121429444
+101,429,181,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,10,2.4251151084899902
+101,430,134,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,2,4.375672817230225
+101,431,165,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,10,15.380050659179688
+101,432,87,uniform_random,Baseline,disease_to_no_disease,512,6,-10.132699966430664
+101,433,11,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,3,-2.48172664642334
+101,434,30,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,9,-16.27008819580078
+101,435,28,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,3,-0.1573529243469238
+101,436,86,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,6,-9.109285354614258
+101,437,55,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,10,-6.716943264007568
+101,438,195,uniform_random,Baseline,no_disease_to_disease,512,9,4.826117038726807
+101,439,166,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,5,0.3316740989685058
+101,440,179,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,10,0.6248488426208496
+101,441,168,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,4,16.972734451293945
+101,442,140,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,3,4.504105091094971
+101,443,169,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,7,1.134498119354248
+101,444,81,uniform_random,Baseline,disease_to_no_disease,512,1,-5.670979499816895
+101,445,67,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,8,-1.0379323959350586
+101,446,66,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,10,-8.676118850708008
+101,447,13,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,1,-1.3222861289978027
+101,448,72,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,6,-3.0396275520324707
+101,449,86,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,5,-11.567745208740234
+101,450,149,genetic_cfe,Baseline,no_disease_to_disease,512,7,3.320767879486084
+101,451,102,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,10,18.610340118408203
+101,452,127,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,8,2.024038791656494
+101,453,142,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,8,2.215756893157959
+101,454,165,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,1,1.7074942588806152
+101,455,174,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,6,11.76242446899414
+101,456,8,genetic_cfe,Baseline,disease_to_no_disease,512,10,-9.830429077148438
+101,457,24,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,2,-2.0618133544921875
+101,458,91,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,6,-26.936954498291016
+101,459,47,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,3,-2.2517318725585938
+101,460,71,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,7,-29.68463897705078
+101,461,10,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,10,-11.281332015991213
+101,462,196,genetic_cfe,Baseline,no_disease_to_disease,512,8,5.087184429168701
+101,463,150,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,7,0.4975953102111816
+101,464,170,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,1,7.2311930656433105
+101,465,172,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,4,0.4211211204528808
+101,466,198,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,1,3.660882472991944
+101,467,111,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,5,8.520746231079102
+101,468,65,genetic_cfe,Baseline,disease_to_no_disease,512,4,-3.3825879096984863
+101,469,68,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,10,-7.110177516937256
+101,470,51,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,5,-0.7807683944702148
+101,471,78,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,6,-8.438273429870605
+101,472,33,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,5,-2.200779438018799
+101,473,38,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,2,-3.768498420715332
+101,474,136,uniform_random,Baseline,no_disease_to_disease,512,1,3.781350612640381
+101,475,119,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,5,0.4310851097106933
+101,476,148,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,9,1.482271671295166
+101,477,131,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,1,1.430819034576416
+101,478,190,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,10,0.267270565032959
+101,479,192,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,3,1.5967059135437012
+101,480,83,genetic_cfe,Baseline,disease_to_no_disease,512,2,-5.297932147979736
+101,481,42,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,6,-15.609399795532228
+101,482,82,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,2,-4.408698081970215
+101,483,71,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,6,-9.962163925170898
+101,484,36,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,5,-15.012575149536133
+101,485,76,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,5,-1.1928019523620603
+101,486,168,wachter_style,Baseline,no_disease_to_disease,512,1,11.215473175048828
+101,487,171,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,9,42.75961685180664
+101,488,133,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,1,2.3570475578308105
+101,489,174,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,4,2.6617207527160645
+101,490,185,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,3,0.9753785133361816
+101,491,146,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,8,1.192756175994873
+101,492,99,genetic_cfe,Baseline,disease_to_no_disease,512,5,-3.8723084926605225
+101,493,10,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,2,-2.1675515174865723
+101,494,27,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,9,-2.2146382331848145
+101,495,11,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,3,-0.7719497680664062
+101,496,81,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,8,-2.755009651184082
+101,497,62,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,3,-8.201285362243652
+101,498,179,dice_gradient_style,Baseline,no_disease_to_disease,512,1,8.738693237304688
+101,499,182,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,10,2.4244637489318848
+101,500,158,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,5,11.247991561889648
+101,501,129,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,3,8.98807144165039
+101,502,137,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,2,3.879887104034424
+101,503,157,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,4,2.373823642730713
+101,504,45,uniform_random,Baseline,disease_to_no_disease,512,4,-0.1645898818969726
+101,505,7,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,1,-6.801913738250732
+101,506,18,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,5,-20.383167266845703
+101,507,96,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,10,-36.961124420166016
+101,508,11,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,9,-2.8396363258361816
+101,509,11,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,4,-2.2114133834838867
+101,510,141,uniform_random,Baseline,no_disease_to_disease,512,5,2.704046726226806
+101,511,157,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,3,11.590885162353516
+202,0,43,genetic_cfe,Baseline,disease_to_no_disease,512,2,-6.522379398345947
+202,1,19,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,9,-13.343721389770508
+202,2,84,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,6,-15.652266502380373
+202,3,23,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,3,-4.697901725769043
+202,4,4,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,5,-13.176002502441406
+202,5,47,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,8,-7.397157669067383
+202,6,130,genetic_cfe,Baseline,no_disease_to_disease,512,4,1.222273349761963
+202,7,174,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,7,8.265859603881836
+202,8,183,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,9,1.8206467628479004
+202,9,117,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,4,21.49775695800781
+202,10,159,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,7,1.0601506233215332
+202,11,100,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,9,7.840514659881592
+202,12,47,uniform_random,Baseline,disease_to_no_disease,512,4,-1.4072260856628418
+202,13,58,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,10,-17.43720054626465
+202,14,0,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,5,-17.29938507080078
+202,15,11,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,7,-1.7768945693969729
+202,16,28,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,1,-0.9078006744384766
+202,17,62,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,9,-6.414361953735352
+202,18,171,genetic_cfe,Baseline,no_disease_to_disease,512,2,2.079331874847412
+202,19,126,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,1,0.2417654991149902
+202,20,161,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,6,4.083611011505127
+202,21,116,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,7,1.181943416595459
+202,22,103,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,10,0.4450001716613769
+202,23,121,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,5,9.818687438964844
+202,24,59,uniform_random,Baseline,disease_to_no_disease,512,6,-0.4045510292053222
+202,25,31,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,10,-34.22385025024414
+202,26,49,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,5,-11.109906196594238
+202,27,51,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,9,-2.9632577896118164
+202,28,69,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,3,-5.665191650390625
+202,29,3,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,3,-5.182373046875
+202,30,104,uniform_random,Baseline,no_disease_to_disease,512,8,4.024174213409424
+202,31,108,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,10,36.99580383300781
+202,32,132,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,3,0.267240047454834
+202,33,150,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,4,2.362945079803467
+202,34,143,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,5,0.4840693473815918
+202,35,117,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,9,0.9060568809509276
+202,36,51,uniform_random,Baseline,disease_to_no_disease,512,5,-0.6369824409484863
+202,37,74,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,3,-25.35782241821289
+202,38,77,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,10,-44.57072067260742
+202,39,1,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,9,-2.811408519744873
+202,40,18,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,2,-7.013503551483154
+202,41,72,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,8,-1.7122740745544434
+202,42,120,uniform_random,Baseline,no_disease_to_disease,512,4,3.2387566566467285
+202,43,181,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,10,2.2149786949157715
+202,44,193,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,6,0.8051028251647949
+202,45,193,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,3,1.2916483879089355
+202,46,120,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,1,0.9994187355041504
+202,47,100,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,6,2.1092562675476074
+202,48,89,genetic_cfe,Baseline,disease_to_no_disease,512,9,-1.9242701530456543
+202,49,88,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,6,-14.889862060546877
+202,50,43,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,8,-8.359027862548828
+202,51,96,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,10,-36.961124420166016
+202,52,55,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,6,-0.3009223937988281
+202,53,48,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,4,-0.2564449310302734
+202,54,153,genetic_cfe,Baseline,no_disease_to_disease,512,6,4.47786283493042
+202,55,169,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,3,6.414083003997803
+202,56,153,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,4,3.015357494354248
+202,57,150,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,3,1.8523240089416504
+202,58,112,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,8,1.070544719696045
+202,59,175,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,6,12.140750885009766
+202,60,11,genetic_cfe,Baseline,disease_to_no_disease,512,5,-10.029354095458984
+202,61,53,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,3,-4.773211479187012
+202,62,53,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,2,-1.662142276763916
+202,63,83,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,1,-2.462485790252685
+202,64,96,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,1,-11.699806213378906
+202,65,94,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,2,-3.5369181632995605
+202,66,136,genetic_cfe,Baseline,no_disease_to_disease,512,10,11.316570281982422
+202,67,147,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,5,0.3021025657653808
+202,68,176,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,6,0.9793868064880372
+202,69,112,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,5,30.12035751342773
+202,70,189,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,9,1.93558931350708
+202,71,148,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,7,9.74311637878418
+202,72,44,uniform_random,Baseline,disease_to_no_disease,512,4,-0.5335936546325684
+202,73,79,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,5,-4.49854850769043
+202,74,81,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,1,-4.9987335205078125
+202,75,0,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,3,-7.401482105255127
+202,76,30,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,1,-9.544354438781738
+202,77,67,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,5,-2.6878533363342285
+202,78,115,wachter_style,Baseline,no_disease_to_disease,512,1,9.14134407043457
+202,79,130,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,10,15.416139602661133
+202,80,134,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,7,0.9078679084777832
+202,81,179,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,10,3.995415210723877
+202,82,164,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,2,6.823312282562256
+202,83,133,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,8,4.159404277801514
+202,84,53,genetic_cfe,Baseline,disease_to_no_disease,512,4,-3.6312551498413086
+202,85,56,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,3,-5.1408233642578125
+202,86,85,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,10,-17.126230239868164
+202,87,31,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,3,-1.8070077896118164
+202,88,53,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,9,-7.056021213531494
+202,89,68,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,7,-6.511035919189453
+202,90,185,uniform_random,Baseline,no_disease_to_disease,512,7,9.588356018066406
+202,91,166,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,6,16.115734100341797
+202,92,155,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,3,2.310340404510498
+202,93,197,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,5,9.2108154296875
+202,94,168,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,6,13.196662902832031
+202,95,175,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,9,16.462430953979492
+202,96,65,wachter_style,Baseline,disease_to_no_disease,512,1,-12.1025972366333
+202,97,38,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,7,-1.1619148254394531
+202,98,9,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,1,-9.580564498901367
+202,99,5,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,6,-1.415015697479248
+202,100,15,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,2,-24.78543472290039
+202,101,44,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,3,-6.657802581787109
+202,102,193,genetic_cfe,Baseline,no_disease_to_disease,512,1,10.091873168945312
+202,103,132,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,9,1.095283031463623
+202,104,174,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,4,35.63786315917969
+202,105,176,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,9,0.6407008171081543
+202,106,139,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,9,1.361905574798584
+202,107,165,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,8,11.431344985961914
+202,108,76,uniform_random,Baseline,disease_to_no_disease,512,10,-0.2620973587036133
+202,109,57,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,3,-14.119561195373535
+202,110,81,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,2,-16.858570098876953
+202,111,45,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,10,-1.0829391479492188
+202,112,71,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,7,-29.68463897705078
+202,113,62,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,4,-6.148923873901367
+202,114,198,uniform_random,Baseline,no_disease_to_disease,512,3,1.3551011085510254
+202,115,165,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,9,22.0905876159668
+202,116,146,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,10,7.0306715965271
+202,117,132,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,1,2.1412081718444824
+202,118,117,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,9,1.3139615058898926
+202,119,180,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,8,8.620718002319336
+202,120,25,genetic_cfe,Baseline,disease_to_no_disease,512,6,-14.052841186523438
+202,121,25,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,3,-5.2903571128845215
+202,122,77,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,2,-41.55018997192383
+202,123,83,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,10,-2.750352382659912
+202,124,97,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,9,-2.923347949981689
+202,125,25,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,7,-5.690190315246582
+202,126,143,uniform_random,Baseline,no_disease_to_disease,512,7,4.000569820404053
+202,127,145,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,10,14.77382469177246
+202,128,141,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,1,0.4226222038269043
+202,129,107,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,2,22.53843307495117
+202,130,188,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,7,6.977912425994873
+202,131,173,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,4,39.98556900024414
+202,132,29,genetic_cfe,Baseline,disease_to_no_disease,512,4,-9.633671760559082
+202,133,46,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,3,-1.1684412956237793
+202,134,57,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,1,-0.7247476577758789
+202,135,10,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,2,-1.7803168296813965
+202,136,57,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,6,-4.301656723022461
+202,137,34,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,9,-3.951066255569458
+202,138,151,genetic_cfe,Baseline,no_disease_to_disease,512,1,5.33723783493042
+202,139,123,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,8,5.031248569488525
+202,140,184,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,10,1.988156795501709
+202,141,193,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,4,0.2831511497497558
+202,142,184,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,3,6.045238018035889
+202,143,124,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,8,3.038487911224365
+202,144,69,genetic_cfe,Baseline,disease_to_no_disease,512,5,-4.500726699829102
+202,145,72,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,6,-1.7083711624145508
+202,146,35,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,7,-0.4288492202758789
+202,147,48,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,4,-0.77777099609375
+202,148,13,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,5,-6.962716102600098
+202,149,94,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,5,-3.3255858421325684
+202,150,193,uniform_random,Baseline,no_disease_to_disease,512,2,1.6106438636779783
+202,151,166,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,8,7.787271022796631
+202,152,173,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,6,16.419279098510742
+202,153,154,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,8,23.95039749145508
+202,154,120,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,7,3.4223227500915527
+202,155,161,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,5,5.110463619232178
+202,156,83,dice_gradient_style,Baseline,disease_to_no_disease,512,1,-10.334199905395508
+202,157,39,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,2,-2.0986337661743164
+202,158,37,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,1,-2.068288326263428
+202,159,85,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,1,-0.9005107879638672
+202,160,57,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,1,-0.6854100227355957
+202,161,21,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,7,-5.027337074279785
+202,162,189,genetic_cfe,Baseline,no_disease_to_disease,512,10,11.638914108276367
+202,163,198,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,2,4.469539165496826
+202,164,194,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,1,0.4736380577087402
+202,165,158,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,4,0.5321230888366699
+202,166,126,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,2,2.0428271293640137
+202,167,194,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,6,3.446712017059326
+202,168,34,uniform_random,Baseline,disease_to_no_disease,512,1,-0.5229339599609375
+202,169,8,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,9,-3.3610897064208984
+202,170,93,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,1,-2.01248836517334
+202,171,32,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,5,-3.301790237426758
+202,172,42,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,8,-16.291004180908203
+202,173,7,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,10,-1.9497284889221191
+202,174,195,genetic_cfe,Baseline,no_disease_to_disease,512,4,12.479448318481444
+202,175,161,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,10,1.073091983795166
+202,176,161,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,8,6.49782133102417
+202,177,183,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,9,29.291473388671875
+202,178,136,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,8,8.018867492675781
+202,179,198,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,6,4.999965190887451
+202,180,71,genetic_cfe,Baseline,disease_to_no_disease,512,5,-6.609240531921387
+202,181,40,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,2,-36.08146667480469
+202,182,48,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,6,-36.68194580078125
+202,183,94,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,8,-15.15042495727539
+202,184,20,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,10,-12.499872207641602
+202,185,70,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,1,-27.180953979492188
+202,186,154,uniform_random,Baseline,no_disease_to_disease,512,9,0.7084431648254395
+202,187,184,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,1,1.875464916229248
+202,188,112,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,1,0.1371760368347168
+202,189,162,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,10,5.542518138885498
+202,190,125,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,2,0.6447901725769043
+202,191,199,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,9,18.546348571777344
+202,192,33,uniform_random,Baseline,disease_to_no_disease,512,1,-10.78331184387207
+202,193,99,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,8,-2.6091623306274414
+202,194,58,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,1,-2.111539840698242
+202,195,52,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,10,-2.305661201477051
+202,196,3,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,1,-0.6208758354187012
+202,197,92,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,5,-5.21666431427002
+202,198,165,uniform_random,Baseline,no_disease_to_disease,512,6,7.673427104949951
+202,199,184,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,7,14.375579833984377
+202,200,175,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,10,13.326204299926758
+202,201,154,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,5,0.476041316986084
+202,202,168,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,9,0.7359604835510254
+202,203,133,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,2,2.5995917320251465
+202,204,31,uniform_random,Baseline,disease_to_no_disease,512,7,-2.5324220657348637
+202,205,99,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,1,-2.1202759742736816
+202,206,75,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,3,-6.475761890411377
+202,207,3,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,1,-0.6208758354187012
+202,208,71,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,6,-0.1511206626892089
+202,209,77,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,3,-1.0058207511901855
+202,210,155,genetic_cfe,Baseline,no_disease_to_disease,512,4,3.85377836227417
+202,211,197,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,1,2.3799643516540527
+202,212,190,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,4,5.409797191619873
+202,213,104,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,1,2.844285488128662
+202,214,141,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,2,4.822883129119873
+202,215,111,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,6,10.423124313354492
+202,216,59,uniform_random,Baseline,disease_to_no_disease,512,10,-2.007782459259033
+202,217,34,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,8,-0.1961150169372558
+202,218,78,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,8,-18.108163833618164
+202,219,56,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,3,-5.090200424194336
+202,220,98,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,7,-5.209043025970459
+202,221,28,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,4,-2.2109155654907227
+202,222,197,uniform_random,Baseline,no_disease_to_disease,512,6,3.9275736808776855
+202,223,171,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,3,33.198848724365234
+202,224,185,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,5,8.553291320800781
+202,225,159,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,2,0.8153433799743652
+202,226,160,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,4,1.037179470062256
+202,227,138,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,7,13.361310958862305
+202,228,5,genetic_cfe,Baseline,disease_to_no_disease,512,1,-2.7173943519592285
+202,229,48,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,7,-3.778931617736816
+202,230,44,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,4,-0.5962834358215332
+202,231,86,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,9,-0.1223435401916503
+202,232,77,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,8,-2.9401183128356934
+202,233,92,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,3,-3.1866087913513184
+202,234,173,dice_gradient_style,Baseline,no_disease_to_disease,512,1,10.99884796142578
+202,235,190,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,5,4.3002800941467285
+202,236,182,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,3,19.151853561401367
+202,237,182,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,7,0.322028636932373
+202,238,120,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,8,0.3551564216613769
+202,239,189,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,7,7.087863445281982
+202,240,20,uniform_random,Baseline,disease_to_no_disease,512,6,-5.218745708465576
+202,241,68,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,8,-0.7142806053161621
+202,242,42,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,8,-14.340251922607422
+202,243,30,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,7,-1.1509671211242676
+202,244,42,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,6,-12.8016357421875
+202,245,5,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,8,-5.755859375
+202,246,195,genetic_cfe,Baseline,no_disease_to_disease,512,8,3.344937801361084
+202,247,185,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,7,0.1980862617492675
+202,248,187,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,2,3.634995937347412
+202,249,135,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,6,5.188449382781982
+202,250,145,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,3,1.851820468902588
+202,251,142,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,10,9.634361267089844
+202,252,88,uniform_random,Baseline,disease_to_no_disease,512,3,-5.484408378601074
+202,253,10,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,9,-6.118328094482422
+202,254,96,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,2,-14.75296401977539
+202,255,74,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,9,-3.680692195892334
+202,256,25,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,7,-8.089778900146484
+202,257,41,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,3,-5.662064552307129
+202,258,173,genetic_cfe,Baseline,no_disease_to_disease,512,9,7.804717540740967
+202,259,109,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,6,3.2847046852111816
+202,260,143,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,1,1.2828574180603027
+202,261,139,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,4,4.491145610809326
+202,262,102,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,10,1.2319655418395996
+202,263,190,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,8,5.223910808563232
+202,264,87,genetic_cfe,Baseline,disease_to_no_disease,512,5,-0.4616808891296386
+202,265,1,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,7,-1.966477394104004
+202,266,60,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,3,-13.602643966674805
+202,267,9,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,1,-1.0478582382202148
+202,268,67,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,8,-7.711056232452393
+202,269,62,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,2,-8.11461353302002
+202,270,129,genetic_cfe,Baseline,no_disease_to_disease,512,1,5.4188551902771
+202,271,157,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,4,0.1379504203796386
+202,272,179,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,7,1.2054495811462402
+202,273,176,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,10,1.6059832572937012
+202,274,130,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,1,0.584775447845459
+202,275,107,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,8,11.199922561645508
+202,276,51,wachter_style,Baseline,disease_to_no_disease,512,1,-9.617269515991213
+202,277,83,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,9,-0.8098483085632324
+202,278,28,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,10,-2.037879467010498
+202,279,61,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,5,-0.376737117767334
+202,280,66,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,1,-7.646017074584961
+202,281,10,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,6,-0.8954930305480957
+202,282,131,genetic_cfe,Baseline,no_disease_to_disease,512,5,4.814694881439209
+202,283,199,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,4,1.8491225242614744
+202,284,123,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,7,3.2705607414245605
+202,285,184,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,4,0.7630095481872559
+202,286,192,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,8,0.1262941360473632
+202,287,133,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,9,3.5298333168029785
+202,288,9,dice_gradient_style,Baseline,disease_to_no_disease,512,1,-10.915666580200195
+202,289,40,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,8,-23.139236450195312
+202,290,59,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,9,-2.409233570098877
+202,291,42,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,10,-5.048928737640381
+202,292,96,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,6,-13.885072708129885
+202,293,30,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,8,-11.505264282226562
+202,294,121,genetic_cfe,Baseline,no_disease_to_disease,512,9,8.259559631347656
+202,295,189,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,3,2.712493419647217
+202,296,155,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,5,0.541989803314209
+202,297,196,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,9,0.8338446617126465
+202,298,134,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,2,4.375672817230225
+202,299,102,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,6,5.093430042266846
+202,300,83,genetic_cfe,Baseline,disease_to_no_disease,512,1,-4.832724571228027
+202,301,45,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,6,-5.4834465980529785
+202,302,39,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,3,-31.19382095336914
+202,303,30,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,8,-14.661117553710938
+202,304,63,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,1,-13.090970993041992
+202,305,50,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,5,-4.436549663543701
+202,306,146,genetic_cfe,Baseline,no_disease_to_disease,512,9,5.507944583892822
+202,307,190,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,1,0.9772610664367676
+202,308,190,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,6,5.1646647453308105
+202,309,123,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,1,0.9779133796691896
+202,310,181,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,7,1.3664393424987793
+202,311,113,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,10,9.586166381835938
+202,312,71,dice_gradient_style,Baseline,disease_to_no_disease,512,1,-1.200697898864746
+202,313,22,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,7,-11.436100006103516
+202,314,63,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,1,-3.778025150299072
+202,315,68,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,8,-6.021556854248047
+202,316,8,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,4,-2.55253267288208
+202,317,32,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,3,-5.963818073272705
+202,318,169,genetic_cfe,Baseline,no_disease_to_disease,512,7,1.5238137245178225
+202,319,155,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,8,0.5052886009216309
+202,320,151,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,9,2.8893513679504395
+202,321,107,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,3,2.6682753562927246
+202,322,106,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,10,3.414480686187744
+202,323,123,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,2,2.3838372230529785
+202,324,65,genetic_cfe,Baseline,disease_to_no_disease,512,8,-1.9141054153442385
+202,325,32,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,6,-12.867105484008787
+202,326,80,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,2,-12.370162963867188
+202,327,79,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,6,-3.586581230163574
+202,328,4,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,1,-4.43001651763916
+202,329,25,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,1,-3.230166435241699
+202,330,107,uniform_random,Baseline,no_disease_to_disease,512,4,15.850582122802734
+202,331,155,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,9,10.792556762695312
+202,332,175,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,3,26.82970428466797
+202,333,149,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,3,1.316734790802002
+202,334,154,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,7,13.113513946533203
+202,335,189,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,1,7.063880443572998
+202,336,19,uniform_random,Baseline,disease_to_no_disease,512,7,-0.7026000022888184
+202,337,36,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,6,-1.6189589500427246
+202,338,46,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,1,-2.803883552551269
+202,339,32,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,2,-6.037459850311279
+202,340,77,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,2,-3.244542598724365
+202,341,64,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,3,-4.183261871337891
+202,342,127,dice_gradient_style,Baseline,no_disease_to_disease,512,1,7.41821813583374
+202,343,139,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,9,14.248226165771484
+202,344,192,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,5,5.807479381561279
+202,345,169,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,4,16.424068450927734
+202,346,172,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,6,4.250586032867432
+202,347,191,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,1,4.516229152679443
+202,348,92,genetic_cfe,Baseline,disease_to_no_disease,512,6,-6.45062255859375
+202,349,92,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,8,-4.872864246368408
+202,350,43,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,1,-0.2044968605041504
+202,351,86,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,3,-3.1876797676086426
+202,352,82,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,1,-0.9037089347839355
+202,353,84,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,9,-8.7139892578125
+202,354,136,genetic_cfe,Baseline,no_disease_to_disease,512,9,5.358651638031006
+202,355,162,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,8,6.3858561515808105
+202,356,110,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,8,2.524400234222412
+202,357,176,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,3,2.3035006523132324
+202,358,195,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,2,3.0036940574646
+202,359,181,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,6,8.292276382446289
+202,360,95,uniform_random,Baseline,disease_to_no_disease,512,2,-0.6181774139404297
+202,361,75,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,9,-16.603862762451172
+202,362,50,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,7,-5.987060546875
+202,363,53,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,1,-1.2965855598449707
+202,364,13,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,2,-9.165233612060549
+202,365,62,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,10,-14.847810745239258
+202,366,135,uniform_random,Baseline,no_disease_to_disease,512,9,1.3266730308532717
+202,367,141,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,8,3.335540294647217
+202,368,160,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,3,1.6916146278381348
+202,369,188,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,7,2.7217230796813965
+202,370,197,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,7,10.669366836547852
+202,371,125,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,1,0.8456740379333496
+202,372,88,genetic_cfe,Baseline,disease_to_no_disease,512,7,-0.4278340339660644
+202,373,89,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,7,-18.80314445495605
+202,374,50,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,8,-4.169621467590332
+202,375,88,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,3,-1.6946759223937988
+202,376,15,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,4,-16.64528465270996
+202,377,68,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,1,-1.505424976348877
+202,378,173,genetic_cfe,Baseline,no_disease_to_disease,512,5,0.2539200782775879
+202,379,196,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,1,2.593066692352295
+202,380,172,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,2,5.7880167961120605
+202,381,195,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,6,0.3629622459411621
+202,382,126,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,3,0.5634589195251465
+202,383,114,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,3,6.542102336883545
+202,384,55,uniform_random,Baseline,disease_to_no_disease,512,4,-13.553747177124023
+202,385,85,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,2,-8.67245864868164
+202,386,85,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,1,-2.4683852195739746
+202,387,45,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,1,-0.5469694137573242
+202,388,9,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,2,-1.6516451835632324
+202,389,23,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,10,-6.167355537414551
+202,390,119,uniform_random,Baseline,no_disease_to_disease,512,8,1.8161616325378416
+202,391,194,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,8,7.348889827728271
+202,392,111,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,8,1.274024486541748
+202,393,177,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,10,2.9514002799987797
+202,394,141,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,5,0.2082819938659668
+202,395,113,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,3,11.868457794189451
+202,396,57,genetic_cfe,Baseline,disease_to_no_disease,512,1,-1.8909039497375488
+202,397,71,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,5,-9.042367935180664
+202,398,80,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,8,-18.128829956054688
+202,399,21,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,9,-5.115295886993408
+202,400,21,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,4,-9.242420196533203
+202,401,47,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,9,-5.65159797668457
+202,402,139,genetic_cfe,Baseline,no_disease_to_disease,512,10,11.450992584228516
+202,403,138,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,5,10.730121612548828
+202,404,172,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,10,6.129556179046631
+202,405,116,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,5,0.4220385551452636
+202,406,145,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,4,1.339393138885498
+202,407,137,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,3,9.997695922851562
+202,408,34,genetic_cfe,Baseline,disease_to_no_disease,512,7,-1.0082612037658691
+202,409,24,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,7,-1.190765380859375
+202,410,68,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,2,-6.976502895355225
+202,411,60,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,2,-5.995497703552246
+202,412,76,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,2,-14.766778945922852
+202,413,5,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,3,-5.2608747482299805
+202,414,164,genetic_cfe,Baseline,no_disease_to_disease,512,3,7.016026020050049
+202,415,147,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,1,0.3949990272521972
+202,416,145,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,10,18.122745513916016
+202,417,122,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,3,2.730846881866455
+202,418,128,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,2,2.639077663421631
+202,419,124,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,3,5.340747356414795
+202,420,81,uniform_random,Baseline,disease_to_no_disease,512,4,-0.9575190544128418
+202,421,33,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,8,-14.314069747924805
+202,422,59,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,5,-1.5506582260131836
+202,423,84,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,6,-9.550724029541016
+202,424,71,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,5,-5.853283405303955
+202,425,5,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,7,-5.342006206512451
+202,426,113,genetic_cfe,Baseline,no_disease_to_disease,512,9,4.253882884979248
+202,427,171,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,9,42.75961685180664
+202,428,158,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,9,13.928489685058594
+202,429,156,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,10,0.3124794960021972
+202,430,110,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,10,3.7062535285949703
+202,431,192,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,2,3.7420763969421382
+202,432,84,uniform_random,Baseline,disease_to_no_disease,512,4,-2.5678963661193848
+202,433,94,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,1,-3.322995662689209
+202,434,45,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,7,-16.40454864501953
+202,435,25,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,4,-8.385221481323242
+202,436,56,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,4,-2.7059097290039062
+202,437,58,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,7,-0.5406274795532227
+202,438,147,genetic_cfe,Baseline,no_disease_to_disease,512,7,15.419881820678713
+202,439,159,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,2,1.035301685333252
+202,440,171,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,5,11.544586181640623
+202,441,176,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,7,40.16591644287109
+202,442,147,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,1,0.490262508392334
+202,443,171,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,8,5.983808994293213
+202,444,42,genetic_cfe,Baseline,disease_to_no_disease,512,8,-15.09641456604004
+202,445,17,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,6,-2.4724583625793457
+202,446,53,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,7,-5.075778484344482
+202,447,65,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,1,-2.2957067489624023
+202,448,1,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,7,-1.966392040252685
+202,449,83,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,2,-1.808988571166992
+202,450,193,genetic_cfe,Baseline,no_disease_to_disease,512,7,2.658308506011963
+202,451,187,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,10,2.170957088470459
+202,452,198,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,7,6.976032733917236
+202,453,108,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,4,11.156770706176758
+202,454,193,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,6,2.81575345993042
+202,455,161,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,1,3.9017434120178223
+202,456,57,uniform_random,Baseline,disease_to_no_disease,512,7,-2.2007126808166504
+202,457,84,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,2,-23.154296875
+202,458,34,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,2,-0.9300041198730468
+202,459,23,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,5,-1.2158193588256836
+202,460,86,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,4,-1.1656928062438965
+202,461,79,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,7,-2.414857864379883
+202,462,150,genetic_cfe,Baseline,no_disease_to_disease,512,1,9.340988159179688
+202,463,123,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,2,0.6581969261169434
+202,464,123,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,2,4.228042125701904
+202,465,159,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,9,0.2446694374084472
+202,466,126,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,6,7.618680477142334
+202,467,101,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,4,10.604480743408203
+202,468,87,wachter_style,Baseline,disease_to_no_disease,512,1,-10.233033180236816
+202,469,79,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,4,-5.691420555114746
+202,470,67,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,7,-10.233821868896484
+202,471,17,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,9,-0.9708914756774902
+202,472,89,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,6,-35.04719161987305
+202,473,32,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,10,-12.270339965820312
+202,474,106,genetic_cfe,Baseline,no_disease_to_disease,512,7,6.115523815155029
+202,475,181,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,9,0.978980541229248
+202,476,183,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,1,1.4315152168273926
+202,477,122,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,2,2.5912528038024902
+202,478,171,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,6,3.2223095893859863
+202,479,172,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,2,11.625894546508787
+202,480,10,uniform_random,Baseline,disease_to_no_disease,512,9,-8.502152442932129
+202,481,48,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,4,-0.1445927619934082
+202,482,43,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,4,-1.820589542388916
+202,483,95,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,6,-15.052545547485352
+202,484,93,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,9,-36.045501708984375
+202,485,55,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,8,-4.46359920501709
+202,486,133,uniform_random,Baseline,no_disease_to_disease,512,2,1.904609203338623
+202,487,178,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,3,1.0884909629821775
+202,488,110,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,7,2.3535265922546387
+202,489,135,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,10,12.804080963134766
+202,490,157,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,1,1.2507109642028809
+202,491,191,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,7,2.9318156242370605
+202,492,84,uniform_random,Baseline,disease_to_no_disease,512,1,-2.26125431060791
+202,493,73,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,9,-1.8965668678283687
+202,494,17,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,3,-10.713335990905762
+202,495,73,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,1,-5.796841621398926
+202,496,57,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,4,-1.4515376091003418
+202,497,22,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,10,-3.2595715522766118
+202,498,185,genetic_cfe,Baseline,no_disease_to_disease,512,2,1.7513842582702637
+202,499,106,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,2,7.35469388961792
+202,500,104,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,2,25.25055694580078
+202,501,175,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,7,1.1072630882263184
+202,502,144,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,5,2.7353644371032715
+202,503,146,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,4,7.680895328521728
+202,504,28,uniform_random,Baseline,disease_to_no_disease,512,9,-7.786586761474609
+202,505,88,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,3,-1.5541658401489258
+202,506,88,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,9,-10.307798385620115
+202,507,99,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,5,-4.685273170471191
+202,508,23,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,1,-0.284278392791748
+202,509,3,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,6,-5.860119819641113
+202,510,127,genetic_cfe,Baseline,no_disease_to_disease,512,4,15.294769287109377
+202,511,175,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,8,24.66204071044922
+303,0,16,uniform_random,Baseline,disease_to_no_disease,512,2,-10.127386093139648
+303,1,39,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,8,-0.7256217002868652
+303,2,74,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,1,-12.84113311767578
+303,3,62,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,10,-9.41389274597168
+303,4,1,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,3,-8.186521530151367
+303,5,33,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,3,-0.7095065116882324
+303,6,168,uniform_random,Baseline,no_disease_to_disease,512,9,0.2647500038146972
+303,7,169,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,8,25.887775421142575
+303,8,132,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,8,2.369800090789795
+303,9,172,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,6,0.3974432945251465
+303,10,180,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,3,0.5154337882995605
+303,11,102,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,5,11.57187271118164
+303,12,66,uniform_random,Baseline,disease_to_no_disease,512,6,-2.313595771789551
+303,13,90,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,9,-22.30802154541016
+303,14,19,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,10,-0.7008790969848633
+303,15,47,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,7,-2.6386642456054688
+303,16,48,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,2,-6.640104293823242
+303,17,50,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,4,-8.521382331848145
+303,18,133,uniform_random,Baseline,no_disease_to_disease,512,1,2.88008451461792
+303,19,145,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,8,5.253169536590576
+303,20,119,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,6,19.072540283203125
+303,21,190,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,10,0.3567118644714355
+303,22,142,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,4,1.6402544975280762
+303,23,190,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,2,1.2459454536437988
+303,24,65,dice_gradient_style,Baseline,disease_to_no_disease,512,1,-12.09599494934082
+303,25,27,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,7,-1.4353575706481934
+303,26,40,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,3,-27.44586753845215
+303,27,99,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,6,-2.6868157386779785
+303,28,38,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,5,-17.775550842285156
+303,29,26,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,3,-2.0090441703796387
+303,30,161,uniform_random,Baseline,no_disease_to_disease,512,6,2.9434847831726074
+303,31,137,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,8,8.828557968139648
+303,32,160,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,6,1.956428050994873
+303,33,194,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,3,8.399890899658203
+303,34,168,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,4,25.73259735107422
+303,35,162,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,9,0.8232722282409668
+303,36,69,uniform_random,Baseline,disease_to_no_disease,512,3,-5.210290908813477
+303,37,62,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,10,-8.722468376159668
+303,38,81,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,5,-2.1865367889404297
+303,39,78,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,4,-3.065797805786133
+303,40,61,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,6,-1.6580095291137695
+303,41,66,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,2,-30.296920776367188
+303,42,135,uniform_random,Baseline,no_disease_to_disease,512,9,1.3266730308532717
+303,43,102,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,4,20.267261505126957
+303,44,112,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,6,17.03179168701172
+303,45,119,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,5,0.6091141700744629
+303,46,149,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,7,2.4050755500793457
+303,47,178,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,3,2.395442485809326
+303,48,62,uniform_random,Baseline,disease_to_no_disease,512,1,-2.2367234230041504
+303,49,60,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,9,-2.3434839248657227
+303,50,26,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,4,-0.2336421012878418
+303,51,84,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,8,-4.523530960083008
+303,52,8,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,9,-6.723198890686035
+303,53,19,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,1,-0.2107958793640136
+303,54,168,uniform_random,Baseline,no_disease_to_disease,512,5,0.5907378196716309
+303,55,126,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,3,3.156533718109131
+303,56,117,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,10,1.4564433097839355
+303,57,100,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,2,1.4824461936950684
+303,58,198,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,9,12.310796737670898
+303,59,144,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,2,6.566962718963623
+303,60,83,uniform_random,Baseline,disease_to_no_disease,512,1,-2.284144878387451
+303,61,25,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,9,-0.4081692695617676
+303,62,54,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,8,-6.642884254455566
+303,63,79,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,2,-16.557369232177734
+303,64,50,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,2,-3.4458394050598145
+303,65,33,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,8,-2.516387462615967
+303,66,138,genetic_cfe,Baseline,no_disease_to_disease,512,6,3.6400904655456543
+303,67,139,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,2,14.56792449951172
+303,68,122,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,10,1.9417262077331543
+303,69,182,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,8,1.4050707817077637
+303,70,119,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,7,4.7368903160095215
+303,71,196,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,10,6.362250804901123
+303,72,25,genetic_cfe,Baseline,disease_to_no_disease,512,9,-8.879732131958008
+303,73,85,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,4,-8.694479942321777
+303,74,29,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,2,-1.0753841400146484
+303,75,99,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,9,-14.027681350708008
+303,76,15,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,3,-9.485634803771973
+303,77,17,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,6,-17.237897872924805
+303,78,107,genetic_cfe,Baseline,no_disease_to_disease,512,2,6.89882230758667
+303,79,144,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,5,2.7071805000305176
+303,80,123,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,10,1.816917896270752
+303,81,153,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,7,1.5540013313293457
+303,82,104,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,9,4.657399654388428
+303,83,129,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,1,6.546065807342529
+303,84,86,uniform_random,Baseline,disease_to_no_disease,512,5,-0.7823119163513184
+303,85,2,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,9,-7.609411716461182
+303,86,32,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,6,-0.7187342643737793
+303,87,36,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,10,-5.0543622970581055
+303,88,39,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,2,-5.132813453674316
+303,89,28,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,8,-2.086392402648926
+303,90,146,genetic_cfe,Baseline,no_disease_to_disease,512,4,1.5349364280700684
+303,91,152,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,6,0.5618910789489746
+303,92,199,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,10,1.8067326545715328
+303,93,102,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,2,4.568424701690674
+303,94,134,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,1,0.1910309791564941
+303,95,119,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,1,7.572783946990967
+303,96,61,uniform_random,Baseline,disease_to_no_disease,512,4,-5.752696514129639
+303,97,80,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,4,-13.289627075195312
+303,98,61,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,8,-2.8988356590271
+303,99,43,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,2,-2.722063541412353
+303,100,81,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,2,-0.528200626373291
+303,101,44,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,2,-4.91254997253418
+303,102,192,uniform_random,Baseline,no_disease_to_disease,512,6,12.027793884277344
+303,103,172,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,7,1.4189581871032717
+303,104,101,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,7,6.732191562652588
+303,105,135,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,4,31.047351837158203
+303,106,138,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,7,1.065196514129639
+303,107,124,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,6,2.3645567893981934
+303,108,18,genetic_cfe,Baseline,disease_to_no_disease,512,1,-11.750308990478516
+303,109,48,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,4,-0.1445927619934082
+303,110,93,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,1,-2.01248836517334
+303,111,48,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,5,-1.367424488067627
+303,112,81,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,4,-3.539037704467773
+303,113,96,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,2,-1.2596473693847656
+303,114,138,uniform_random,Baseline,no_disease_to_disease,512,8,5.034371852874756
+303,115,108,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,7,44.24761199951172
+303,116,187,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,2,3.634995937347412
+303,117,108,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,9,3.7488741874694815
+303,118,113,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,10,2.4713282585144043
+303,119,142,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,4,1.3594660758972168
+303,120,48,uniform_random,Baseline,disease_to_no_disease,512,8,-6.241722106933594
+303,121,87,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,8,-8.157431602478027
+303,122,86,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,4,-2.7331671714782715
+303,123,87,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,4,-6.300256252288818
+303,124,24,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,2,-6.335440635681152
+303,125,86,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,4,-8.577295303344727
+303,126,118,uniform_random,Baseline,no_disease_to_disease,512,1,10.146026611328123
+303,127,126,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,4,0.2301068305969238
+303,128,154,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,9,5.8192524909973145
+303,129,144,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,1,2.3281445503234863
+303,130,115,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,7,0.7857270240783691
+303,131,170,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,10,13.939964294433594
+303,132,95,uniform_random,Baseline,disease_to_no_disease,512,9,-8.21851634979248
+303,133,83,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,2,-2.587939739227295
+303,134,31,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,8,-4.450150012969971
+303,135,31,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,7,-15.812564849853516
+303,136,35,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,10,-2.8075876235961914
+303,137,6,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,6,-5.306258201599121
+303,138,153,genetic_cfe,Baseline,no_disease_to_disease,512,9,10.18726921081543
+303,139,103,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,5,10.251087188720703
+303,140,107,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,3,19.188915252685547
+303,141,184,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,9,2.340409755706787
+303,142,168,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,10,42.79127502441406
+303,143,119,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,9,8.774694442749023
+303,144,60,dice_gradient_style,Baseline,disease_to_no_disease,512,1,-11.997858047485352
+303,145,88,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,10,-10.450157165527344
+303,146,46,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,3,-0.1238627433776855
+303,147,51,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,2,-0.5850405693054199
+303,148,17,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,6,-0.8889989852905273
+303,149,47,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,5,-9.693652153015137
+303,150,104,genetic_cfe,Baseline,no_disease_to_disease,512,9,8.349159240722656
+303,151,103,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,9,1.1028170585632324
+303,152,188,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,7,0.1033987998962402
+303,153,138,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,4,12.62424087524414
+303,154,109,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,7,1.9276671409606931
+303,155,170,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,2,10.190900802612305
+303,156,20,genetic_cfe,Baseline,disease_to_no_disease,512,10,-8.549549102783203
+303,157,36,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,8,-3.706592082977295
+303,158,91,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,6,-26.936954498291016
+303,159,34,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,7,-5.564343452453613
+303,160,92,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,8,-2.241450786590576
+303,161,52,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,1,-7.721571922302246
+303,162,132,genetic_cfe,Baseline,no_disease_to_disease,512,4,4.428874492645264
+303,163,101,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,4,16.193958282470703
+303,164,164,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,2,3.3186755180358887
+303,165,124,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,7,2.80834436416626
+303,166,138,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,8,1.0567994117736816
+303,167,193,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,1,2.644618511199951
+303,168,80,genetic_cfe,Baseline,disease_to_no_disease,512,1,-9.266779899597168
+303,169,68,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,7,-2.049083709716797
+303,170,49,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,1,-0.7149252891540527
+303,171,75,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,3,-21.071142196655277
+303,172,74,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,5,-5.689950942993164
+303,173,70,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,1,-0.7630319595336914
+303,174,157,genetic_cfe,Baseline,no_disease_to_disease,512,2,0.3958830833435058
+303,175,133,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,3,1.573373317718506
+303,176,138,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,8,15.671394348144531
+303,177,173,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,8,2.985687732696533
+303,178,134,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,4,9.273101806640623
+303,179,152,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,8,0.8674464225769043
+303,180,75,dice_gradient_style,Baseline,disease_to_no_disease,512,1,-12.079973220825195
+303,181,77,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,4,-49.19743728637695
+303,182,32,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,9,-20.184932708740234
+303,183,14,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,4,-25.52823638916016
+303,184,51,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,5,-8.510322570800781
+303,185,3,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,7,-1.4027161598205566
+303,186,162,genetic_cfe,Baseline,no_disease_to_disease,512,10,6.145193576812744
+303,187,111,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,6,9.641643524169922
+303,188,187,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,7,1.201852321624756
+303,189,183,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,8,1.4807353019714355
+303,190,179,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,10,0.297055721282959
+303,191,171,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,3,11.4735107421875
+303,192,92,uniform_random,Baseline,disease_to_no_disease,512,6,-8.321840286254883
+303,193,87,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,2,-9.18154239654541
+303,194,6,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,3,-4.129372596740723
+303,195,64,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,2,-20.53281593322754
+303,196,34,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,3,-0.2893433570861816
+303,197,80,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,8,-7.902465343475342
+303,198,194,genetic_cfe,Baseline,no_disease_to_disease,512,8,1.656303882598877
+303,199,152,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,2,1.1758599281311035
+303,200,179,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,10,0.6248488426208496
+303,201,163,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,10,0.8539109230041504
+303,202,199,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,9,4.469537258148193
+303,203,143,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,5,10.9034423828125
+303,204,73,genetic_cfe,Baseline,disease_to_no_disease,512,3,-7.435713291168213
+303,205,0,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,5,-15.586581230163574
+303,206,86,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,10,-9.29530906677246
+303,207,34,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,5,-12.355474472045898
+303,208,63,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,6,-7.5210771560668945
+303,209,86,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,5,-8.377246856689453
+303,210,106,uniform_random,Baseline,no_disease_to_disease,512,6,2.1736960411071777
+303,211,159,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,10,11.374305725097656
+303,212,187,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,6,3.95680570602417
+303,213,187,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,3,0.2697234153747558
+303,214,185,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,10,1.3853182792663574
+303,215,191,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,2,4.123650074005127
+303,216,82,uniform_random,Baseline,disease_to_no_disease,512,4,-2.457068920135498
+303,217,53,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,4,-10.385093688964844
+303,218,34,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,9,-19.76728057861328
+303,219,53,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,4,-6.647477149963379
+303,220,22,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,3,-5.841270446777344
+303,221,95,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,9,-1.954311847686768
+303,222,169,uniform_random,Baseline,no_disease_to_disease,512,3,3.3497776985168457
+303,223,123,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,7,2.27882719039917
+303,224,180,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,7,0.1312546730041504
+303,225,173,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,2,10.004705429077148
+303,226,122,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,4,22.01830291748047
+303,227,176,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,10,10.57467269897461
+303,228,25,wachter_style,Baseline,disease_to_no_disease,512,1,-10.346677780151367
+303,229,39,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,3,-0.4016194343566894
+303,230,27,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,7,-3.515782833099365
+303,231,39,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,7,-0.6838030815124512
+303,232,56,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,6,-6.740257263183594
+303,233,90,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,7,-3.312922954559326
+303,234,169,uniform_random,Baseline,no_disease_to_disease,512,10,21.378223419189453
+303,235,190,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,3,0.3508868217468261
+303,236,176,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,6,0.9793868064880372
+303,237,140,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,9,12.899709701538086
+303,238,106,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,4,2.9551005363464355
+303,239,101,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,7,13.31662940979004
+303,240,48,uniform_random,Baseline,disease_to_no_disease,512,5,-1.7541208267211914
+303,241,53,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,5,-5.280930519104004
+303,242,5,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,10,-4.877739429473877
+303,243,48,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,2,-1.7380404472351074
+303,244,82,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,9,-8.490835189819336
+303,245,82,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,8,-2.2357425689697266
+303,246,185,genetic_cfe,Baseline,no_disease_to_disease,512,7,5.823853969573975
+303,247,105,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,9,12.00554084777832
+303,248,192,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,5,5.807479381561279
+303,249,188,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,1,0.246166706085205
+303,250,161,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,1,1.2097220420837402
+303,251,163,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,4,7.634747982025146
+303,252,26,uniform_random,Baseline,disease_to_no_disease,512,1,-1.053968906402588
+303,253,68,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,3,-1.2520537376403809
+303,254,98,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,5,-34.87873077392578
+303,255,40,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,7,-14.789405822753906
+303,256,52,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,9,-2.0904784202575684
+303,257,70,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,2,-1.2029709815979004
+303,258,156,wachter_style,Baseline,no_disease_to_disease,512,1,7.724546909332275
+303,259,176,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,6,0.9344534873962402
+303,260,141,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,10,0.1620779037475586
+303,261,118,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,3,0.1468830108642578
+303,262,110,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,3,9.162782669067385
+303,263,186,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,4,7.832259654998779
+303,264,23,genetic_cfe,Baseline,disease_to_no_disease,512,6,-0.4941215515136719
+303,265,71,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,3,-39.76850891113281
+303,266,93,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,10,-22.693605422973636
+303,267,58,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,6,-0.8688387870788574
+303,268,54,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,10,-8.306081771850586
+303,269,87,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,4,-7.180119514465332
+303,270,197,uniform_random,Baseline,no_disease_to_disease,512,6,3.9275736808776855
+303,271,114,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,8,16.519384384155273
+303,272,147,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,5,3.6912951469421382
+303,273,131,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,5,2.375916004180908
+303,274,157,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,8,0.4274725914001465
+303,275,111,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,5,10.66451644897461
+303,276,55,uniform_random,Baseline,disease_to_no_disease,512,1,-7.0667901039123535
+303,277,10,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,5,-2.8367390632629395
+303,278,98,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,4,-9.626684188842772
+303,279,25,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,9,-10.977642059326172
+303,280,50,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,9,-2.003507137298584
+303,281,91,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,8,-1.714198112487793
+303,282,147,uniform_random,Baseline,no_disease_to_disease,512,9,3.902402400970459
+303,283,138,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,7,4.756865978240967
+303,284,181,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,6,2.4962353706359863
+303,285,140,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,5,23.451284408569336
+303,286,160,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,1,0.9639163017272948
+303,287,161,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,4,6.340390682220459
+303,288,45,genetic_cfe,Baseline,disease_to_no_disease,512,3,-8.482318878173828
+303,289,78,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,8,-6.758763313293457
+303,290,86,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,7,-13.107385635375977
+303,291,8,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,4,-13.77383041381836
+303,292,27,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,4,-4.592936038970947
+303,293,56,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,1,-4.372287273406982
+303,294,189,uniform_random,Baseline,no_disease_to_disease,512,3,8.182645797729492
+303,295,178,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,1,1.5092415809631348
+303,296,107,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,6,10.737987518310549
+303,297,112,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,7,32.19511413574219
+303,298,196,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,6,5.0096516609191895
+303,299,149,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,9,11.236406326293944
+303,300,98,genetic_cfe,Baseline,disease_to_no_disease,512,10,-3.0655083656311035
+303,301,1,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,3,-0.8751740455627441
+303,302,80,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,4,-6.169290065765381
+303,303,5,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,1,-3.776296138763428
+303,304,37,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,5,-1.3892550468444824
+303,305,15,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,4,-1.9490079879760744
+303,306,182,uniform_random,Baseline,no_disease_to_disease,512,5,3.2471041679382324
+303,307,137,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,3,6.014426708221436
+303,308,159,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,7,0.9241490364074708
+303,309,141,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,4,14.955005645751951
+303,310,104,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,3,5.792212963104248
+303,311,168,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,5,9.155141830444336
+303,312,18,genetic_cfe,Baseline,disease_to_no_disease,512,5,-10.268526077270508
+303,313,73,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,5,-0.3588290214538574
+303,314,70,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,8,-0.8676071166992188
+303,315,50,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,4,-18.21111869812012
+303,316,68,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,5,-1.565107345581055
+303,317,23,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,2,-2.9784579277038574
+303,318,184,genetic_cfe,Baseline,no_disease_to_disease,512,5,7.0597004890441895
+303,319,158,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,5,0.618471622467041
+303,320,145,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,6,3.5458579063415527
+303,321,183,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,10,1.1441044807434082
+303,322,104,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,5,14.22647476196289
+303,323,139,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,6,8.602863311767578
+303,324,74,uniform_random,Baseline,disease_to_no_disease,512,9,-1.3978981971740725
+303,325,42,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,7,-18.26308822631836
+303,326,79,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,10,-7.660684585571289
+303,327,15,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,8,-0.300112247467041
+303,328,70,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,1,-20.855899810791016
+303,329,80,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,10,-4.873682975769043
+303,330,126,genetic_cfe,Baseline,no_disease_to_disease,512,3,2.13185453414917
+303,331,199,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,10,1.593787670135498
+303,332,189,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,9,0.1500430107116699
+303,333,115,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,8,13.039125442504885
+303,334,112,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,7,5.033828258514404
+303,335,161,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,9,3.4139513969421387
+303,336,28,uniform_random,Baseline,disease_to_no_disease,512,3,-1.026045799255371
+303,337,17,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,10,-0.8747916221618652
+303,338,83,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,8,-0.7664198875427246
+303,339,56,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,2,-0.9253382682800292
+303,340,2,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,6,-28.24653625488281
+303,341,88,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,9,-6.128918647766113
+303,342,184,genetic_cfe,Baseline,no_disease_to_disease,512,1,6.007649898529053
+303,343,184,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,2,14.192512512207031
+303,344,179,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,7,1.2054495811462402
+303,345,146,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,6,6.234670162200928
+303,346,127,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,4,7.263473033905029
+303,347,103,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,6,2.4970030784606934
+303,348,35,uniform_random,Baseline,disease_to_no_disease,512,2,-3.032442569732666
+303,349,12,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,5,-3.353292942047119
+303,350,8,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,5,-0.2495656013488769
+303,351,1,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,5,-5.008095741271973
+303,352,10,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,1,-0.6757426261901855
+303,353,80,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,2,-4.593328475952148
+303,354,150,uniform_random,Baseline,no_disease_to_disease,512,4,2.794734477996826
+303,355,112,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,9,2.518228054046631
+303,356,130,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,8,10.28662109375
+303,357,139,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,4,4.491145610809326
+303,358,133,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,5,0.8470206260681152
+303,359,194,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,4,3.10499906539917
+303,360,50,uniform_random,Baseline,disease_to_no_disease,512,9,-6.271791458129883
+303,361,21,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,10,-4.590322494506836
+303,362,36,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,7,-13.158893585205078
+303,363,69,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,3,-0.3626446723937988
+303,364,75,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,4,-0.2219710350036621
+303,365,96,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,3,-2.824375629425049
+303,366,167,uniform_random,Baseline,no_disease_to_disease,512,7,1.5111689567565918
+303,367,148,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,1,0.6904768943786621
+303,368,100,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,5,5.942594051361084
+303,369,192,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,5,4.36206579208374
+303,370,166,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,5,0.8013882637023926
+303,371,173,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,8,10.656469345092772
+303,372,78,uniform_random,Baseline,disease_to_no_disease,512,1,-1.6124491691589355
+303,373,80,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,2,-7.595326900482178
+303,374,95,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,8,-6.997378349304199
+303,375,70,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,3,-18.016578674316406
+303,376,3,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,9,-8.343484878540039
+303,377,82,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,1,-0.7188501358032227
+303,378,134,genetic_cfe,Baseline,no_disease_to_disease,512,4,3.9287285804748535
+303,379,115,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,4,1.4955267906188965
+303,380,149,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,10,0.7261404991149902
+303,381,161,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,7,2.115661144256592
+303,382,182,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,5,1.5961451530456543
+303,383,139,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,1,4.566195964813232
+303,384,27,uniform_random,Baseline,disease_to_no_disease,512,5,-1.7327475547790527
+303,385,50,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,9,-2.2640061378479004
+303,386,71,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,7,-24.529273986816406
+303,387,48,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,8,-4.213413238525391
+303,388,2,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,1,-5.282373428344727
+303,389,16,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,5,-13.484846115112305
+303,390,127,uniform_random,Baseline,no_disease_to_disease,512,1,7.382967472076416
+303,391,196,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,1,2.593066692352295
+303,392,180,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,5,1.126150608062744
+303,393,161,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,6,2.173121929168701
+303,394,187,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,2,16.136396408081055
+303,395,183,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,10,8.362377166748047
+303,396,51,genetic_cfe,Baseline,disease_to_no_disease,512,1,-2.4817681312561035
+303,397,70,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,2,-6.699610710144043
+303,398,48,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,4,-13.077299118041992
+303,399,55,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,1,-2.123498916625977
+303,400,67,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,10,-0.620084285736084
+303,401,10,countergan_one_shot,Non-DP CounterGAN,disease_to_no_disease,512,3,-3.7784829139709473
+303,402,179,uniform_random,Baseline,no_disease_to_disease,512,7,1.7190814018249512
+303,403,182,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,10,2.4244637489318848
+303,404,135,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,8,9.689926147460938
+303,405,109,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,1,0.5548129081726074
+303,406,162,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,4,0.751279354095459
+303,407,128,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,5,7.325215816497803
+303,408,87,uniform_random,Baseline,disease_to_no_disease,512,10,-2.607555389404297
+303,409,79,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,7,-5.864510536193848
+303,410,79,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,7,-2.260437488555908
+303,411,38,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,8,-11.662408828735352
+303,412,22,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,1,-0.6345367431640625
+303,413,23,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,3,-3.832132339477539
+303,414,109,uniform_random,Baseline,no_disease_to_disease,512,1,1.2404837608337402
+303,415,163,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,2,2.660515308380127
+303,416,128,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,5,19.49931907653809
+303,417,183,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,3,5.228139400482178
+303,418,167,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,6,1.624457836151123
+303,419,119,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,5,8.113719940185547
+303,420,3,uniform_random,Baseline,disease_to_no_disease,512,1,-2.5425333976745605
+303,421,71,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,4,-0.7254509925842285
+303,422,90,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,4,-1.0628266334533691
+303,423,8,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,2,-13.272176742553713
+303,424,50,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,10,-1.4264960289001465
+303,425,21,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,4,-4.901052474975586
+303,426,199,genetic_cfe,Baseline,no_disease_to_disease,512,10,26.96343231201172
+303,427,186,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,7,8.139226913452148
+303,428,170,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,3,13.099082946777344
+303,429,147,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,9,1.130990505218506
+303,430,117,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,9,1.3139615058898926
+303,431,142,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,2,8.076128005981445
+303,432,3,uniform_random,Baseline,disease_to_no_disease,512,4,-6.357793807983398
+303,433,78,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,7,-8.724123001098633
+303,434,49,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,2,-9.67689609527588
+303,435,43,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,4,-4.176165580749512
+303,436,12,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,5,-4.380275726318359
+303,437,12,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,2,-7.126046657562256
+303,438,128,genetic_cfe,Baseline,no_disease_to_disease,512,5,3.020782947540283
+303,439,174,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,8,7.002553462982178
+303,440,116,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,6,0.250180721282959
+303,441,161,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,2,0.444547176361084
+303,442,173,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,10,5.500549793243408
+303,443,192,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,9,2.1317267417907715
+303,444,89,uniform_random,Baseline,disease_to_no_disease,512,7,-4.665792942047119
+303,445,42,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,6,-15.609399795532228
+303,446,84,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,4,-42.75452423095703
+303,447,69,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,5,-8.631523132324219
+303,448,29,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,4,-3.937012672424317
+303,449,53,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,10,-5.067594528198242
+303,450,153,uniform_random,Baseline,no_disease_to_disease,512,5,1.9553370475769043
+303,451,119,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,7,1.1148419380187988
+303,452,118,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,8,1.7774357795715332
+303,453,152,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,9,1.1799464225769043
+303,454,149,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,1,1.3607792854309082
+303,455,110,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,9,8.509504318237305
+303,456,44,genetic_cfe,Baseline,disease_to_no_disease,512,1,-4.019603729248047
+303,457,12,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,4,-5.567077159881592
+303,458,30,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,9,-16.27008819580078
+303,459,3,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,7,-3.757904529571533
+303,460,70,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,2,-0.5915188789367676
+303,461,7,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,9,-9.27881145477295
+303,462,110,uniform_random,Baseline,no_disease_to_disease,512,4,5.4336113929748535
+303,463,105,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,7,7.7428812980651855
+303,464,143,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,7,1.8598666191101076
+303,465,151,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,5,0.2843546867370605
+303,466,182,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,7,2.6920065879821777
+303,467,140,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,4,13.560453414916992
+303,468,80,uniform_random,Baseline,disease_to_no_disease,512,10,-1.1904511451721191
+303,469,31,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,9,-32.83879089355469
+303,470,64,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,9,-9.105244636535645
+303,471,27,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,7,-6.797144889831543
+303,472,99,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,8,-0.9956297874450684
+303,473,86,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,3,-9.96967887878418
+303,474,160,uniform_random,Baseline,no_disease_to_disease,512,8,2.0757861137390137
+303,475,113,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,4,6.518824100494385
+303,476,182,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,5,13.908769607543944
+303,477,181,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,10,2.4251151084899902
+303,478,169,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,8,8.451662063598633
+303,479,167,proposed_countergan,Non-DP CounterGAN,no_disease_to_disease,512,3,11.603740692138672
+303,480,68,uniform_random,Baseline,disease_to_no_disease,512,10,-12.36088752746582
+303,481,70,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,3,-0.3112854957580566
+303,482,78,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,6,-15.299196243286133
+303,483,93,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,7,-4.052328109741211
+303,484,44,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,8,-0.1274199485778808
+303,485,93,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,1,-1.449942111968994
+303,486,107,genetic_cfe,Baseline,no_disease_to_disease,512,7,7.684615612030029
+303,487,123,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,6,1.41292142868042
+303,488,156,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,4,7.837531566619873
+303,489,148,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,1,1.400144100189209
+303,490,147,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,6,0.210278034210205
+303,491,130,countergan_one_shot,Non-DP CounterGAN,no_disease_to_disease,512,3,4.75180196762085
+303,492,47,uniform_random,Baseline,disease_to_no_disease,512,10,-5.285995006561279
+303,493,19,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,8,-0.1333651542663574
+303,494,14,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,7,-6.941829681396484
+303,495,31,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,3,-1.8070077896118164
+303,496,31,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,4,-19.09218978881836
+303,497,55,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,disease_to_no_disease,512,1,-0.4686579704284668
+303,498,179,uniform_random,Baseline,no_disease_to_disease,512,9,6.226722240447998
+303,499,139,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,8,10.279678344726562
+303,500,115,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,no_disease_to_disease,512,8,9.36981201171875
+303,501,153,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,no_disease_to_disease,512,1,0.8196463584899902
+303,502,197,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,no_disease_to_disease,512,10,23.35461807250977
+303,503,141,countergan_sparse_diverse_no_dp,Non-DP CounterGAN,no_disease_to_disease,512,5,13.980697631835938
+303,504,76,uniform_random,Baseline,disease_to_no_disease,512,7,-5.742987155914307
+303,505,96,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,disease_to_no_disease,512,10,-22.864824295043945
+303,506,58,proposed_dp_eps2_sparse_diverse,DP-CounterGAN eps=2,disease_to_no_disease,512,6,-0.7213387489318848
+303,507,34,proposed_dp_eps4_sparse_diverse,DP-CounterGAN eps=4,disease_to_no_disease,512,9,-10.407574653625488
+303,508,91,proposed_dp_eps8_sparse_diverse,DP-CounterGAN eps=8,disease_to_no_disease,512,10,-17.67544174194336
+303,509,99,proposed_countergan,Non-DP CounterGAN,disease_to_no_disease,512,2,-3.218350410461426
+303,510,185,uniform_random,Baseline,no_disease_to_disease,512,4,4.686648845672607
+303,511,104,proposed_dp_eps16_sparse_diverse,DP-CounterGAN eps=16,no_disease_to_disease,512,9,16.90412712097168

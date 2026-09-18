@@ -1,0 +1,15 @@
+Bổ sung.md table family,plaintext evidence,present_in_plaintext
+Metric definitions and plaintext threat model,00_0a and 00_0b,True
+Dataset and feature encoding,"01_1, 01_2, 01_3",True
+"MLP metrics, confusion matrix and training curves",02 plus PNG/history artifacts,True
+Method registry and fixed-budget baseline panel,03_1 through 03_6,True
+Direction-specific CFE metrics,03_2a and 03_3a,True
+Failure and missing-K accounting,03_7,True
+DP privacy-utility and accounting,04_1 through 04_3,True
+Generator privacy attacks,06_0 through 06_6,True
+"Ablation, inner selection, and population/round sensitivity",07 and 08_0a through 08_1,True
+"K, rounds, candidates and time",08_2,True
+Explanation-Linkage Attack,09,True
+Qualitative counterfactual grid,10_1 and 10_2,True
+Training/search seed stability,11_1 and 11_2,True
+Reproducibility and provenance,12,True

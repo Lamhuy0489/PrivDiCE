@@ -1,0 +1,69 @@
+{
+  "protocol": "Q1_V55_GENERATOR_ONLY_ONE_SEED_PAPER",
+  "stage": "paper_train",
+  "dataset": "heartplus",
+  "gpu": "Tesla T4",
+  "source_csv_sha256": "8c3611f95469b3a06fe33628c2d82283dc3571b57bd0ff9b8c5c63ec44dac27e",
+  "source_rows": 764927,
+  "processed_inputs": 23,
+  "classifier_seeds": [
+    55
+  ],
+  "canonical_classifier_seed": 55,
+  "generator_training_seeds": [
+    11
+  ],
+  "variants": [
+    "countergan",
+    "dp_eps16",
+    "dp_eps8",
+    "dp_eps4",
+    "dp_eps2"
+  ],
+  "gan_schedule": {
+    "epochs": 300,
+    "batch_size": 256,
+    "steps_per_epoch": 20,
+    "secure_rng": true,
+    "warmup_epochs": 30,
+    "ramp_epochs": 180,
+    "classification_weight_start": 8.0,
+    "classification_weight_end": 12.0,
+    "proximity_weight_start": 0.04,
+    "proximity_weight_end": 0.2,
+    "sparsity_weight_start": 0.01,
+    "sparsity_weight_end": 0.1,
+    "group_sparsity_weight_start": 0.0,
+    "group_sparsity_weight_end": 0.15,
+    "diversity_weight_start": 0.0,
+    "diversity_weight_end": 0.08,
+    "direction_balance_weighting": true
+  },
+  "K": 10,
+  "paper_budgets": [
+    128,
+    256,
+    512,
+    1024
+  ],
+  "paper_queries_per_direction": 100,
+  "method_search_seeds": [
+    11
+  ],
+  "files_sha256": {
+    "preprocessor_and_split.joblib": "e438c8538f005aacfa5796614e5361b1b8b2eca1b71b812a09c1c2badc093900",
+    "plaintext_cfe_pipeline.py": "8ec46bda01c6aee128e12574f160212d66a0b61cb880463547a1ae25eef9fca6",
+    "privacy_accounting.csv": "a0dcf62d153ce016f8a93f0d20128fd5fb60c0b4909233f74da0a0deb5c4a76a",
+    "dp_multi_checkpoint_release_composition.csv": "6a4c62f624f28ee4a75fa2b2e02209b3a917146b68d1545c9ec50ce8bd57f662",
+    "classifier_metrics_by_seed.csv": "c6e21c9b05ba70d6bd997089baec0ffee2f3a70976614a8ccdd7a9804b730a37",
+    "dataset_accounting.csv": "3a34296831fe0848680dd7ba96e83601cdfcfb80474579f3df035e08dc871216",
+    "feature_encoding_contract.csv": "42a65cfd377b731877a1b394a0cff419c6edfe1b6dc84e356a48ec56b85351c4",
+    "feature_constraint_table.csv": "e97648d37b97b0e2345be6babb24aa0d227408c4484ab4ba597bc3a9d092bf91",
+    "classifier_seed55.pt": "058799fd83c89564c5e9bf8f841b854d91e1d549030fa8e6e43e9ad346c2d290",
+    "generator_seed11_countergan.pt": "6471b910aa86c931745e466626851bb01538cc3508d70e03e7cab1ec3f690da8",
+    "generator_seed11_dp_eps16.pt": "034bd562f8e72a8f102862d31526370ebf7f027f17540c1de6690880f5e8e582",
+    "generator_seed11_dp_eps8.pt": "68254886650599bdda84fa10b00b918299625a831e5b8164c4c1dca4b41507b5",
+    "generator_seed11_dp_eps4.pt": "c6dd5d0a3b53338e060c10a8820e69cff2292d201a27a0c61e6b0bfc225fcb5a",
+    "generator_seed11_dp_eps2.pt": "713ebb881e258dac10a5683a2a7b266cf6e0354304fa7d0654fa9b949a517b1a"
+  }
+}

@@ -1,0 +1,6 @@
+policy,features,reason
+immutable,age | gender,demographic factual attributes
+nonnegative,RR/power/variance/energy features,signal-domain support
+derived equality,var = std^2,internal ECG consistency
+derived equality,energy = 586 * rms^2,window-energy consistency
+spectral bound,VLF + LF + VHF <= total_power,spectral decomposition consistency

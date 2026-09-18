@@ -1,0 +1,4 @@
+component,adversary_or_goal,measured_or_protected,limitation
+DP-CounterGAN,released generator/checkpoint observer; discriminator training-only,influence of one training record under the reported accountant,not end-to-end DP for the frozen MLP or preprocessing
+Generator attacks,"MIA, exact match, DCR/NNDR and attribute inversion",empirical evidence under the declared attack protocol,not a universal privacy proof
+Explanation linkage,auxiliary-table linkage simulation,risk of linking released CFE explanations,not a real-patient re-identification rate

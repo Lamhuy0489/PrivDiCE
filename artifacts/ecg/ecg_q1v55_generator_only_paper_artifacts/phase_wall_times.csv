@@ -1,0 +1,13 @@
+phase,wall_seconds
+classifier_training_and_diagnostics,34.96302509200001
+generator_training,5104.938552676999
+training_handoff,0.23336150300019654
+v5_inner_profile_selection,310.9189347390002
+fixed_budget_evaluation,7402.976828946999
+aggregation_and_statistics,84.64187941599994
+official_native_panel,28.203456396000547
+release_linkage_and_privacy,3488.9252379709997
+generator_privacy_attack_v2,41.17446962199756
+plaintext_visualizations,2.4247079380002106
+acceptance_pre_archive,0.027252710999164265
+notebook_total_before_archive,16620.379412594

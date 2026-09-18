@@ -1,0 +1,2 @@
+dataset,input_features,hidden_layer_1,hidden_layer_2,output_units,activation,activation_alpha,training_dropout,dropout_active_during_plaintext_reference,dropout_present_in_he_graph,sigmoid_present_in_he_graph,client_label_rule,server_operations
+heartplus,23,128,64,1,square,0.0,0.05,False,False,False,decrypted_logit >= 0 (absorbed threshold),ciphertext/plaintext add; ciphertext/plaintext multiply; ciphertext square

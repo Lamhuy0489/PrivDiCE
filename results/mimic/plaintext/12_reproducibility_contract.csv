@@ -1,0 +1,15 @@
+item,value
+dataset,mimic
+source_path,/kaggle/input/datasets/meanalways/mimiciv-full/mimic_icu_mortality_cfe_12671.csv
+source_sha256,d79aa6ecdc9dd04ad540923b30323c4d693a5e84fcad28444c366d2fd703eadb
+classifier_seeds,[55]
+canonical_classifier_seed,55
+generator_training_seeds,[11]
+method_search_seeds,[11]
+target_directions,both
+active_directions,"disease_to_no_disease, no_disease_to_disease"
+requested_K,10
+candidate_budgets,"[64, 128, 256, 512]"
+missing_K_slots,counted as failures
+outer_test_used_for_selection,False
+result_scope,plaintext only

@@ -1,0 +1,11 @@
+method,direction,algorithm_status,size
+official_dice_genetic,disease_to_no_disease,timeout,2
+official_dice_genetic,no_disease_to_disease,timeout,2
+official_dice_random,disease_to_no_disease,no_cf,1
+official_dice_random,disease_to_no_disease,ok,1
+official_dice_random,no_disease_to_disease,no_cf,1
+official_dice_random,no_disease_to_disease,ok,1
+wachter_style_native_350_steps,disease_to_no_disease,no_cf,1
+wachter_style_native_350_steps,disease_to_no_disease,ok,1
+wachter_style_native_350_steps,no_disease_to_disease,no_cf,1
+wachter_style_native_350_steps,no_disease_to_disease,ok,1

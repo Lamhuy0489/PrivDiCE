@@ -1,0 +1,2 @@
+target_directions,active_directions,factuals,K,budgets,search_seeds
+both,"disease_to_no_disease, no_disease_to_disease",200,10,"[64, 128, 256, 512]",[11]

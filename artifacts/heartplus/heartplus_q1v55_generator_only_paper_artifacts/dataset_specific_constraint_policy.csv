@@ -1,0 +1,6 @@
+policy,features,reason
+immutable,AgeCategory | Sex | Race | Stroke | Asthma | SkinCancer | Diabetic | KidneyDisease,demographic/history attributes are not actionable
+ordinal grid,GenHealth | AgeCategory | Diabetic | Smoking,valid survey categories
+binary grid,eight binary predictors,valid survey categories
+monotonic,Former smoking cannot become Never,history cannot be reversed
+raw range,PhysicalHealth | MentalHealth | SleepTime | BMI,observed/clinical support

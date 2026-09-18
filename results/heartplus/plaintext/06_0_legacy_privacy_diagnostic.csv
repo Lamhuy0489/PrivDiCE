@@ -1,0 +1,6 @@
+variant,attack_definition,attack_rows_per_group,mia_auc,mia_advantage,exact_match_leakage,dcr_mean,nndr_mean,attribute_inversion_feature,attribute_inversion_normalized_mae
+seed11_countergan,loss-threshold MIA; orientation chosen on attack labels,1000,0.5098675,0.019735000000000058,0.0,0.13460034611127467,0.8580660903993835,PhysicalHealth,0.2311619520187378
+seed11_dp_eps16,loss-threshold MIA; orientation chosen on attack labels,1000,0.508173,0.01634599999999997,0.0,0.09666603203560624,0.7961247518775074,PhysicalHealth,0.15242061018943787
+seed11_dp_eps8,loss-threshold MIA; orientation chosen on attack labels,1000,0.510593,0.021185999999999927,0.0,0.08676992864800141,0.7786689149075757,PhysicalHealth,0.18816085159778595
+seed11_dp_eps4,loss-threshold MIA; orientation chosen on attack labels,1000,0.501321,0.002642000000000033,0.0,0.0961580847137769,0.799100984943053,PhysicalHealth,0.15399862825870514
+seed11_dp_eps2,loss-threshold MIA; orientation chosen on attack labels,1000,0.505638,0.011276000000000064,0.0,0.10067919295863666,0.8057893951086988,PhysicalHealth,0.18254752457141876

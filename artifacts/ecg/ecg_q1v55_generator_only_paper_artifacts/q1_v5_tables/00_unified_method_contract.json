@@ -1,0 +1,32 @@
+{
+  "protocol": "Q1_V55_GENERATOR_ONLY_ONE_SEED_PAPER",
+  "methods": [
+    "proposed_dp_eps16_sparse_diverse",
+    "proposed_dp_eps8_sparse_diverse",
+    "proposed_dp_eps4_sparse_diverse",
+    "proposed_dp_eps2_sparse_diverse"
+  ],
+  "profile": "sparse",
+  "selection_fallback": false,
+  "selection_scope": "inner validation only",
+  "direction_selection_policy": "macro plus worst-direction noninferiority",
+  "outer_test_used_for_selection": false,
+  "population_selection_scope": "prospectively frozen from V5.4 inner validation plus HE round cost",
+  "population_yield_tolerance": 0.02,
+  "candidate_budget": 512,
+  "K": 10,
+  "population": 64,
+  "maximum_rounds": 8,
+  "group_off_threshold": 0.12,
+  "feature_off_threshold": 0.025,
+  "base_fraction": 0.5,
+  "proximity_weight": 0.12,
+  "sparsity_weight": 0.72,
+  "mmr_diversity_weight": 1.0,
+  "proximity_used_as_hard_selection_gate": false,
+  "search_plausibility_source": "none; generator-only deployment",
+  "raw_training_knn_used_during_dp_search": false,
+  "discriminator_released_or_queried_at_inference": false,
+  "all_base_prune_fill_candidates_counted": true,
+  "full_budget_then_mmr": true
+}

@@ -1,0 +1,5 @@
+n_factuals,n_ok,n_timeout,n_no_cf,n_implementation_error,n_quality_defined,valid_cfe_yield_at_k,coverage_at_1,full_k_success,robust_yield_at_k,robust_full_k_success,proximity,sparsity,diversity,plausibility,constraint_validity,runtime_seconds_mean,runtime_seconds_total,method,direction
+100.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,,,,20.00121272280998,2000.1212722809983,official_dice_genetic,disease_to_no_disease
+100.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,,,,20.00120844081001,2000.120844081001,official_dice_genetic,no_disease_to_disease
+100.0,89.0,0.0,11.0,0.0,75.0,0.24400000000000002,0.75,0.0,0.23000000000000004,0.0,0.05917025468001763,0.7430899470899471,0.05200648210942745,0.34385242172718045,1.0,1.382452447129991,138.2452447129991,official_dice_random,disease_to_no_disease
+100.0,67.0,0.0,33.0,0.0,63.0,0.171,0.63,0.0,0.16,0.0,0.07415850806449141,0.7023095658016292,0.0367892560741258,0.329319893262318,1.0,1.6593327839799894,165.93327839799895,official_dice_random,no_disease_to_disease

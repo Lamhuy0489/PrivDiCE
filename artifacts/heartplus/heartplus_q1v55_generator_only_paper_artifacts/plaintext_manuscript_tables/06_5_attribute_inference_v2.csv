@@ -1,0 +1,11 @@
+dataset,variant,attribute_kind,attack_metric,metric,mean,sd,ci95_low,ci95_high,attack_seeds
+heartplus,countergan,categorical_or_ordinal,balanced_accuracy,attack_value,0.3826600810007552,0.0392812326072565,0.3605221159011162,0.4065463065357861,10
+heartplus,countergan,categorical_or_ordinal,balanced_accuracy,trivial_baseline_value,0.25,0.0,0.25,0.25,10
+heartplus,dp_eps16,categorical_or_ordinal,balanced_accuracy,attack_value,0.387261538161222,0.0469960516130978,0.3587562595952002,0.4130402692096149,10
+heartplus,dp_eps16,categorical_or_ordinal,balanced_accuracy,trivial_baseline_value,0.25,0.0,0.25,0.25,10
+heartplus,dp_eps2,categorical_or_ordinal,balanced_accuracy,attack_value,0.3963802266769884,0.0640716691667715,0.3615739894706234,0.4376372596028763,10
+heartplus,dp_eps2,categorical_or_ordinal,balanced_accuracy,trivial_baseline_value,0.25,0.0,0.25,0.25,10
+heartplus,dp_eps4,categorical_or_ordinal,balanced_accuracy,attack_value,0.4181579822329076,0.0751214469927961,0.381527883250971,0.4683416872496632,10
+heartplus,dp_eps4,categorical_or_ordinal,balanced_accuracy,trivial_baseline_value,0.25,0.0,0.25,0.25,10
+heartplus,dp_eps8,categorical_or_ordinal,balanced_accuracy,attack_value,0.4003472740669971,0.0336712469037474,0.3816098935337682,0.421102496311609,10
+heartplus,dp_eps8,categorical_or_ordinal,balanced_accuracy,trivial_baseline_value,0.25,0.0,0.25,0.25,10

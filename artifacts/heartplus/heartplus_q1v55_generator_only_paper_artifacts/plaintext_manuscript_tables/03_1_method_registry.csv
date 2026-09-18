@@ -1,0 +1,12 @@
+code,method,oracle_access_or_budget,included_in_primary,K,population,budgets,search_seed,selected_profile
+UR,uniform_random,fixed counted forward-score budget,True,10,128,"[128, 256, 512, 1024]",11,not_applicable
+GA,genetic_cfe,fixed counted forward-score budget,True,10,128,"[128, 256, 512, 1024]",11,not_applicable
+DG,dice_gradient_style,fixed optimization-step proxy,True,10,128,"[128, 256, 512, 1024]",11,not_applicable
+WA,wachter_style,fixed optimization-step proxy,True,10,128,"[128, 256, 512, 1024]",11,not_applicable
+G1,countergan_one_shot,generator + final counted scoring,True,10,128,"[128, 256, 512, 1024]",11,not_applicable
+CGI,proposed_countergan,native early-stop iterative generator baseline,True,10,128,"[128, 256, 512, 1024]",11,not_applicable
+CG-SD,countergan_sparse_diverse_no_dp,non-DP generator + identical fixed-cap prune/MMR,True,10,128,"[128, 256, 512, 1024]",11,not_applicable
+DP16,proposed_dp_eps16_sparse_diverse,DP generator + counted prune/MMR,True,10,128,"[128, 256, 512, 1024]",11,balanced
+DP8,proposed_dp_eps8_sparse_diverse,DP generator + counted prune/MMR,True,10,128,"[128, 256, 512, 1024]",11,balanced
+DP4,proposed_dp_eps4_sparse_diverse,DP generator + counted prune/MMR,True,10,128,"[128, 256, 512, 1024]",11,balanced
+DP2,proposed_dp_eps2_sparse_diverse,DP generator + counted prune/MMR,True,10,128,"[128, 256, 512, 1024]",11,balanced

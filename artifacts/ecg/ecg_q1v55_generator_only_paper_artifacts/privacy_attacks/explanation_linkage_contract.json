@@ -1,0 +1,49 @@
+{
+  "attack": "holdout explanation-linkage simulation",
+  "reference": "Goethals, Sorensen & Martens (2023), DOI 10.1145/3608482",
+  "quasi_identifiers": [
+    "age",
+    "gender",
+    "pre_rr",
+    "post_rr",
+    "predicted_label"
+  ],
+  "sensitive_attribute": "total_power",
+  "numeric_discretization": "development-fit equal-frequency quartile bins",
+  "auxiliary_population": "untouched outer test; evaluation only",
+  "one_map": "released CFE signature maps to exactly one auxiliary row",
+  "one_anonymity": "released CFE belongs to a singleton released QI class",
+  "one_diversity": "released CFE belongs to a QI class with one sensitive value",
+  "limitation": "simulation only; no supplied direct identifiers and no external population registry",
+  "zero_release_semantics": "explicit row with released_cfes=0; linkage rates are undefined (NaN), not zero risk",
+  "bin_edges": {
+    "age": [
+      "-inf",
+      6.599999904632568,
+      8.800000190734863,
+      14.800000190734863,
+      "inf"
+    ],
+    "pre_rr": [
+      "-inf",
+      0.36438074707984924,
+      0.5496417880058289,
+      0.6571136116981506,
+      "inf"
+    ],
+    "post_rr": [
+      "-inf",
+      0.36335721611976624,
+      0.5475946664810181,
+      0.6571136116981506,
+      "inf"
+    ],
+    "total_power": [
+      "-inf",
+      0.004333870951086283,
+      0.008655327372252941,
+      0.031486861407756805,
+      "inf"
+    ]
+  }
+}

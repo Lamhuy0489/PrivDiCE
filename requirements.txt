@@ -1,0 +1,13 @@
+# Core versions recorded by the accepted Kaggle runs.
+# Kaggle supplied the matching CUDA build of PyTorch; choose the appropriate
+# PyTorch wheel for the local CPU/CUDA platform when reproducing outside Kaggle.
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+joblib
+torch
+opacus==1.6.0
+dice-ml==0.12
+tenseal==0.3.16

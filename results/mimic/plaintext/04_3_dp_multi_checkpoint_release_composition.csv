@@ -1,0 +1,9 @@
+variant,release_scenario,released_checkpoints,basic_composed_epsilon,basic_composed_delta
+dp_eps16,single_checkpoint_seed11,1,15.998590471437197,1e-05
+dp_eps8,single_checkpoint_seed11,1,7.998925920820012,1e-05
+dp_eps4,single_checkpoint_seed11,1,3.998270264732809,1e-05
+dp_eps2,single_checkpoint_seed11,1,1.9986826630265904,1e-05
+dp_eps16,joint_release_all_training_seeds,1,15.998590471437197,1e-05
+dp_eps2,joint_release_all_training_seeds,1,1.9986826630265904,1e-05
+dp_eps4,joint_release_all_training_seeds,1,3.998270264732809,1e-05
+dp_eps8,joint_release_all_training_seeds,1,7.998925920820012,1e-05

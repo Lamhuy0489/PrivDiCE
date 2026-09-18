@@ -1,0 +1,111 @@
+query_id,direction,representative_quantile,method,method_label,rank,desired_class,probability,changed_raw_features,changes,available
+24,disease_to_no_disease,0.10101010101010101,original,Original factual,0.0,0,0.5435524582862854,0.0,none,True
+24,disease_to_no_disease,0.10101010101010101,uniform_random,Uniform constrained random,1.0,0,0.4687023460865021,3.0,BMI: 20.87->17.05 | MentalHealth: 6->4 | PhysicalHealth: 8->3,True
+24,disease_to_no_disease,0.10101010101010101,genetic_cfe,Budget-matched genetic CFE,1.0,0,0.4743022918701172,1.0,BMI: 20.87->17.36,True
+24,disease_to_no_disease,0.10101010101010101,dice_gradient_style,DiCE-style gradient,1.0,0,0.3385050296783447,3.0,BMI: 20.87->17.05 | PhysicalHealth: 8->1 | SleepTime: 8->12,True
+24,disease_to_no_disease,0.10101010101010101,wachter_style,Wachter-style,1.0,0,0.338355153799057,4.0,BMI: 20.87->17.05 | MentalHealth: 6->4 | PhysicalHealth: 8->1 | SleepTime: 8->12,True
+24,disease_to_no_disease,0.10101010101010101,countergan_one_shot,CounterGAN one-shot,1.0,0,0.089729443192482,7.0,AlcoholDrinking: No->Yes | BMI: 20.87->20.98 | GenHealth: Poor->Excellent | MentalHealth: 6->5 | PhysicalHealth: 8->30 | SleepTime: 8->7 | +1 more,True
+24,disease_to_no_disease,0.10101010101010101,proposed_countergan,Proposed iterative CounterGAN,1.0,0,0.09035076200962067,7.0,AlcoholDrinking: No->Yes | BMI: 20.87->20.72 | GenHealth: Poor->Excellent | MentalHealth: 6->5 | PhysicalHealth: 8->30 | SleepTime: 8->6 | +1 more,True
+24,disease_to_no_disease,0.10101010101010101,proposed_dp_eps16_sparse_diverse,Proposed DP-CounterGAN eps<=16,1.0,0,0.4683639407157898,1.0,BMI: 20.87->17.05,True
+24,disease_to_no_disease,0.10101010101010101,proposed_dp_eps8_sparse_diverse,Proposed DP-CounterGAN eps<=8,1.0,0,0.4733867347240448,1.0,SleepTime: 8->10,True
+24,disease_to_no_disease,0.10101010101010101,proposed_dp_eps4_sparse_diverse,DP4 + full-budget sparse-diverse MMR,1.0,0,0.4733867347240448,1.0,SleepTime: 8->10,True
+24,disease_to_no_disease,0.10101010101010101,proposed_dp_eps2_sparse_diverse,Proposed DP-CounterGAN eps<=2,1.0,0,0.4683639407157898,1.0,BMI: 20.87->17.05,True
+6,disease_to_no_disease,0.30303030303030304,original,Original factual,0.0,0,0.5958619713783264,0.0,none,True
+6,disease_to_no_disease,0.30303030303030304,uniform_random,Uniform constrained random,1.0,0,0.4345399737358093,1.0,GenHealth: Good->Excellent,True
+6,disease_to_no_disease,0.30303030303030304,genetic_cfe,Budget-matched genetic CFE,1.0,0,0.4334193468093872,1.0,GenHealth: Good->Excellent,True
+6,disease_to_no_disease,0.30303030303030304,dice_gradient_style,DiCE-style gradient,1.0,0,0.42703038454055786,2.0,BMI: 27.37->23.75 | GenHealth: Good->Excellent,True
+6,disease_to_no_disease,0.30303030303030304,wachter_style,Wachter-style,1.0,0,0.42683547735214233,2.0,BMI: 27.37->23.49 | GenHealth: Good->Excellent,True
+6,disease_to_no_disease,0.30303030303030304,countergan_one_shot,CounterGAN one-shot,1.0,0,0.32594650983810425,4.0,AlcoholDrinking: No->Yes | BMI: 27.37->17.48 | GenHealth: Good->Excellent | SleepTime: 8->7,True
+6,disease_to_no_disease,0.30303030303030304,proposed_countergan,Proposed iterative CounterGAN,1.0,0,0.35433584451675415,4.0,AlcoholDrinking: No->Yes | BMI: 27.37->17.7 | GenHealth: Good->Excellent | SleepTime: 8->6,True
+6,disease_to_no_disease,0.30303030303030304,proposed_dp_eps16_sparse_diverse,Proposed DP-CounterGAN eps<=16,1.0,0,0.43366411328315735,1.0,GenHealth: Good->Excellent,True
+6,disease_to_no_disease,0.30303030303030304,proposed_dp_eps8_sparse_diverse,Proposed DP-CounterGAN eps<=8,1.0,0,0.43366411328315735,1.0,GenHealth: Good->Excellent,True
+6,disease_to_no_disease,0.30303030303030304,proposed_dp_eps4_sparse_diverse,DP4 + full-budget sparse-diverse MMR,1.0,0,0.43366411328315735,1.0,GenHealth: Good->Excellent,True
+6,disease_to_no_disease,0.30303030303030304,proposed_dp_eps2_sparse_diverse,Proposed DP-CounterGAN eps<=2,1.0,0,0.43366411328315735,1.0,GenHealth: Good->Excellent,True
+60,disease_to_no_disease,0.5050505050505051,original,Original factual,0.0,0,0.6632187366485596,0.0,none,True
+60,disease_to_no_disease,0.5050505050505051,uniform_random,Uniform constrained random,1.0,0,0.4658680260181427,3.0,BMI: 24.8->41.53 | MentalHealth: 20->15 | SleepTime: 4->7,True
+60,disease_to_no_disease,0.5050505050505051,genetic_cfe,Budget-matched genetic CFE,1.0,0,0.4719887971878052,3.0,BMI: 24.8->31.89 | MentalHealth: 20->12 | SleepTime: 4->8,True
+60,disease_to_no_disease,0.5050505050505051,dice_gradient_style,DiCE-style gradient,1.0,0,0.47044265270233154,4.0,BMI: 24.8->34.87 | GenHealth: Good->Very good | MentalHealth: 20->1 | SleepTime: 4->7,True
+60,disease_to_no_disease,0.5050505050505051,wachter_style,Wachter-style,1.0,0,0.4706786870956421,4.0,BMI: 24.8->34.76 | GenHealth: Good->Very good | MentalHealth: 20->1 | SleepTime: 4->7,True
+60,disease_to_no_disease,0.5050505050505051,countergan_one_shot,CounterGAN one-shot,,0,,,NO VALID CFE,False
+60,disease_to_no_disease,0.5050505050505051,proposed_countergan,Proposed iterative CounterGAN,1.0,0,0.42021286487579346,5.0,AlcoholDrinking: No->Yes | BMI: 24.8->17.64 | GenHealth: Good->Very good | MentalHealth: 20->29 | SleepTime: 4->7,True
+60,disease_to_no_disease,0.5050505050505051,proposed_dp_eps16_sparse_diverse,Proposed DP-CounterGAN eps<=16,1.0,0,0.46661850810050964,2.0,BMI: 24.8->33.98 | SleepTime: 4->8,True
+60,disease_to_no_disease,0.5050505050505051,proposed_dp_eps8_sparse_diverse,Proposed DP-CounterGAN eps<=8,1.0,0,0.43980133533477783,2.0,AlcoholDrinking: No->Yes | SleepTime: 4->6,True
+60,disease_to_no_disease,0.5050505050505051,proposed_dp_eps4_sparse_diverse,DP4 + full-budget sparse-diverse MMR,1.0,0,0.43980133533477783,2.0,AlcoholDrinking: No->Yes | SleepTime: 4->6,True
+60,disease_to_no_disease,0.5050505050505051,proposed_dp_eps2_sparse_diverse,Proposed DP-CounterGAN eps<=2,1.0,0,0.43980133533477783,2.0,AlcoholDrinking: No->Yes | SleepTime: 4->6,True
+87,disease_to_no_disease,0.696969696969697,original,Original factual,0.0,0,0.7155930399894714,0.0,none,True
+87,disease_to_no_disease,0.696969696969697,uniform_random,Uniform constrained random,1.0,0,0.4570488929748535,2.0,BMI: 23.04->17.05 | GenHealth: Good->Excellent,True
+87,disease_to_no_disease,0.696969696969697,genetic_cfe,Budget-matched genetic CFE,1.0,0,0.473495215177536,2.0,BMI: 23.04->21.64 | GenHealth: Good->Excellent,True
+87,disease_to_no_disease,0.696969696969697,dice_gradient_style,DiCE-style gradient,1.0,0,0.4579226076602936,2.0,BMI: 23.04->18.04 | GenHealth: Good->Excellent,True
+87,disease_to_no_disease,0.696969696969697,wachter_style,Wachter-style,1.0,0,0.45792683959007263,2.0,BMI: 23.04->18.04 | GenHealth: Good->Excellent,True
+87,disease_to_no_disease,0.696969696969697,countergan_one_shot,CounterGAN one-shot,1.0,0,0.2509908080101013,5.0,AlcoholDrinking: No->Yes | BMI: 23.04->17.05 | GenHealth: Good->Excellent | SleepTime: 8->7 | Smoking: Current->Never,True
+87,disease_to_no_disease,0.696969696969697,proposed_countergan,Proposed iterative CounterGAN,1.0,0,0.28996074199676514,5.0,AlcoholDrinking: No->Yes | BMI: 23.04->17.05 | GenHealth: Good->Excellent | SleepTime: 8->6 | Smoking: Current->Never,True
+87,disease_to_no_disease,0.696969696969697,proposed_dp_eps16_sparse_diverse,Proposed DP-CounterGAN eps<=16,1.0,0,0.46651899814605713,2.0,BMI: 23.04->20.36 | GenHealth: Good->Excellent,True
+87,disease_to_no_disease,0.696969696969697,proposed_dp_eps8_sparse_diverse,Proposed DP-CounterGAN eps<=8,1.0,0,0.46657469868659973,2.0,BMI: 23.04->20.36 | GenHealth: Good->Excellent,True
+87,disease_to_no_disease,0.696969696969697,proposed_dp_eps4_sparse_diverse,DP4 + full-budget sparse-diverse MMR,1.0,0,0.4655711054801941,2.0,BMI: 23.04->20.18 | GenHealth: Good->Excellent,True
+87,disease_to_no_disease,0.696969696969697,proposed_dp_eps2_sparse_diverse,Proposed DP-CounterGAN eps<=2,1.0,0,0.4733444154262543,2.0,BMI: 23.04->21.63 | GenHealth: Good->Excellent,True
+84,disease_to_no_disease,0.898989898989899,original,Original factual,0.0,0,0.8095479607582092,0.0,none,True
+84,disease_to_no_disease,0.898989898989899,uniform_random,Uniform constrained random,,0,,,NO VALID CFE,False
+84,disease_to_no_disease,0.898989898989899,genetic_cfe,Budget-matched genetic CFE,,0,,,NO VALID CFE,False
+84,disease_to_no_disease,0.898989898989899,dice_gradient_style,DiCE-style gradient,,0,,,NO VALID CFE,False
+84,disease_to_no_disease,0.898989898989899,wachter_style,Wachter-style,,0,,,NO VALID CFE,False
+84,disease_to_no_disease,0.898989898989899,countergan_one_shot,CounterGAN one-shot,,0,,,NO VALID CFE,False
+84,disease_to_no_disease,0.898989898989899,proposed_countergan,Proposed iterative CounterGAN,1.0,0,0.45538684725761414,7.0,AlcoholDrinking: No->Yes | BMI: 32.96->24.96 | DiffWalking: Yes->No | GenHealth: Good->Excellent | PhysicalActivity: No->Yes | PhysicalHealth: 15->0 | +1 more,True
+84,disease_to_no_disease,0.898989898989899,proposed_dp_eps16_sparse_diverse,Proposed DP-CounterGAN eps<=16,,0,,,NO VALID CFE,False
+84,disease_to_no_disease,0.898989898989899,proposed_dp_eps8_sparse_diverse,Proposed DP-CounterGAN eps<=8,,0,,,NO VALID CFE,False
+84,disease_to_no_disease,0.898989898989899,proposed_dp_eps4_sparse_diverse,DP4 + full-budget sparse-diverse MMR,,0,,,NO VALID CFE,False
+84,disease_to_no_disease,0.898989898989899,proposed_dp_eps2_sparse_diverse,Proposed DP-CounterGAN eps<=2,,0,,,NO VALID CFE,False
+169,no_disease_to_disease,0.10101010101010101,original,Original factual,0.0,1,0.009118900634348392,0.0,none,True
+169,no_disease_to_disease,0.10101010101010101,uniform_random,Uniform constrained random,,1,,,NO VALID CFE,False
+169,no_disease_to_disease,0.10101010101010101,genetic_cfe,Budget-matched genetic CFE,,1,,,NO VALID CFE,False
+169,no_disease_to_disease,0.10101010101010101,dice_gradient_style,DiCE-style gradient,,1,,,NO VALID CFE,False
+169,no_disease_to_disease,0.10101010101010101,wachter_style,Wachter-style,,1,,,NO VALID CFE,False
+169,no_disease_to_disease,0.10101010101010101,countergan_one_shot,CounterGAN one-shot,,1,,,NO VALID CFE,False
+169,no_disease_to_disease,0.10101010101010101,proposed_countergan,Proposed iterative CounterGAN,,1,,,NO VALID CFE,False
+169,no_disease_to_disease,0.10101010101010101,proposed_dp_eps16_sparse_diverse,Proposed DP-CounterGAN eps<=16,,1,,,NO VALID CFE,False
+169,no_disease_to_disease,0.10101010101010101,proposed_dp_eps8_sparse_diverse,Proposed DP-CounterGAN eps<=8,,1,,,NO VALID CFE,False
+169,no_disease_to_disease,0.10101010101010101,proposed_dp_eps4_sparse_diverse,DP4 + full-budget sparse-diverse MMR,,1,,,NO VALID CFE,False
+169,no_disease_to_disease,0.10101010101010101,proposed_dp_eps2_sparse_diverse,Proposed DP-CounterGAN eps<=2,,1,,,NO VALID CFE,False
+178,no_disease_to_disease,0.30303030303030304,original,Original factual,0.0,1,0.037063438445329666,0.0,none,True
+178,no_disease_to_disease,0.30303030303030304,uniform_random,Uniform constrained random,,1,,,NO VALID CFE,False
+178,no_disease_to_disease,0.30303030303030304,genetic_cfe,Budget-matched genetic CFE,,1,,,NO VALID CFE,False
+178,no_disease_to_disease,0.30303030303030304,dice_gradient_style,DiCE-style gradient,,1,,,NO VALID CFE,False
+178,no_disease_to_disease,0.30303030303030304,wachter_style,Wachter-style,,1,,,NO VALID CFE,False
+178,no_disease_to_disease,0.30303030303030304,countergan_one_shot,CounterGAN one-shot,,1,,,NO VALID CFE,False
+178,no_disease_to_disease,0.30303030303030304,proposed_countergan,Proposed iterative CounterGAN,,1,,,NO VALID CFE,False
+178,no_disease_to_disease,0.30303030303030304,proposed_dp_eps16_sparse_diverse,Proposed DP-CounterGAN eps<=16,,1,,,NO VALID CFE,False
+178,no_disease_to_disease,0.30303030303030304,proposed_dp_eps8_sparse_diverse,Proposed DP-CounterGAN eps<=8,,1,,,NO VALID CFE,False
+178,no_disease_to_disease,0.30303030303030304,proposed_dp_eps4_sparse_diverse,DP4 + full-budget sparse-diverse MMR,,1,,,NO VALID CFE,False
+178,no_disease_to_disease,0.30303030303030304,proposed_dp_eps2_sparse_diverse,Proposed DP-CounterGAN eps<=2,,1,,,NO VALID CFE,False
+138,no_disease_to_disease,0.5050505050505051,original,Original factual,0.0,1,0.09065119922161102,0.0,none,True
+138,no_disease_to_disease,0.5050505050505051,uniform_random,Uniform constrained random,,1,,,NO VALID CFE,False
+138,no_disease_to_disease,0.5050505050505051,genetic_cfe,Budget-matched genetic CFE,1.0,1,0.5520079135894775,4.0,GenHealth: Good->Poor | MentalHealth: 2->1 | SleepTime: 6->2 | Smoking: Never->Current,True
+138,no_disease_to_disease,0.5050505050505051,dice_gradient_style,DiCE-style gradient,1.0,1,0.5471562147140503,5.0,BMI: 27.37->24.4 | GenHealth: Good->Poor | MentalHealth: 2->1 | SleepTime: 6->4 | Smoking: Never->Current,True
+138,no_disease_to_disease,0.5050505050505051,wachter_style,Wachter-style,1.0,1,0.5471054911613464,5.0,BMI: 27.37->24.39 | GenHealth: Good->Poor | MentalHealth: 2->1 | SleepTime: 6->4 | Smoking: Never->Current,True
+138,no_disease_to_disease,0.5050505050505051,countergan_one_shot,CounterGAN one-shot,1.0,1,0.6006092429161072,6.0,AlcoholDrinking: Yes->No | BMI: 27.37->24.13 | GenHealth: Good->Poor | MentalHealth: 2->30 | SleepTime: 6->2 | Smoking: Never->Current,True
+138,no_disease_to_disease,0.5050505050505051,proposed_countergan,Proposed iterative CounterGAN,1.0,1,0.5866620540618896,6.0,AlcoholDrinking: Yes->No | BMI: 27.37->19.88 | GenHealth: Good->Poor | MentalHealth: 2->30 | SleepTime: 6->2 | Smoking: Never->Current,True
+138,no_disease_to_disease,0.5050505050505051,proposed_dp_eps16_sparse_diverse,Proposed DP-CounterGAN eps<=16,1.0,1,0.5820412635803223,4.0,AlcoholDrinking: Yes->No | GenHealth: Good->Poor | MentalHealth: 2->15 | Smoking: Never->Current,True
+138,no_disease_to_disease,0.5050505050505051,proposed_dp_eps8_sparse_diverse,Proposed DP-CounterGAN eps<=8,1.0,1,0.5331924557685852,3.0,GenHealth: Good->Poor | SleepTime: 6->5 | Smoking: Never->Current,True
+138,no_disease_to_disease,0.5050505050505051,proposed_dp_eps4_sparse_diverse,DP4 + full-budget sparse-diverse MMR,1.0,1,0.5820412635803223,4.0,AlcoholDrinking: Yes->No | GenHealth: Good->Poor | MentalHealth: 2->15 | Smoking: Never->Current,True
+138,no_disease_to_disease,0.5050505050505051,proposed_dp_eps2_sparse_diverse,Proposed DP-CounterGAN eps<=2,1.0,1,0.5331924557685852,3.0,GenHealth: Good->Poor | SleepTime: 6->5 | Smoking: Never->Current,True
+106,no_disease_to_disease,0.696969696969697,original,Original factual,0.0,1,0.175193652510643,0.0,none,True
+106,no_disease_to_disease,0.696969696969697,uniform_random,Uniform constrained random,1.0,1,0.5669146776199341,4.0,BMI: 29.26->29.72 | GenHealth: Very good->Poor | MentalHealth: 10->1 | PhysicalHealth: 3->16,True
+106,no_disease_to_disease,0.696969696969697,genetic_cfe,Budget-matched genetic CFE,1.0,1,0.5713126063346863,3.0,GenHealth: Very good->Poor | MentalHealth: 10->15 | PhysicalHealth: 3->4,True
+106,no_disease_to_disease,0.696969696969697,dice_gradient_style,DiCE-style gradient,1.0,1,0.6309165954589844,5.0,BMI: 29.26->36.66 | GenHealth: Very good->Poor | MentalHealth: 10->30 | PhysicalHealth: 3->1 | SleepTime: 6->3,True
+106,no_disease_to_disease,0.696969696969697,wachter_style,Wachter-style,1.0,1,0.6309003829956055,5.0,BMI: 29.26->36.73 | GenHealth: Very good->Poor | MentalHealth: 10->30 | PhysicalHealth: 3->1 | SleepTime: 6->3,True
+106,no_disease_to_disease,0.696969696969697,countergan_one_shot,CounterGAN one-shot,1.0,1,0.687839925289154,5.0,AlcoholDrinking: Yes->No | GenHealth: Very good->Poor | MentalHealth: 10->30 | PhysicalHealth: 3->30 | SleepTime: 6->2,True
+106,no_disease_to_disease,0.696969696969697,proposed_countergan,Proposed iterative CounterGAN,1.0,1,0.6868040561676025,6.0,AlcoholDrinking: Yes->No | BMI: 29.26->28.88 | GenHealth: Very good->Poor | MentalHealth: 10->30 | PhysicalHealth: 3->30 | SleepTime: 6->2,True
+106,no_disease_to_disease,0.696969696969697,proposed_dp_eps16_sparse_diverse,Proposed DP-CounterGAN eps<=16,1.0,1,0.5717998743057251,1.0,GenHealth: Very good->Poor,True
+106,no_disease_to_disease,0.696969696969697,proposed_dp_eps8_sparse_diverse,Proposed DP-CounterGAN eps<=8,1.0,1,0.5717998743057251,1.0,GenHealth: Very good->Poor,True
+106,no_disease_to_disease,0.696969696969697,proposed_dp_eps4_sparse_diverse,DP4 + full-budget sparse-diverse MMR,1.0,1,0.5717998743057251,1.0,GenHealth: Very good->Poor,True
+106,no_disease_to_disease,0.696969696969697,proposed_dp_eps2_sparse_diverse,Proposed DP-CounterGAN eps<=2,1.0,1,0.5717998743057251,1.0,GenHealth: Very good->Poor,True
+104,no_disease_to_disease,0.898989898989899,original,Original factual,0.0,1,0.3877139389514923,0.0,none,True
+104,no_disease_to_disease,0.898989898989899,uniform_random,Uniform constrained random,1.0,1,0.5578563809394836,2.0,BMI: 30.38->29.29 | GenHealth: Very good->Fair,True
+104,no_disease_to_disease,0.898989898989899,genetic_cfe,Budget-matched genetic CFE,1.0,1,0.5555434226989746,2.0,BMI: 30.38->30.13 | GenHealth: Very good->Fair,True
+104,no_disease_to_disease,0.898989898989899,dice_gradient_style,DiCE-style gradient,1.0,1,0.739275336265564,3.0,BMI: 30.38->24.69 | GenHealth: Very good->Poor | SleepTime: 8->5,True
+104,no_disease_to_disease,0.898989898989899,wachter_style,Wachter-style,1.0,1,0.7397016882896423,3.0,BMI: 30.38->24.53 | GenHealth: Very good->Poor | SleepTime: 8->5,True
+104,no_disease_to_disease,0.898989898989899,countergan_one_shot,CounterGAN one-shot,1.0,1,0.7015390396118164,6.0,AlcoholDrinking: Yes->No | BMI: 30.38->19.92 | DiffWalking: Yes->No | GenHealth: Very good->Good | SleepTime: 8->5 | Smoking: Never->Former,True
+104,no_disease_to_disease,0.898989898989899,proposed_countergan,Proposed iterative CounterGAN,1.0,1,0.7535563111305237,6.0,AlcoholDrinking: Yes->No | BMI: 30.38->21.39 | DiffWalking: Yes->No | GenHealth: Very good->Fair | SleepTime: 8->5 | Smoking: Never->Former,True
+104,no_disease_to_disease,0.898989898989899,proposed_dp_eps16_sparse_diverse,Proposed DP-CounterGAN eps<=16,1.0,1,0.5550006031990051,1.0,GenHealth: Very good->Fair,True
+104,no_disease_to_disease,0.898989898989899,proposed_dp_eps8_sparse_diverse,Proposed DP-CounterGAN eps<=8,1.0,1,0.5342944264411926,2.0,AlcoholDrinking: Yes->No | BMI: 30.38->26.63,True
+104,no_disease_to_disease,0.898989898989899,proposed_dp_eps4_sparse_diverse,DP4 + full-budget sparse-diverse MMR,1.0,1,0.5550006031990051,1.0,GenHealth: Very good->Fair,True
+104,no_disease_to_disease,0.898989898989899,proposed_dp_eps2_sparse_diverse,Proposed DP-CounterGAN eps<=2,1.0,1,0.5347244143486023,1.0,SleepTime: 8->4,True

@@ -1,0 +1,2 @@
+dataset,source_csv_rows,usable_model_rows,dropped_rows,class_0,class_1,class_count_sum,counts_match_usable_rows,raw_predictors,processed_he_inputs,split_kind
+mimic,12671,12671,0,7356,5315,12671,True,37,40,stratified-row-no-patient-id

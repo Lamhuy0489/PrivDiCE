@@ -1,0 +1,7 @@
+method,direction,n_factual_seed_rows,n_factuals,valid_cfe_yield_at_k,coverage_at_1,full_k_success,robust_yield_at_k,proximity,sparsity,diversity,runtime_seconds
+official_dice_genetic,disease_to_no_disease,2,2,0.0,0.0,0.0,0.0,,,,20.00128491149917
+official_dice_genetic,no_disease_to_disease,2,2,0.95,1.0,0.5,0.95,0.2613099589943886,0.03578431372549021,0.24515309929847717,3.1253895054996974
+official_dice_random,disease_to_no_disease,2,2,0.30000000000000004,1.0,0.0,0.30000000000000004,0.04032227583229542,0.8713235294117647,0.04171506594866514,3.896949244001007
+official_dice_random,no_disease_to_disease,2,2,0.2,0.5,0.0,0.15,0.018073558807373047,0.8823529411764706,0.03278950974345207,2.6238624320012605
+wachter_style_native_350_steps,disease_to_no_disease,2,2,0.1,1.0,0.0,0.05,0.0866054929792881,0.27941176470588236,0.0,0.6967393795002863
+wachter_style_native_350_steps,no_disease_to_disease,2,2,0.05,0.5,0.0,0.05,0.035484470427036285,0.5,0.0,0.7046274455005914

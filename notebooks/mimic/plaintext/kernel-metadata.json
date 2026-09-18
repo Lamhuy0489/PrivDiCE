@@ -1,0 +1,24 @@
+{
+  "id": "buiquocviet/mimic-iv-q1-v5-5-gen-only-one-seed-paper-t4",
+  "id_no": 131691313,
+  "title": "MIMIC-IV Q1 V5.5 Gen-Only One-Seed Paper T4",
+  "code_file": "mimic-iv-q1-v5-5-gen-only-one-seed-paper-t4.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "healthcare",
+    "gpu"
+  ],
+  "dataset_sources": [
+    "meanalways/mimiciv-full"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+  "machine_shape": "NvidiaTeslaT4"
+}

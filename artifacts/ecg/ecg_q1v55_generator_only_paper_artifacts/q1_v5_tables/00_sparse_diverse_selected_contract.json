@@ -1,0 +1,32 @@
+{
+  "dataset": "ecg",
+  "protocol": "Q1_V55_GENERATOR_ONLY_ONE_SEED_PAPER",
+  "profile": "sparse",
+  "epsilon_panel": [
+    16,
+    8,
+    4,
+    2
+  ],
+  "candidate_budget": 512,
+  "k": 10,
+  "population": 64,
+  "maximum_rounds": 8,
+  "group_off_threshold": 0.12,
+  "feature_off_threshold": 0.025,
+  "mmr_weight": 1.0,
+  "proximity_weight": 0.12,
+  "sparsity_weight": 0.72,
+  "base_fraction": 0.5,
+  "selection_rule": "inner macro and worst-direction noninferiority gates, then utility/sparse/diverse/robust score",
+  "selection_fallback": false,
+  "selection_scope": "inner validation only",
+  "population_selection_scope": "prospectively frozen from V5.4 inner validation plus HE round cost",
+  "population_yield_tolerance": 0.02,
+  "outer_test_used_for_selection": false,
+  "search_plausibility_source": "none; generator-only deployment",
+  "raw_training_knn_used_during_dp_search": false,
+  "discriminator_released_or_queried_at_inference": false,
+  "pruning_stage": "inside search before counted oracle call",
+  "full_budget_then_mmr": true
+}

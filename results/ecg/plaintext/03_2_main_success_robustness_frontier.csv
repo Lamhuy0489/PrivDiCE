@@ -1,0 +1,45 @@
+method,method_label,candidate_budget,valid_cfe_yield_at_k,coverage_at_1,full_k_success,robust_completeness_at_k,robust_full_k_success,constraint_validity
+countergan_one_shot,CounterGAN one-shot,64,0.89,1.0,0.7,0.852,0.62,1.0
+countergan_one_shot,CounterGAN one-shot,128,0.926,1.0,0.795,0.889,0.6950000000000001,1.0
+countergan_one_shot,CounterGAN one-shot,256,0.9615,1.0,0.88,0.9165,0.745,1.0
+countergan_one_shot,CounterGAN one-shot,512,0.972,1.0,0.9199999999999999,0.9195,0.75,1.0
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,64,0.768,0.94,0.61,0.6095,0.095,1.0
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,128,0.9945,1.0,0.975,0.776,0.155,1.0
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,256,1.0,1.0,1.0,0.7849999999999999,0.135,1.0
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,512,1.0,1.0,1.0,0.8160000000000001,0.19,1.0
+dice_gradient_style,Custom DiCE-style gradient,64,0.0305,0.305,0.0,0.011,0.0,1.0
+dice_gradient_style,Custom DiCE-style gradient,128,0.076,0.76,0.0,0.0545,0.0,1.0
+dice_gradient_style,Custom DiCE-style gradient,256,0.1015,0.99,0.0,0.101,0.0,1.0
+dice_gradient_style,Custom DiCE-style gradient,512,0.10200000000000001,1.0,0.0,0.1015,0.0,1.0
+genetic_cfe,Budget-matched genetic CFE,64,0.895,0.99,0.7549999999999999,0.752,0.16,1.0
+genetic_cfe,Budget-matched genetic CFE,128,0.9935,0.995,0.99,0.8255000000000001,0.175,1.0
+genetic_cfe,Budget-matched genetic CFE,256,1.0,1.0,1.0,0.8825000000000001,0.29500000000000004,1.0
+genetic_cfe,Budget-matched genetic CFE,512,1.0,1.0,1.0,0.901,0.405,1.0
+proposed_countergan,CounterGAN + iterative black-box search,64,0.89,1.0,0.7,0.852,0.62,1.0
+proposed_countergan,CounterGAN + iterative black-box search,128,1.0,1.0,1.0,0.9575,0.81,1.0
+proposed_countergan,CounterGAN + iterative black-box search,256,1.0,1.0,1.0,0.96,0.8,1.0
+proposed_countergan,CounterGAN + iterative black-box search,512,1.0,1.0,1.0,0.9610000000000001,0.78,1.0
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,64,0.844,0.9550000000000001,0.705,0.6565,0.175,1.0
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,128,0.9984999999999999,1.0,0.995,0.776,0.195,1.0
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,256,1.0,1.0,1.0,0.7909999999999999,0.19999999999999998,1.0
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,512,1.0,1.0,1.0,0.7725,0.18,1.0
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,64,0.983,1.0,0.96,0.821,0.315,1.0
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,128,1.0,1.0,1.0,0.833,0.305,1.0
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,256,1.0,1.0,1.0,0.8285,0.31,1.0
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,512,1.0,1.0,1.0,0.8155000000000001,0.22500000000000003,1.0
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,64,0.956,0.99,0.88,0.7615000000000001,0.23,1.0
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,128,1.0,1.0,1.0,0.7635000000000001,0.18,1.0
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,256,1.0,1.0,1.0,0.7765000000000001,0.195,1.0
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,512,1.0,1.0,1.0,0.7845,0.15500000000000003,1.0
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,64,0.8714999999999999,0.97,0.76,0.675,0.16,1.0
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,128,0.9975,1.0,0.99,0.7689999999999999,0.155,1.0
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,256,1.0,1.0,1.0,0.7655000000000001,0.135,1.0
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,512,1.0,1.0,1.0,0.7585,0.14,1.0
+uniform_random,Uniform constrained random,64,0.895,0.99,0.7549999999999999,0.752,0.16,1.0
+uniform_random,Uniform constrained random,128,0.9935,1.0,0.99,0.8275,0.155,1.0
+uniform_random,Uniform constrained random,256,0.999,1.0,0.995,0.8380000000000001,0.13,1.0
+uniform_random,Uniform constrained random,512,1.0,1.0,1.0,0.836,0.155,1.0
+wachter_style,Custom Wachter-style gradient,64,0.0305,0.305,0.0,0.011,0.0,1.0
+wachter_style,Custom Wachter-style gradient,128,0.076,0.76,0.0,0.0545,0.0,1.0
+wachter_style,Custom Wachter-style gradient,256,0.101,0.99,0.0,0.1005,0.0,1.0
+wachter_style,Custom Wachter-style gradient,512,0.1015,1.0,0.0,0.101,0.0,1.0

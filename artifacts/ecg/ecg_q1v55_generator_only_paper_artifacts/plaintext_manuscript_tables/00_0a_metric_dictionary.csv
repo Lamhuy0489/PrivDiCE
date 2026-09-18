@@ -1,0 +1,22 @@
+group,metric,preferred_direction,definition
+MLP,Accuracy,higher,correct predictions / all test rows
+MLP,F1,higher,harmonic mean of precision and recall
+MLP,F2,higher,recall-weighted F score
+MLP,ROC-AUC,higher,ranking discrimination across thresholds
+MLP,PR-AUC,higher,precision-recall area for imbalance
+CFE,Valid-CFE yield,higher,valid feasible returned / requested K; missing slots fail
+CFE,Coverage@1,higher,fraction of factuals with at least one valid CFE
+CFE,Full-K success,higher,fraction of factuals returning all requested K
+CFE,Robust completeness,higher,valid-CFE yield retained under perturbation
+CFE,Proximity,lower,normalized factual-to-CFE distance
+CFE,Feature sparsity,higher,fraction of processed features unchanged
+CFE,Group sparsity,higher,fraction of semantic feature groups unchanged
+CFE,Diversity,higher,within-factual separation among returned CFEs
+CFE,Plausibility distance,lower,distance from real development-data support
+CFE,Plausibility inlier rate,higher,fraction accepted as inliers by the fitted detector
+CFE,Target data support,higher,support near real rows of the desired class
+CFE,Changed-set Dice,higher,stability/overlap of changed feature sets
+Privacy,MIA AUC,target 0.5,membership-inference ranking AUC
+Privacy,MIA advantage,lower,TPR minus FPR at the calibration-selected threshold
+Privacy,DCR / NNDR,higher,distance-to-closest-record diagnostics
+Search,Time/rounds/candidates to K-or-cap,lower,failures retained at the declared cap

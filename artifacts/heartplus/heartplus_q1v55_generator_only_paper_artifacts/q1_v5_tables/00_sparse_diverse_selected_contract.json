@@ -1,0 +1,32 @@
+{
+  "dataset": "heartplus",
+  "protocol": "Q1_V55_GENERATOR_ONLY_ONE_SEED_PAPER",
+  "profile": "balanced",
+  "epsilon_panel": [
+    16,
+    8,
+    4,
+    2
+  ],
+  "candidate_budget": 1024,
+  "k": 10,
+  "population": 128,
+  "maximum_rounds": 8,
+  "group_off_threshold": 0.06,
+  "feature_off_threshold": 0.03,
+  "mmr_weight": 4.0,
+  "proximity_weight": 0.15,
+  "sparsity_weight": 0.45,
+  "base_fraction": 0.5,
+  "selection_rule": "inner macro noninferiority gates, then utility/sparse/diverse/robust score; direction gap is reported but not optimized",
+  "selection_fallback": false,
+  "selection_scope": "inner validation only",
+  "population_selection_scope": "prospectively frozen from V5.4 inner validation plus HE round cost",
+  "population_yield_tolerance": 0.02,
+  "outer_test_used_for_selection": false,
+  "search_plausibility_source": "none; generator-only deployment",
+  "raw_training_knn_used_during_dp_search": false,
+  "discriminator_released_or_queried_at_inference": false,
+  "pruning_stage": "inside search before counted oracle call",
+  "full_budget_then_mmr": true
+}

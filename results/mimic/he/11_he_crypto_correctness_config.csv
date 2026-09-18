@@ -1,0 +1,6 @@
+population,profile_name,poly_modulus_degree,slot_count,slot_utilization,coeff_mod_bit_sizes,coeff_mod_total_bits,tc128_max_coeff_mod_bits,global_scale_bits,feature_ciphertexts_uploaded,logit_ciphertexts_downloaded,max_abs_logit_error_median,plaintext_he_label_agreement_median,all_repetitions_pass_gate,security_validation
+32,poly_n16384_scale40,16384,8192,0.00390625,"[50, 40, 40, 40, 40, 40, 50]",300,438,40,40,1,0.0004985027699504485,1.0,True,SEAL TC128 default validation; total modulus bits within bound
+64,poly_n16384_scale40,16384,8192,0.0078125,"[50, 40, 40, 40, 40, 40, 50]",300,438,40,40,1,0.001908834117614333,1.0,True,SEAL TC128 default validation; total modulus bits within bound
+128,poly_n16384_scale40,16384,8192,0.015625,"[50, 40, 40, 40, 40, 40, 50]",300,438,40,40,1,0.002084014443298088,1.0,True,SEAL TC128 default validation; total modulus bits within bound
+256,poly_n16384_scale40,16384,8192,0.03125,"[50, 40, 40, 40, 40, 40, 50]",300,438,40,40,1,0.0033893945554126503,1.0,True,SEAL TC128 default validation; total modulus bits within bound
+512,poly_n16384_scale40,16384,8192,0.0625,"[50, 40, 40, 40, 40, 40, 50]",300,438,40,40,1,0.003635985185297841,1.0,True,SEAL TC128 default validation; total modulus bits within bound

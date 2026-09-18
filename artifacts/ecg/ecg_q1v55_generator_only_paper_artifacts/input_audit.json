@@ -1,0 +1,32 @@
+{
+  "path": "/kaggle/input/datasets/REDACTED_KAGGLE_OWNER/heart-ecg/ecg_beats_features_selected_20.csv",
+  "sha256": "ffa8482f426ca0fdb6055f745610e88befe7e0cb36889a0bd2678dfe7bca5a9b",
+  "source_csv_rows": 113846,
+  "usable_model_rows": 113846,
+  "dropped_rows": 0,
+  "rows": 113846,
+  "raw_features": 20,
+  "class_counts": {
+    "0": 37153,
+    "1": 76693
+  },
+  "processed_inputs": 20,
+  "split": {
+    "kind": "subject-disjoint",
+    "outer": {
+      "candidate": 271,
+      "score": 0.015239871160244944
+    },
+    "inner": {
+      "candidate": 27,
+      "score": 0.10832789159822012
+    },
+    "smoke_row_cap": false,
+    "train_rows": 69023,
+    "valid_rows": 22069,
+    "test_rows": 22754,
+    "train_positive_rate": 0.6775567564435043,
+    "valid_positive_rate": 0.6578911595450632,
+    "test_positive_rate": 0.6771117166212534
+  }
+}

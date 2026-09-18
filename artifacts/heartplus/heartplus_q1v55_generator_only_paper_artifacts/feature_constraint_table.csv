@@ -1,0 +1,24 @@
+processed_feature,immutable,generation_low,generation_high
+PhysicalHealth,False,-5.0,5.0
+MentalHealth,False,-5.0,5.0
+SleepTime,False,-2.696511,2.483413
+BMI,False,-2.5619848,2.5743892
+GenHealth,False,-1.0,1.0
+AgeCategory,True,-1.0,1.0
+Diabetic,True,-1.0,1.0
+Smoking,False,-1.0,1.0
+Sex,True,0.0,1.0
+PhysicalActivity,False,0.0,1.0
+Stroke,True,0.0,1.0
+Asthma,True,0.0,1.0
+SkinCancer,True,0.0,1.0
+AlcoholDrinking,False,0.0,1.0
+KidneyDisease,True,0.0,1.0
+DiffWalking,False,0.0,1.0
+Race_White,True,0.0,1.0
+Race_Black,True,0.0,1.0
+Race_Hispanic,True,0.0,1.0
+Race_Asian,True,0.0,1.0
+Race_American Indian/Alaskan Native,True,0.0,1.0
+Race_Multiracial,True,0.0,1.0
+Race_Other,True,0.0,1.0

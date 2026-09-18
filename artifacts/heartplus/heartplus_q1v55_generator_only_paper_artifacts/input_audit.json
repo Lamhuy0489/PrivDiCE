@@ -1,0 +1,32 @@
+{
+  "path": "/kaggle/input/datasets/REDACTED_KAGGLE_OWNER/heart-max/merged_data.csv",
+  "sha256": "8c3611f95469b3a06fe33628c2d82283dc3571b57bd0ff9b8c5c63ec44dac27e",
+  "source_csv_rows": 764927,
+  "usable_model_rows": 761862,
+  "dropped_rows": 3065,
+  "rows": 761862,
+  "raw_features": 17,
+  "class_counts": {
+    "0": 709381,
+    "1": 52481
+  },
+  "processed_inputs": 23,
+  "split": {
+    "kind": "exact-feature-group-disjoint",
+    "outer": {
+      "candidate": 350,
+      "score": 5.287979789311836e-05
+    },
+    "inner": {
+      "candidate": 1,
+      "score": 0.00021415157755527714
+    },
+    "smoke_row_cap": false,
+    "train_rows": 487675,
+    "valid_rows": 121825,
+    "test_rows": 152362,
+    "train_positive_rate": 0.06888193981647614,
+    "valid_positive_rate": 0.06891032218345988,
+    "test_positive_rate": 0.06887544138302201
+  }
+}

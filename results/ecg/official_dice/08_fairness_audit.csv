@@ -1,0 +1,9 @@
+item,matched,detail
+outer-test factual cohort,True,same frozen query IDs; 100 per direction
+desired-label directions,True,disease->no disease and no disease->disease reported separately
+classifier/preprocessor,True,checksum-locked V5.5 checkpoint and fitted transform
+K / margin / constraints,True,"K=10, logit margin=0.10, same DomainProjector"
+failure denominator,True,timeout and no-CF remain zero-yield factuals
+random seed count,True,"one predeclared baseline seed (11), matching one-seed V5.5 scope"
+candidate/query budget,False,official DiCE native controls differ; runtime and controls reported
+model training,True,none repeated; accepted frozen artifacts reused

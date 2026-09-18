@@ -1,0 +1,18 @@
+raw_predictor,encoding,processed_inputs,input_count
+Sex,"binary scalar in {0,1}",Sex,1
+GenHealth,"ordered scalar in [-1,1]",GenHealth,1
+PhysicalHealth,quantile scalar,PhysicalHealth,1
+MentalHealth,quantile scalar,MentalHealth,1
+PhysicalActivity,"binary scalar in {0,1}",PhysicalActivity,1
+SleepTime,quantile scalar,SleepTime,1
+Stroke,"binary scalar in {0,1}",Stroke,1
+Asthma,"binary scalar in {0,1}",Asthma,1
+SkinCancer,"binary scalar in {0,1}",SkinCancer,1
+Diabetic,"ordered scalar in [-1,1]",Diabetic,1
+BMI,quantile scalar,BMI,1
+AlcoholDrinking,"binary scalar in {0,1}",AlcoholDrinking,1
+Race,7-way one-hot (no dropped level),Race_White | Race_Black | Race_Hispanic | Race_Asian | Race_American Indian/Alaskan Native | Race_Multiracial | Race_Other,7
+AgeCategory,"ordered scalar in [-1,1]",AgeCategory,1
+KidneyDisease,"binary scalar in {0,1}",KidneyDisease,1
+Smoking,"ordered scalar in [-1,1]",Smoking,1
+DiffWalking,"binary scalar in {0,1}",DiffWalking,1

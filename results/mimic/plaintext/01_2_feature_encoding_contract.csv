@@ -1,0 +1,38 @@
+raw_predictor,encoding,processed_inputs,input_count
+gender,one-hot drop-first; reference=F; levels=2,gender_M,1
+anchor_age,quantile scalar,anchor_age,1
+BUN_Mean,quantile scalar,BUN_Mean,1
+Creatinine_Mean,quantile scalar,Creatinine_Mean,1
+Glucose_Mean,quantile scalar,Glucose_Mean,1
+Hemoglobin_Mean,quantile scalar,Hemoglobin_Mean,1
+Potassium_Mean,quantile scalar,Potassium_Mean,1
+Sodium_Mean,quantile scalar,Sodium_Mean,1
+WBC_Mean,quantile scalar,WBC_Mean,1
+BUN_Min,quantile scalar,BUN_Min,1
+Creatinine_Min,quantile scalar,Creatinine_Min,1
+Glucose_Min,quantile scalar,Glucose_Min,1
+Potassium_Min,quantile scalar,Potassium_Min,1
+Sodium_Min,quantile scalar,Sodium_Min,1
+WBC_Min,quantile scalar,WBC_Min,1
+BUN_Max,quantile scalar,BUN_Max,1
+Creatinine_Max,quantile scalar,Creatinine_Max,1
+Glucose_Max,quantile scalar,Glucose_Max,1
+Hemoglobin_Max,quantile scalar,Hemoglobin_Max,1
+Potassium_Max,quantile scalar,Potassium_Max,1
+Sodium_Max,quantile scalar,Sodium_Max,1
+WBC_Max,quantile scalar,WBC_Max,1
+DiasBP_Mean,quantile scalar,DiasBP_Mean,1
+HeartRate_Mean,quantile scalar,HeartRate_Mean,1
+RespRate_Mean,quantile scalar,RespRate_Mean,1
+SpO2_Mean,quantile scalar,SpO2_Mean,1
+SysBP_Mean,quantile scalar,SysBP_Mean,1
+DiasBP_Min,quantile scalar,DiasBP_Min,1
+HeartRate_Min,quantile scalar,HeartRate_Min,1
+RespRate_Min,quantile scalar,RespRate_Min,1
+SpO2_Min,quantile scalar,SpO2_Min,1
+SysBP_Min,quantile scalar,SysBP_Min,1
+DiasBP_Max,quantile scalar,DiasBP_Max,1
+HeartRate_Max,quantile scalar,HeartRate_Max,1
+RespRate_Max,quantile scalar,RespRate_Max,1
+SysBP_Max,quantile scalar,SysBP_Max,1
+race_group,one-hot drop-first; reference=Asian; levels=5,race_group_Black | race_group_Hispanic | race_group_Other | race_group_White,4

@@ -1,0 +1,23 @@
+{
+  "complete": true,
+  "completed_queries": 200,
+  "requested_queries": 200,
+  "raw_metric_rows": 3200,
+  "elapsed_wall_seconds": 1204.2384989230004,
+  "robustness_repetitions": 8,
+  "methods": [
+    "uniform_random",
+    "genetic_cfe",
+    "dice_gradient_style",
+    "wachter_style"
+  ],
+  "budgets": [
+    64,
+    128,
+    256,
+    512
+  ],
+  "method_seeds": [
+    11
+  ]
+}

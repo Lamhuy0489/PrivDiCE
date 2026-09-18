@@ -1,0 +1,37 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+.ipynb_checkpoints/
+
+# Historical drafts and unused assets are retained locally but are not part of
+# the reproducibility release.
+Old/
+figures/*.png
+images/*.png
+images/*.jpg
+images/fig_privdice_offline_tikz.tex
+images/fig_privdice_online_tikz.tex
+
+# Never publish credentials or access-controlled MIMIC-derived files.
+kaggle.json
+credentials/
+**/mimic_icu_mortality_cfe_12671.csv
+artifacts/mimic/*.zip
+
+# Do not add loose checkpoints/preprocessors outside the curated public-data
+# artifact directories. The extracted ECG/Heart+ run records are intentional.
+*.pt
+*.pth
+*.joblib
+!artifacts/**/*.pt
+!artifacts/**/*.pth
+!artifacts/**/*.joblib

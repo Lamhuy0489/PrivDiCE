@@ -1,0 +1,4 @@
+split,rows,class_0,class_1,positive_prevalence,sum_check
+outer_development_train,9122,5295,3827,0.41953518965139225,9122
+inner_validation,1014,589,425,0.41913214990138065,1014
+outer_test,2535,1472,1063,0.4193293885601578,2535

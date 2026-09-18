@@ -1,0 +1,15 @@
+{
+  "protocol": "Q1_V55_OFFICIAL_DICE_EXTENSION_PAPER",
+  "dataset": "heartplus",
+  "source_acceptance_protocol": "Q1_V55_GENERATOR_ONLY_ONE_SEED_PAPER",
+  "source_accepted": true,
+  "source_paper_numbers": true,
+  "source_manifest_sha256": "24a972acf8c123e515d736706aa3ded6cdbaedf1e4dcf3b8102fee3a5444f419",
+  "classifier_sha256": "058799fd83c89564c5e9bf8f841b854d91e1d549030fa8e6e43e9ad346c2d290",
+  "preprocessor_sha256": "e438c8538f005aacfa5796614e5361b1b8b2eca1b71b812a09c1c2badc093900",
+  "query_manifest_sha256": "f70d27859821faccde623768da1d273a9ceb21570adb69b07fb4f0828221fa68",
+  "all_handoff_checksums_match": true,
+  "mlp_retrained": false,
+  "gan_retrained": false,
+  "dp_training_or_accountant_changed": false
+}

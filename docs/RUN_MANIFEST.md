@@ -1,0 +1,23 @@
+# Canonical run manifest
+
+These are the nine accepted runs used by the one-seed manuscript. `Local notebook` identifies the checked-in source snapshot. `Canonical output` identifies the acceptance record and, where redistribution is allowed, the fully extracted artifact directory. External account identifiers requested for removal are omitted; the account-neutral kernel slug and local notebook remain recorded.
+
+| Dataset | Stage | Kaggle kernel | Local notebook | Canonical output | Kaggle visibility at audit |
+| --- | --- | --- | --- | --- | --- |
+| Leipzig ECG | Plaintext | `leipzig-ecg-q1-v5-5-gen-only-one-seed-paper-t4` | `notebooks/ecg/plaintext/leipzig-ecg-q1-v5-5-gen-only-one-seed-paper-t4.ipynb` | `results/ecg/plaintext/v55_paper_acceptance.json`; `artifacts/ecg/ecg_q1v55_generator_only_paper_artifacts/` | Public in downloaded metadata |
+| Leipzig ECG | Official DiCE | `leipzig-ecg-v5-5-official-dice-extension-paper-sav` | `notebooks/ecg/official_dice/leipzig-ecg-v5-5-official-dice-extension-paper-sav.ipynb` | `results/ecg/official_dice/official_dice_extension_acceptance.json`; `artifacts/ecg/ecg_official_dice_extension_paper_artifacts/` | Public in downloaded metadata |
+| Leipzig ECG | HE | `leipzig-ecg-v5-5-he-population-paper` | `notebooks/ecg/he/leipzig-ecg-v5-5-he-population-paper.ipynb` | `results/ecg/he/12_he_acceptance.json`; `artifacts/ecg/ecg_q1_v55_he_population_paper_artifacts/` | Public in downloaded metadata |
+| Heart+ | Plaintext | `heart-q1-v5-5-gen-only-one-seed-paper-t4` | `notebooks/heartplus/plaintext/heart-q1-v5-5-gen-only-one-seed-paper-t4.ipynb` | `results/heartplus/plaintext/v55_paper_acceptance.json`; `artifacts/heartplus/heartplus_q1v55_generator_only_paper_artifacts/` | Public in downloaded metadata |
+| Heart+ | Official DiCE | `heart-v5-5-official-dice-extension-paper` | `notebooks/heartplus/official_dice/heart-v5-5-official-dice-extension-paper.ipynb` (executed 20-second paper version) | `results/heartplus/official_dice/official_dice_extension_acceptance.json`; `artifacts/heartplus/heartplus_official_dice_extension_paper_artifacts/` | Private in downloaded metadata; local record complete |
+| Heart+ | HE | `heart-v5-5-he-population-paper` | `notebooks/heartplus/he/heart-v5-5-he-population-paper.ipynb` | `results/heartplus/he/12_he_acceptance.json`; `artifacts/heartplus/heartplus_q1_v55_he_population_paper_artifacts/` | Public in downloaded metadata |
+| MIMIC-IV | Plaintext | [buiquocviet/mimic-iv-q1-v5-5-gen-only-one-seed-paper-t4](https://www.kaggle.com/code/buiquocviet/mimic-iv-q1-v5-5-gen-only-one-seed-paper-t4) | `notebooks/mimic/plaintext/mimic-iv-q1-v5-5-gen-only-one-seed-paper-t4.ipynb` | `results/mimic/plaintext/v55_paper_acceptance.json`; aggregate tables only | Public |
+| MIMIC-IV | Official DiCE | [buiquocviet/mimic-iv-v5-5-official-dice-extension-paper](https://www.kaggle.com/code/buiquocviet/mimic-iv-v5-5-official-dice-extension-paper) | `notebooks/mimic/official_dice/mimic-iv-v5-5-official-dice-extension-paper.ipynb` | `results/mimic/official_dice/official_dice_extension_acceptance.json`; aggregate tables only | **Private; action required** |
+| MIMIC-IV | HE | [buiquocviet/mimic-iv-v5-5-he-population-paper](https://www.kaggle.com/code/buiquocviet/mimic-iv-v5-5-he-population-paper) | `notebooks/mimic/he/mimic-iv-v5-5-he-population-paper.ipynb` | `results/mimic/he/12_he_acceptance.json`; aggregate tables only | Public |
+
+## Acceptance summary
+
+- Plaintext: three `Q1_V55_GENERATOR_ONLY_ONE_SEED_PAPER` artifacts; generator seed `[11]`, search seed `[11]`, 100 factuals/direction, both directions, 8,800 per-factual rows/dataset.
+- Official DiCE: three `Q1_V55_OFFICIAL_DICE_EXTENSION_PAPER` artifacts; 200 exact factuals and 400 method rows/dataset; no MLP/GAN retraining; timeout/no-CF retained.
+- HE: three `Q1_V55_HE_POPULATION_PAPER` artifacts; CPU-only; real TenSEAL ciphertext; 3 candidate cohorts × 5 repeats/population; correctness and boundary gates passed.
+
+Eight `.ipynb` files are source-only snapshots; the manually saved Heart+ Official DiCE paper notebook retains outputs. The acceptance JSON, aggregate CSVs, and extracted permitted artifacts remain the canonical output record.

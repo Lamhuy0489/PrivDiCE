@@ -1,0 +1,102 @@
+\documentclass[11pt]{letter}
+
+\usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage{microtype}
+
+\address{
+Anh-Tu Tran\\
+Faculty of Mathematics and Informatics\\
+Hanoi University of Science and Technology\\
+Hanoi, Vietnam
+}
+
+\begin{document}
+
+\begin{letter}{
+Editor-in-Chief\\
+\textit{Knowledge-Based Systems}
+}
+
+\opening{Dear Editor,}
+
+We are pleased to submit our manuscript entitled
+\textbf{``PrivDiCE: Privacy-Preserving Actionable Counterfactual Explanations
+with Differential Privacy and Homomorphic Encryption''}
+for consideration for publication in \textit{Knowledge-Based Systems}.
+
+Counterfactual explanations are increasingly used to provide actionable
+information about machine learning decisions, but their generation can create
+privacy risks at multiple stages. Existing approaches typically address
+counterfactual quality, training-data privacy, or secure inference separately.
+In this work, we propose \textbf{PrivDiCE}, a unified framework that explicitly
+addresses two complementary privacy surfaces. Differential privacy is used to
+limit the influence of sensitive training records on the released
+counterfactual generator, while CKKS homomorphic encryption protects client
+records and candidate counterfactuals during remote model evaluation.
+
+Beyond integrating these privacy mechanisms, PrivDiCE introduces a semantic
+sparse and diverse search procedure that preserves immutable attributes,
+enforces feature and group constraints, and selects multiple feasible
+counterfactual explanations under controlled candidate budgets. The framework
+therefore considers privacy together with actionability, sparsity, diversity,
+robustness, and computational cost rather than treating privacy as an
+independent post-processing step.
+
+We conduct a bidirectional evaluation on Leipzig ECG, Heart+, and MIMIC-IV.
+The study compares PrivDiCE with random, genetic, gradient-based, Wachter-style,
+CounterGAN, and official DiCE baselines. It further evaluates empirical privacy
+through membership inference, memorization, attribute inference, and
+explanation-linkage analyses. Encrypted inference is implemented using real
+TenSEAL CKKS execution and evaluated in terms of numerical agreement,
+latency, communication overhead, memory use, and ciphertext packing.
+
+The experiments show that PrivDiCE can provide highly sparse and feasible
+counterfactual explanations while maintaining strong counterfactual
+availability on Leipzig ECG and MIMIC-IV. Heart+ reveals a more challenging
+and direction-dependent privacy--utility tradeoff. At the primary privacy
+setting, membership-inference performance remains close to random
+discrimination, while the broader privacy analysis identifies residual risks
+that are not captured by membership inference alone. CKKS evaluation achieves
+complete label agreement with plaintext inference on the evaluated candidate
+cohorts, although homomorphic model evaluation remains the principal
+computational bottleneck.
+
+We believe the manuscript is well aligned with the scope of
+\textit{Knowledge-Based Systems} because it contributes a methodological
+framework for trustworthy and explainable machine learning, with particular
+emphasis on actionable decision support, privacy-preserving knowledge
+extraction, and secure model deployment. The work also provides a
+multi-objective evaluation protocol that may be useful for the broader study
+of privacy-preserving explainable AI systems.
+
+We confirm that this manuscript is original, has not been published previously,
+and is not under consideration for publication elsewhere. All authors have
+approved the manuscript and agree with its submission to
+\textit{Knowledge-Based Systems}. The authors declare no competing interests.
+
+Thank you for considering our manuscript. We appreciate your time and look
+forward to your response.
+
+\vspace{0.6cm}
+
+\noindent Sincerely,
+
+\vspace{0.05cm}
+
+\noindent
+\includegraphics[width=3.2cm]{sig.png}
+
+\vspace{-0.15cm}
+
+\noindent
+\textbf{Anh-Tu Tran}\\
+Corresponding Author\\
+Faculty of Mathematics and Informatics\\
+Hanoi University of Science and Technology\\
+Hanoi, Vietnam\\
+Email: tu.trananh@hust.edu.vn
+
+\end{letter}
+
+\end{document}

@@ -1,0 +1,26 @@
+{
+  "complete": true,
+  "completed_queries": 200,
+  "requested_queries": 200,
+  "raw_metric_rows": 5600,
+  "elapsed_wall_seconds": 6197.582167879999,
+  "robustness_repetitions": 8,
+  "methods": [
+    "countergan_one_shot",
+    "proposed_countergan",
+    "countergan_sparse_diverse_no_dp",
+    "proposed_dp_eps16_sparse_diverse",
+    "proposed_dp_eps8_sparse_diverse",
+    "proposed_dp_eps4_sparse_diverse",
+    "proposed_dp_eps2_sparse_diverse"
+  ],
+  "budgets": [
+    64,
+    128,
+    256,
+    512
+  ],
+  "method_seeds": [
+    11
+  ]
+}

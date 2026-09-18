@@ -1,0 +1,25 @@
+{
+  "id": "buiquocviet/mimic-iv-v5-5-official-dice-extension-paper",
+  "id_no": 131736051,
+  "title": "MIMIC-IV V5.5 Official DiCE Extension Paper",
+  "code_file": "mimic-iv-v5-5-official-dice-extension-paper.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "healthcare"
+  ],
+  "dataset_sources": [
+    "meanalways/mimiciv-full"
+  ],
+  "kernel_sources": [
+    "buiquocviet/mimic-iv-q1-v5-5-gen-only-one-seed-paper-t4"
+  ],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+  "machine_shape": "NvidiaTeslaT4"
+}

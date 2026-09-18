@@ -1,0 +1,6 @@
+dataset,variant,attack,metric,mean,sd,ci95_low,ci95_high,attack_seeds
+heartplus,countergan,released_discriminator_score,evaluation_auc,0.49466555,0.0142794491732582,0.4861796712500001,0.5027935299999999,10
+heartplus,dp_eps16,released_discriminator_score,evaluation_auc,0.4990077499999999,0.0132464303309944,0.49081582625,0.50642797625,10
+heartplus,dp_eps2,released_discriminator_score,evaluation_auc,0.50058075,0.0124293043544725,0.49279223625,0.50716545625,10
+heartplus,dp_eps4,released_discriminator_score,evaluation_auc,0.4994400499999999,0.0123786898527042,0.49216072875,0.5064777187499999,10
+heartplus,dp_eps8,released_discriminator_score,evaluation_auc,0.5023334499999998,0.0115910206205062,0.49478045,0.5084585225,10

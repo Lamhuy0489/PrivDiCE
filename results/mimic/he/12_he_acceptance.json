@@ -1,0 +1,38 @@
+{
+  "protocol": "Q1_V55_HE_POPULATION_PAPER",
+  "dataset": "mimic",
+  "run_mode": "paper",
+  "accepted": true,
+  "paper_numbers": true,
+  "checks": {
+    "accepted_plaintext_v55_source": true,
+    "paper_plaintext_source": true,
+    "all_handoff_checksums_match": true,
+    "cpu_only_kernel": true,
+    "all_population_timing_gates": true,
+    "all_direction_and_source_correctness_gates": true,
+    "boundary_stress_gate": true,
+    "selected_population_present": true,
+    "secret_key_client_only": true,
+    "dropout_absent_from_he_graph": true,
+    "sigmoid_client_side_only": true
+  },
+  "profile_name": "poly_n16384_scale40",
+  "population_grid": [
+    32,
+    64,
+    128,
+    256,
+    512
+  ],
+  "selected_population": 64,
+  "candidate_budget": 512,
+  "candidate_cohort_seeds": [
+    101,
+    202,
+    303
+  ],
+  "timing_repetitions_per_cohort": 5,
+  "minimum_label_agreement": 0.99,
+  "maximum_abs_logit_error": 0.025
+}

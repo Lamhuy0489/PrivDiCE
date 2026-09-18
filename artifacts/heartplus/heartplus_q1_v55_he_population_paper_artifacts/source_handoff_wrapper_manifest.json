@@ -1,0 +1,14 @@
+{
+  "protocol": "Q1_V55_HE_POPULATION_PAPER",
+  "dataset": "heartplus",
+  "source_acceptance_protocol": "Q1_V55_GENERATOR_ONLY_ONE_SEED_PAPER",
+  "source_accepted": true,
+  "source_paper_numbers": true,
+  "source_training_manifest_protocol_verbatim": "Q1_V55_GENERATOR_ONLY_ONE_SEED_PAPER",
+  "original_training_manifest_sha256": "24a972acf8c123e515d736706aa3ded6cdbaedf1e4dcf3b8102fee3a5444f419",
+  "classifier_sha256": "058799fd83c89564c5e9bf8f841b854d91e1d549030fa8e6e43e9ad346c2d290",
+  "frozen_release_sha256": "02b598dca0403457268b8a854eb2a924fc283e75d89a95be46ee6ba9fafad403",
+  "all_original_handoff_checksums_match": true,
+  "mimic_legacy_manifest_label_disclosed": true,
+  "source_was_modified": false
+}

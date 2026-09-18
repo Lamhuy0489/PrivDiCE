@@ -1,0 +1,925 @@
+method,method_label,candidate_budget,metric,equal_direction_macro_mean,clustered_bootstrap_ci95_low,clustered_bootstrap_ci95_high,n_factuals
+countergan_one_shot,CounterGAN one-shot,64,valid_cfe_yield_at_k,0.89,0.8674249999999999,0.9145,200
+countergan_one_shot,CounterGAN one-shot,64,coverage_at_1,1.0,1.0,1.0,200
+countergan_one_shot,CounterGAN one-shot,64,full_k_success,0.7,0.64475,0.755,200
+countergan_one_shot,CounterGAN one-shot,64,robust_completeness_at_k,0.8520000000000001,0.822925,0.876,200
+countergan_one_shot,CounterGAN one-shot,64,robust_full_k_success,0.62,0.55475,0.672625,200
+countergan_one_shot,CounterGAN one-shot,64,proximity,0.10905654273927212,0.10556676422385498,0.11257105140434577,200
+countergan_one_shot,CounterGAN one-shot,64,sparsity,0.16583719135802472,0.1580768435846561,0.17477966820987653,200
+countergan_one_shot,CounterGAN one-shot,64,group_sparsity,0.16583719135802472,0.15665621141975308,0.17747527281746028,200
+countergan_one_shot,CounterGAN one-shot,64,diversity,0.034602210726588964,0.03360677441349253,0.03543887557508424,200
+countergan_one_shot,CounterGAN one-shot,64,plausibility,0.44238746605363954,0.4328222065598741,0.45462723483427964,200
+countergan_one_shot,CounterGAN one-shot,64,plausibility_distance,0.44238746605363954,0.4336290090620206,0.4518241741723551,200
+countergan_one_shot,CounterGAN one-shot,64,plausibility_inlier_rate,0.1555515873015873,0.12429484126984129,0.18877792658730158,200
+countergan_one_shot,CounterGAN one-shot,64,target_data_support,0.5853138888888889,0.5542209027777778,0.6080133333333333,200
+countergan_one_shot,CounterGAN one-shot,64,local_surrogate_fidelity,0.8604241307861996,0.8512315028043475,0.8692582638944706,200
+countergan_one_shot,CounterGAN one-shot,64,fidelity,0.8604241307861996,0.8511718614080682,0.8691320353178111,200
+countergan_one_shot,CounterGAN one-shot,64,changed_set_dice,0.9696681951936674,0.9676943735057987,0.9714208418114474,200
+countergan_one_shot,CounterGAN one-shot,64,constraint_validity,1.0,1.0,1.0,200
+countergan_one_shot,CounterGAN one-shot,64,mean_target_logit_margin,6.476328887343406,6.170813765570521,6.823905568912625,200
+countergan_one_shot,CounterGAN one-shot,64,generation_time_to_k_or_cap_seconds,0.04540932948994396,0.044970739819717095,0.045906455914121805,200
+countergan_one_shot,CounterGAN one-shot,64,candidate_evaluations,64.0,64.0,64.0,200
+countergan_one_shot,CounterGAN one-shot,64,rounds_used,1.0,1.0,1.0,200
+countergan_one_shot,CounterGAN one-shot,128,valid_cfe_yield_at_k,0.9260000000000002,0.9022375,0.94615,200
+countergan_one_shot,CounterGAN one-shot,128,coverage_at_1,1.0,1.0,1.0,200
+countergan_one_shot,CounterGAN one-shot,128,full_k_success,0.795,0.747375,0.845,200
+countergan_one_shot,CounterGAN one-shot,128,robust_completeness_at_k,0.889,0.8624500000000002,0.9142875,200
+countergan_one_shot,CounterGAN one-shot,128,robust_full_k_success,0.6950000000000001,0.645,0.747625,200
+countergan_one_shot,CounterGAN one-shot,128,proximity,0.10700367622077465,0.10363624620344489,0.10995428594714031,200
+countergan_one_shot,CounterGAN one-shot,128,sparsity,0.18816214726631397,0.17909919257054674,0.20011701113315697,200
+countergan_one_shot,CounterGAN one-shot,128,group_sparsity,0.18816214726631397,0.177961221340388,0.19910757826278655,200
+countergan_one_shot,CounterGAN one-shot,128,diversity,0.03517300963401794,0.03410910563613288,0.03595240228646435,200
+countergan_one_shot,CounterGAN one-shot,128,plausibility,0.44056611304460697,0.4308890443127568,0.45168019361745665,200
+countergan_one_shot,CounterGAN one-shot,128,plausibility_distance,0.44056611304460697,0.430999429562289,0.45469151152697185,200
+countergan_one_shot,CounterGAN one-shot,128,plausibility_inlier_rate,0.15259920634920635,0.1155375992063492,0.18490634920634919,200
+countergan_one_shot,CounterGAN one-shot,128,target_data_support,0.583570634920635,0.5584258531746032,0.6078857142857143,200
+countergan_one_shot,CounterGAN one-shot,128,local_surrogate_fidelity,0.866916445623342,0.858018425747305,0.8742785431681982,200
+countergan_one_shot,CounterGAN one-shot,128,fidelity,0.866916445623342,0.8578063754253408,0.8759856712572229,200
+countergan_one_shot,CounterGAN one-shot,128,changed_set_dice,0.9669570843519018,0.9649426015068722,0.9688860569224189,200
+countergan_one_shot,CounterGAN one-shot,128,constraint_validity,1.0,1.0,1.0,200
+countergan_one_shot,CounterGAN one-shot,128,mean_target_logit_margin,6.30606789469719,5.908217592790723,6.578608079731464,200
+countergan_one_shot,CounterGAN one-shot,128,generation_time_to_k_or_cap_seconds,0.04664455892005208,0.046281537000201066,0.04720987131923358,200
+countergan_one_shot,CounterGAN one-shot,128,candidate_evaluations,128.0,128.0,128.0,200
+countergan_one_shot,CounterGAN one-shot,128,rounds_used,1.0,1.0,1.0,200
+countergan_one_shot,CounterGAN one-shot,256,valid_cfe_yield_at_k,0.9615,0.947475,0.9772625,200
+countergan_one_shot,CounterGAN one-shot,256,coverage_at_1,1.0,1.0,1.0,200
+countergan_one_shot,CounterGAN one-shot,256,full_k_success,0.88,0.832375,0.9176249999999999,200
+countergan_one_shot,CounterGAN one-shot,256,robust_completeness_at_k,0.9165000000000001,0.8955,0.94105,200
+countergan_one_shot,CounterGAN one-shot,256,robust_full_k_success,0.745,0.69,0.8078749999999999,200
+countergan_one_shot,CounterGAN one-shot,256,proximity,0.10499207163229585,0.10129789456864818,0.10783346369210631,200
+countergan_one_shot,CounterGAN one-shot,256,sparsity,0.20716280864197534,0.19623003472222225,0.21598864638447968,200
+countergan_one_shot,CounterGAN one-shot,256,group_sparsity,0.20716280864197534,0.19573862709435624,0.2156188519620811,200
+countergan_one_shot,CounterGAN one-shot,256,diversity,0.03423057056032121,0.033449078931007535,0.03501172527740709,200
+countergan_one_shot,CounterGAN one-shot,256,plausibility,0.4398325474047512,0.4308481217611158,0.44960294674578327,200
+countergan_one_shot,CounterGAN one-shot,256,plausibility_distance,0.4398325474047512,0.42868251977371635,0.4495903371366823,200
+countergan_one_shot,CounterGAN one-shot,256,plausibility_inlier_rate,0.15450595238095238,0.1169375,0.18452604166666664,200
+countergan_one_shot,CounterGAN one-shot,256,target_data_support,0.5822876984126983,0.5596462500000001,0.6110865873015874,200
+countergan_one_shot,CounterGAN one-shot,256,local_surrogate_fidelity,0.867043922871509,0.8592359605113914,0.8781410593557144,200
+countergan_one_shot,CounterGAN one-shot,256,fidelity,0.867043922871509,0.8568756712795504,0.877847888924613,200
+countergan_one_shot,CounterGAN one-shot,256,changed_set_dice,0.9640728381383441,0.9612810161344866,0.9664912677191784,200
+countergan_one_shot,CounterGAN one-shot,256,constraint_validity,1.0,1.0,1.0,200
+countergan_one_shot,CounterGAN one-shot,256,mean_target_logit_margin,6.19767486512661,5.841103637233377,6.5416172075122585,200
+countergan_one_shot,CounterGAN one-shot,256,generation_time_to_k_or_cap_seconds,0.04875399677495352,0.0483416731036931,0.04917720793143087,200
+countergan_one_shot,CounterGAN one-shot,256,candidate_evaluations,256.0,256.0,256.0,200
+countergan_one_shot,CounterGAN one-shot,256,rounds_used,1.0,1.0,1.0,200
+countergan_one_shot,CounterGAN one-shot,512,valid_cfe_yield_at_k,0.972,0.9577375,0.9855,200
+countergan_one_shot,CounterGAN one-shot,512,coverage_at_1,1.0,1.0,1.0,200
+countergan_one_shot,CounterGAN one-shot,512,full_k_success,0.9199999999999999,0.89,0.95,200
+countergan_one_shot,CounterGAN one-shot,512,robust_completeness_at_k,0.9195,0.8967375000000001,0.9370249999999999,200
+countergan_one_shot,CounterGAN one-shot,512,robust_full_k_success,0.75,0.68975,0.8026249999999999,200
+countergan_one_shot,CounterGAN one-shot,512,proximity,0.10264540381729603,0.09806979715684429,0.10653681673249228,200
+countergan_one_shot,CounterGAN one-shot,512,sparsity,0.22695293209876544,0.21812867890211643,0.23529973820546735,200
+countergan_one_shot,CounterGAN one-shot,512,group_sparsity,0.22695293209876544,0.21562137070105822,0.23606803350970015,200
+countergan_one_shot,CounterGAN one-shot,512,diversity,0.03424022271297872,0.03323068242939189,0.03488468609447591,200
+countergan_one_shot,CounterGAN one-shot,512,plausibility,0.43840492242329365,0.42624330502591445,0.4508431904260228,200
+countergan_one_shot,CounterGAN one-shot,512,plausibility_distance,0.43840492242329365,0.4268383713047115,0.44711788255087154,200
+countergan_one_shot,CounterGAN one-shot,512,plausibility_inlier_rate,0.15143253968253967,0.11255664682539682,0.18428918650793646,200
+countergan_one_shot,CounterGAN one-shot,512,target_data_support,0.5804,0.5538900000000001,0.61052,200
+countergan_one_shot,CounterGAN one-shot,512,local_surrogate_fidelity,0.864664541078334,0.8536347593976903,0.8740335167546373,200
+countergan_one_shot,CounterGAN one-shot,512,fidelity,0.864664541078334,0.8538324608820297,0.8751738083755324,200
+countergan_one_shot,CounterGAN one-shot,512,changed_set_dice,0.9623696060646716,0.9594377301532448,0.9648481345372139,200
+countergan_one_shot,CounterGAN one-shot,512,constraint_validity,1.0,1.0,1.0,200
+countergan_one_shot,CounterGAN one-shot,512,mean_target_logit_margin,6.064569098353386,5.86686447006464,6.429918650746345,200
+countergan_one_shot,CounterGAN one-shot,512,generation_time_to_k_or_cap_seconds,0.05293867345994385,0.052389106564464896,0.05354359519741968,200
+countergan_one_shot,CounterGAN one-shot,512,candidate_evaluations,512.0,512.0,512.0,200
+countergan_one_shot,CounterGAN one-shot,512,rounds_used,1.0,1.0,1.0,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,64,valid_cfe_yield_at_k,0.768,0.7307125000000001,0.8055249999999999,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,64,coverage_at_1,0.94,0.902375,0.967625,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,64,full_k_success,0.61,0.557125,0.6902499999999999,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,64,robust_completeness_at_k,0.6095,0.567925,0.6432875000000001,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,64,robust_full_k_success,0.095,0.06,0.12762499999999996,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,64,proximity,0.07706115202300928,0.0735100357201035,0.07956068038518159,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,64,sparsity,0.6206098835578002,0.6032146913079205,0.6338632992875181,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,64,group_sparsity,0.6206098835578002,0.6044182274130191,0.635261327185546,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,64,diversity,0.037799059600484644,0.036198741718883286,0.03914225785349581,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,64,plausibility,0.48021780755772436,0.46834480156182584,0.4917854409676164,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,64,plausibility_distance,0.48021780755772436,0.468395985869193,0.4908616227668715,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,64,plausibility_inlier_rate,0.11646572871572872,0.09330247113997113,0.1455608676046176,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,64,target_data_support,0.5460526515151515,0.528783731060606,0.5677465972222223,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,64,local_surrogate_fidelity,0.8314456093366751,0.8189376074211693,0.8393664083768315,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,64,fidelity,0.8314456093366751,0.8193414242497313,0.8418307309998141,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,64,changed_set_dice,0.9579083978623424,0.9546857180749473,0.9614017849268512,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,64,constraint_validity,1.0,1.0,1.0,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,64,mean_target_logit_margin,3.3976968356154185,3.178127844081683,3.663459675586359,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,64,generation_time_to_k_or_cap_seconds,0.23875877579506777,0.23547621682782255,0.24223677953888842,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,64,candidate_evaluations,64.0,64.0,64.0,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,64,rounds_used,1.0,1.0,1.0,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,128,valid_cfe_yield_at_k,0.9945,0.9892375,0.999,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,128,coverage_at_1,1.0,1.0,1.0,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,128,full_k_success,0.975,0.9550000000000001,0.99,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,128,robust_completeness_at_k,0.776,0.7562375000000001,0.797525,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,128,robust_full_k_success,0.155,0.11499999999999999,0.20262499999999997,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,128,proximity,0.07754927854984998,0.07501954877050593,0.08016562318988145,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,128,sparsity,0.663359126984127,0.6533845486111113,0.6747678819444445,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,128,group_sparsity,0.663359126984127,0.6511750000000001,0.6734496031746031,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,128,diversity,0.058073692806065086,0.05597761036269367,0.059669471499975764,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,128,plausibility,0.5386677991814581,0.5295241383182435,0.5521307673652559,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,128,plausibility_distance,0.5386677991814581,0.5286080240399419,0.5520990135302554,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,128,plausibility_inlier_rate,0.06725,0.05,0.08477499999999999,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,128,target_data_support,0.5417750000000001,0.527824375,0.55977625,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,128,local_surrogate_fidelity,0.8390820673579292,0.8303333534281808,0.8486560967767864,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,128,fidelity,0.8390820673579292,0.8297616801302145,0.8496600102483722,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,128,changed_set_dice,0.9511735206869798,0.9488617407160849,0.9539846716825862,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,128,constraint_validity,1.0,1.0,1.0,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,128,mean_target_logit_margin,4.586060257554054,4.344331198871135,4.897771582916378,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,128,generation_time_to_k_or_cap_seconds,0.48406160941000054,0.48081529379004895,0.4875778304090069,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,128,candidate_evaluations,128.0,128.0,128.0,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,128,rounds_used,2.0,2.0,2.0,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,256,valid_cfe_yield_at_k,1.0,1.0,1.0,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,256,coverage_at_1,1.0,1.0,1.0,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,256,full_k_success,1.0,1.0,1.0,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,256,robust_completeness_at_k,0.7850000000000001,0.7692375,0.8017625,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,256,robust_full_k_success,0.135,0.087375,0.185,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,256,proximity,0.07685859961435199,0.07369513180712238,0.08055329080158845,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,256,sparsity,0.7157222222222221,0.7044493055555555,0.7238819444444445,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,256,group_sparsity,0.7157222222222221,0.7050597222222221,0.7248548611111112,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,256,diversity,0.06627799464389682,0.0637866324763745,0.06925926041323692,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,256,plausibility,0.587816573107753,0.5745080765656541,0.6035163695060386,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,256,plausibility_distance,0.587816573107753,0.572931709510843,0.599293376939685,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,256,plausibility_inlier_rate,0.0605,0.04449999999999999,0.082,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,256,target_data_support,0.5354,0.52518,0.549565,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,256,local_surrogate_fidelity,0.848181818181818,0.8407348484848484,0.8609242424242424,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,256,fidelity,0.848181818181818,0.8352878787878786,0.8596477272727272,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,256,changed_set_dice,0.9393244652086483,0.9362276760653482,0.9425304918664271,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,256,constraint_validity,1.0,1.0,1.0,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,256,mean_target_logit_margin,5.90401211798191,5.6261775847226385,6.314051114022731,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,256,generation_time_to_k_or_cap_seconds,0.9835463696149283,0.9784854907158621,0.9884732156819072,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,256,candidate_evaluations,256.0,256.0,256.0,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,256,rounds_used,4.0,4.0,4.0,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,512,valid_cfe_yield_at_k,1.0,1.0,1.0,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,512,coverage_at_1,1.0,1.0,1.0,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,512,full_k_success,1.0,1.0,1.0,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,512,robust_completeness_at_k,0.8160000000000001,0.79795,0.8392875000000002,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,512,robust_full_k_success,0.19,0.122125,0.24,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,512,proximity,0.07039686940610408,0.06783869503671304,0.07272763471631334,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,512,sparsity,0.7735277777777777,0.7617180555555556,0.7840159722222223,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,512,group_sparsity,0.7735277777777777,0.7635555555555557,0.7812569444444446,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,512,diversity,0.06894610695540905,0.06571530394954607,0.07134535045688972,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,512,plausibility,0.6262278081124701,0.6101636254598332,0.6423387717647178,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,512,plausibility_distance,0.6262278081124701,0.6114431679775713,0.6434540899120079,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,512,plausibility_inlier_rate,0.0385,0.027737500000000002,0.05478749999999999,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,512,target_data_support,0.5137,0.49978000000000006,0.526715,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,512,local_surrogate_fidelity,0.847121212121212,0.8358143939393938,0.8586515151515149,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,512,fidelity,0.847121212121212,0.8361325757575757,0.8572159090909091,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,512,changed_set_dice,0.9199783716080607,0.9152932748865865,0.9240799752561708,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,512,constraint_validity,1.0,1.0,1.0,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,512,mean_target_logit_margin,7.161614862084389,6.681995166808367,7.908683346882462,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,512,generation_time_to_k_or_cap_seconds,2.008068377634936,1.999252706354657,2.017233766358959,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,512,candidate_evaluations,512.0,512.0,512.0,200
+countergan_sparse_diverse_no_dp,CounterGAN non-DP + identical counted sparse-diverse search,512,rounds_used,8.0,8.0,8.0,200
+dice_gradient_style,Custom DiCE-style gradient,64,valid_cfe_yield_at_k,0.030500000000000003,0.0245,0.037500000000000006,200
+dice_gradient_style,Custom DiCE-style gradient,64,coverage_at_1,0.305,0.24,0.38262499999999994,200
+dice_gradient_style,Custom DiCE-style gradient,64,full_k_success,0.0,0.0,0.0,200
+dice_gradient_style,Custom DiCE-style gradient,64,robust_completeness_at_k,0.011,0.006500000000000001,0.014762499999999996,200
+dice_gradient_style,Custom DiCE-style gradient,64,robust_full_k_success,0.0,0.0,0.0,200
+dice_gradient_style,Custom DiCE-style gradient,64,proximity,0.02163470977446645,0.02043738310011254,0.022771428532582978,200
+dice_gradient_style,Custom DiCE-style gradient,64,sparsity,0.8353942652329748,0.8111051373954599,0.8554734169653524,200
+dice_gradient_style,Custom DiCE-style gradient,64,group_sparsity,0.8353942652329748,0.8098752986857826,0.8606130525686977,200
+dice_gradient_style,Custom DiCE-style gradient,64,diversity,0.0,0.0,0.0,200
+dice_gradient_style,Custom DiCE-style gradient,64,plausibility,0.39251835797822854,0.3654580603555685,0.4277345702185997,200
+dice_gradient_style,Custom DiCE-style gradient,64,plausibility_distance,0.39251835797822854,0.36300722036367833,0.4269066933890798,200
+dice_gradient_style,Custom DiCE-style gradient,64,plausibility_inlier_rate,0.26344086021505375,0.1489247311827957,0.37798387096774194,200
+dice_gradient_style,Custom DiCE-style gradient,64,target_data_support,0.34838709677419355,0.2870967741935484,0.41459677419354835,200
+dice_gradient_style,Custom DiCE-style gradient,64,local_surrogate_fidelity,0.8364143920595533,0.8171339950372207,0.8545745450785773,200
+dice_gradient_style,Custom DiCE-style gradient,64,fidelity,0.8364143920595533,0.8183633167907362,0.8561672870140611,200
+dice_gradient_style,Custom DiCE-style gradient,64,changed_set_dice,0.44077169373142416,0.41585395091909827,0.47054409952672205,200
+dice_gradient_style,Custom DiCE-style gradient,64,constraint_validity,1.0,1.0,1.0,200
+dice_gradient_style,Custom DiCE-style gradient,64,mean_target_logit_margin,1.1950142886049004,0.9933089816570282,1.4156927618160042,200
+dice_gradient_style,Custom DiCE-style gradient,64,generation_time_to_k_or_cap_seconds,0.050377284709984455,0.0500819107716087,0.050686939402593,200
+dice_gradient_style,Custom DiCE-style gradient,64,candidate_evaluations,64.0,64.0,64.0,200
+dice_gradient_style,Custom DiCE-style gradient,64,rounds_used,1.0,1.0,1.0,200
+dice_gradient_style,Custom DiCE-style gradient,128,valid_cfe_yield_at_k,0.07599999999999998,0.06997499999999998,0.08102499999999999,200
+dice_gradient_style,Custom DiCE-style gradient,128,coverage_at_1,0.76,0.7150000000000001,0.8126249999999999,200
+dice_gradient_style,Custom DiCE-style gradient,128,full_k_success,0.0,0.0,0.0,200
+dice_gradient_style,Custom DiCE-style gradient,128,robust_completeness_at_k,0.05449999999999999,0.04873749999999999,0.061499999999999985,200
+dice_gradient_style,Custom DiCE-style gradient,128,robust_full_k_success,0.0,0.0,0.0,200
+dice_gradient_style,Custom DiCE-style gradient,128,proximity,0.037049119472904235,0.036111593322968615,0.037903026264422914,200
+dice_gradient_style,Custom DiCE-style gradient,128,sparsity,0.05206093189964158,0.04365591397849464,0.060348466746316214,200
+dice_gradient_style,Custom DiCE-style gradient,128,group_sparsity,0.05206093189964158,0.04251070290720829,0.06177543807248107,200
+dice_gradient_style,Custom DiCE-style gradient,128,diversity,0.0,0.0,0.0,200
+dice_gradient_style,Custom DiCE-style gradient,128,plausibility,0.4218476737452236,0.4010740611170165,0.4403905099815159,200
+dice_gradient_style,Custom DiCE-style gradient,128,plausibility_distance,0.4218476737452236,0.40595494145753275,0.4363462923579595,200
+dice_gradient_style,Custom DiCE-style gradient,128,plausibility_inlier_rate,0.11648745519713262,0.06781810035842294,0.16738351254480288,200
+dice_gradient_style,Custom DiCE-style gradient,128,target_data_support,0.3305017921146953,0.3007912186379928,0.36201344086021503,200
+dice_gradient_style,Custom DiCE-style gradient,128,local_surrogate_fidelity,0.8872690929142542,0.8760873311276537,0.900982905982906,200
+dice_gradient_style,Custom DiCE-style gradient,128,fidelity,0.8872690929142542,0.876001688723463,0.8965936035290875,200
+dice_gradient_style,Custom DiCE-style gradient,128,changed_set_dice,0.9496846842005537,0.9427600109940104,0.9560845450496013,200
+dice_gradient_style,Custom DiCE-style gradient,128,constraint_validity,1.0,1.0,1.0,200
+dice_gradient_style,Custom DiCE-style gradient,128,mean_target_logit_margin,2.917845810826961,2.6507228280865593,3.1711935575375843,200
+dice_gradient_style,Custom DiCE-style gradient,128,generation_time_to_k_or_cap_seconds,0.05923812310002631,0.0588306299021367,0.05965459495252719,200
+dice_gradient_style,Custom DiCE-style gradient,128,candidate_evaluations,128.0,128.0,128.0,200
+dice_gradient_style,Custom DiCE-style gradient,128,rounds_used,1.0,1.0,1.0,200
+dice_gradient_style,Custom DiCE-style gradient,256,valid_cfe_yield_at_k,0.10149999999999998,0.09923749999999998,0.10499999999999998,200
+dice_gradient_style,Custom DiCE-style gradient,256,coverage_at_1,0.99,0.975,1.0,200
+dice_gradient_style,Custom DiCE-style gradient,256,full_k_success,0.0,0.0,0.0,200
+dice_gradient_style,Custom DiCE-style gradient,256,robust_completeness_at_k,0.10099999999999998,0.09899999999999998,0.10402499999999998,200
+dice_gradient_style,Custom DiCE-style gradient,256,robust_full_k_success,0.0,0.0,0.0,200
+dice_gradient_style,Custom DiCE-style gradient,256,proximity,0.05920063464503203,0.057607347412205925,0.06051743753386509,200
+dice_gradient_style,Custom DiCE-style gradient,256,sparsity,0.03810657596371883,0.030918225623582773,0.04592403628117912,200
+dice_gradient_style,Custom DiCE-style gradient,256,group_sparsity,0.03810657596371883,0.031672052154195024,0.04671853741496599,200
+dice_gradient_style,Custom DiCE-style gradient,256,diversity,0.0007361454452026864,0.00013303140829298266,0.0013085468610444535,200
+dice_gradient_style,Custom DiCE-style gradient,256,plausibility,0.4871067306941762,0.47232990814821557,0.5006254019921847,200
+dice_gradient_style,Custom DiCE-style gradient,256,plausibility_distance,0.4871067306941762,0.47058914245841144,0.5016760812188152,200
+dice_gradient_style,Custom DiCE-style gradient,256,plausibility_inlier_rate,0.07642857142857143,0.04829336734693878,0.10966581632653057,200
+dice_gradient_style,Custom DiCE-style gradient,256,target_data_support,0.31812244897959185,0.2720530612244898,0.34517499999999995,200
+dice_gradient_style,Custom DiCE-style gradient,256,local_surrogate_fidelity,0.9044348508634223,0.8964200353218212,0.9115404238618525,200
+dice_gradient_style,Custom DiCE-style gradient,256,fidelity,0.9044348508634223,0.8949994113029828,0.9132013343799058,200
+dice_gradient_style,Custom DiCE-style gradient,256,changed_set_dice,0.9940891145374411,0.9923683657377522,0.9954187029749412,200
+dice_gradient_style,Custom DiCE-style gradient,256,constraint_validity,1.0,1.0,1.0,200
+dice_gradient_style,Custom DiCE-style gradient,256,mean_target_logit_margin,6.980376793851658,6.803950435803861,7.167966024390289,200
+dice_gradient_style,Custom DiCE-style gradient,256,generation_time_to_k_or_cap_seconds,0.07679831181998452,0.07625434454972617,0.0772817984411422,200
+dice_gradient_style,Custom DiCE-style gradient,256,candidate_evaluations,256.0,256.0,256.0,200
+dice_gradient_style,Custom DiCE-style gradient,256,rounds_used,1.0,1.0,1.0,200
+dice_gradient_style,Custom DiCE-style gradient,512,valid_cfe_yield_at_k,0.10199999999999998,0.10049999999999998,0.10376249999999998,200
+dice_gradient_style,Custom DiCE-style gradient,512,coverage_at_1,1.0,1.0,1.0,200
+dice_gradient_style,Custom DiCE-style gradient,512,full_k_success,0.0,0.0,0.0,200
+dice_gradient_style,Custom DiCE-style gradient,512,robust_completeness_at_k,0.10149999999999998,0.09923749999999998,0.10349999999999998,200
+dice_gradient_style,Custom DiCE-style gradient,512,robust_full_k_success,0.0,0.0,0.0,200
+dice_gradient_style,Custom DiCE-style gradient,512,proximity,0.07250816807150841,0.07026815718458965,0.07473538922565058,200
+dice_gradient_style,Custom DiCE-style gradient,512,sparsity,0.04777777777777778,0.03861111111111112,0.05764583333333334,200
+dice_gradient_style,Custom DiCE-style gradient,512,group_sparsity,0.04777777777777778,0.039534722222222235,0.055597222222222215,200
+dice_gradient_style,Custom DiCE-style gradient,512,diversity,0.0006895050778985023,0.00016907207667827607,0.0013721026228740811,200
+dice_gradient_style,Custom DiCE-style gradient,512,plausibility,0.5308030794103742,0.5153068591972529,0.5483719865632499,200
+dice_gradient_style,Custom DiCE-style gradient,512,plausibility_distance,0.5308030794103742,0.5137233913855495,0.5457139656313925,200
+dice_gradient_style,Custom DiCE-style gradient,512,plausibility_inlier_rate,0.055,0.03,0.095,200
+dice_gradient_style,Custom DiCE-style gradient,512,target_data_support,0.3255,0.2807125,0.3703125,200
+dice_gradient_style,Custom DiCE-style gradient,512,local_surrogate_fidelity,0.9253846153846155,0.9195144230769232,0.933269230769231,200
+dice_gradient_style,Custom DiCE-style gradient,512,fidelity,0.9253846153846155,0.9165288461538462,0.9335625000000001,200
+dice_gradient_style,Custom DiCE-style gradient,512,changed_set_dice,0.9942997344848941,0.992736814776104,0.9959913809171623,200
+dice_gradient_style,Custom DiCE-style gradient,512,constraint_validity,1.0,1.0,1.0,200
+dice_gradient_style,Custom DiCE-style gradient,512,mean_target_logit_margin,10.396379945278166,10.257867156088352,10.572145171642305,200
+dice_gradient_style,Custom DiCE-style gradient,512,generation_time_to_k_or_cap_seconds,0.10988775218001137,0.10947957535387741,0.11036849172315885,200
+dice_gradient_style,Custom DiCE-style gradient,512,candidate_evaluations,512.0,512.0,512.0,200
+dice_gradient_style,Custom DiCE-style gradient,512,rounds_used,1.0,1.0,1.0,200
+genetic_cfe,Budget-matched genetic CFE,64,valid_cfe_yield_at_k,0.895,0.859225,0.9257624999999999,200
+genetic_cfe,Budget-matched genetic CFE,64,coverage_at_1,0.99,0.97,1.0,200
+genetic_cfe,Budget-matched genetic CFE,64,full_k_success,0.7549999999999999,0.69475,0.81,200
+genetic_cfe,Budget-matched genetic CFE,64,robust_completeness_at_k,0.752,0.719425,0.7788375000000002,200
+genetic_cfe,Budget-matched genetic CFE,64,robust_full_k_success,0.16,0.115,0.22,200
+genetic_cfe,Budget-matched genetic CFE,64,proximity,0.08766297622374734,0.0863828458821553,0.08911570914680784,200
+genetic_cfe,Budget-matched genetic CFE,64,sparsity,0.16110269994241083,0.15448723280648238,0.1669477423806824,200
+genetic_cfe,Budget-matched genetic CFE,64,group_sparsity,0.16110269994241083,0.15532975127551021,0.16844894376732172,200
+genetic_cfe,Budget-matched genetic CFE,64,diversity,0.10647455049716696,0.10475361345381458,0.10797389364136117,200
+genetic_cfe,Budget-matched genetic CFE,64,plausibility,0.6287134982586724,0.61766849065099,0.6415659339658107,200
+genetic_cfe,Budget-matched genetic CFE,64,plausibility_distance,0.6287134982586724,0.6156224054898397,0.6422131770191,200
+genetic_cfe,Budget-matched genetic CFE,64,plausibility_inlier_rate,0.01813605442176871,0.008564965986394559,0.02764804421768707,200
+genetic_cfe,Budget-matched genetic CFE,64,target_data_support,0.3742477891156463,0.34785746173469395,0.39453221513605435,200
+genetic_cfe,Budget-matched genetic CFE,64,local_surrogate_fidelity,0.8474847839626163,0.8369419968942753,0.8572832915920968,200
+genetic_cfe,Budget-matched genetic CFE,64,fidelity,0.8474847839626163,0.8369259049425306,0.8578564241929388,200
+genetic_cfe,Budget-matched genetic CFE,64,changed_set_dice,0.966906367787004,0.9655521404156543,0.9681156057870385,200
+genetic_cfe,Budget-matched genetic CFE,64,constraint_validity,1.0,1.0,1.0,200
+genetic_cfe,Budget-matched genetic CFE,64,mean_target_logit_margin,4.79487412121223,4.575164501684661,4.971818549185079,200
+genetic_cfe,Budget-matched genetic CFE,64,generation_time_to_k_or_cap_seconds,0.04499622856999849,0.044625762461252404,0.04538573900000199,200
+genetic_cfe,Budget-matched genetic CFE,64,candidate_evaluations,64.0,64.0,64.0,200
+genetic_cfe,Budget-matched genetic CFE,64,rounds_used,1.0,1.0,1.0,200
+genetic_cfe,Budget-matched genetic CFE,128,valid_cfe_yield_at_k,0.9935,0.9802375,1.0,200
+genetic_cfe,Budget-matched genetic CFE,128,coverage_at_1,0.995,0.985,1.0,200
+genetic_cfe,Budget-matched genetic CFE,128,full_k_success,0.99,0.98,1.0,200
+genetic_cfe,Budget-matched genetic CFE,128,robust_completeness_at_k,0.8255000000000001,0.7966625,0.8458125000000001,200
+genetic_cfe,Budget-matched genetic CFE,128,robust_full_k_success,0.175,0.13237500000000002,0.23,200
+genetic_cfe,Budget-matched genetic CFE,128,proximity,0.08221224684192978,0.08133755614116525,0.08323708532593505,200
+genetic_cfe,Budget-matched genetic CFE,128,sparsity,0.23426507134840466,0.2290756673881674,0.24128728655603657,200
+genetic_cfe,Budget-matched genetic CFE,128,group_sparsity,0.23426507134840466,0.22740504349046017,0.24145613876863875,200
+genetic_cfe,Budget-matched genetic CFE,128,diversity,0.09761755240648383,0.09643799772521838,0.0986154682299856,200
+genetic_cfe,Budget-matched genetic CFE,128,plausibility,0.6169270186455129,0.6080068142276834,0.6272480581268881,200
+genetic_cfe,Budget-matched genetic CFE,128,plausibility_distance,0.6169270186455129,0.6083100355856393,0.6257185667553777,200
+genetic_cfe,Budget-matched genetic CFE,128,plausibility_inlier_rate,0.02672222222222222,0.015356565656565657,0.03655353535353535,200
+genetic_cfe,Budget-matched genetic CFE,128,target_data_support,0.3789600288600289,0.3566624314574315,0.40500452020202016,200
+genetic_cfe,Budget-matched genetic CFE,128,local_surrogate_fidelity,0.842377378803711,0.8328543546752794,0.8508687027009909,200
+genetic_cfe,Budget-matched genetic CFE,128,fidelity,0.842377378803711,0.8319855807289191,0.8530593434343432,200
+genetic_cfe,Budget-matched genetic CFE,128,changed_set_dice,0.9570297739447748,0.9553609404102819,0.958480697647896,200
+genetic_cfe,Budget-matched genetic CFE,128,constraint_validity,1.0,1.0,1.0,200
+genetic_cfe,Budget-matched genetic CFE,128,mean_target_logit_margin,5.100319176689543,4.884968611680348,5.316260546105378,200
+genetic_cfe,Budget-matched genetic CFE,128,generation_time_to_k_or_cap_seconds,0.09030488698503178,0.08969333471153983,0.09081611674606803,200
+genetic_cfe,Budget-matched genetic CFE,128,candidate_evaluations,128.0,128.0,128.0,200
+genetic_cfe,Budget-matched genetic CFE,128,rounds_used,2.0,2.0,2.0,200
+genetic_cfe,Budget-matched genetic CFE,256,valid_cfe_yield_at_k,1.0,1.0,1.0,200
+genetic_cfe,Budget-matched genetic CFE,256,coverage_at_1,1.0,1.0,1.0,200
+genetic_cfe,Budget-matched genetic CFE,256,full_k_success,1.0,1.0,1.0,200
+genetic_cfe,Budget-matched genetic CFE,256,robust_completeness_at_k,0.8825000000000002,0.8665000000000003,0.8965000000000003,200
+genetic_cfe,Budget-matched genetic CFE,256,robust_full_k_success,0.29500000000000004,0.245,0.3552499999999999,200
+genetic_cfe,Budget-matched genetic CFE,256,proximity,0.07893294902518391,0.07756944311223923,0.08028285563969983,200
+genetic_cfe,Budget-matched genetic CFE,256,sparsity,0.3091666666666667,0.30104027777777775,0.3157090277777778,200
+genetic_cfe,Budget-matched genetic CFE,256,group_sparsity,0.3091666666666667,0.30153958333333336,0.31599444444444447,200
+genetic_cfe,Budget-matched genetic CFE,256,diversity,0.08860820403322578,0.08729374475404619,0.08989697012724354,200
+genetic_cfe,Budget-matched genetic CFE,256,plausibility,0.6202373584347052,0.6097034493857183,0.6302908436646512,200
+genetic_cfe,Budget-matched genetic CFE,256,plausibility_distance,0.6202373584347052,0.6101943329737206,0.6299691226132295,200
+genetic_cfe,Budget-matched genetic CFE,256,plausibility_inlier_rate,0.024,0.014450000000000001,0.0357625,200
+genetic_cfe,Budget-matched genetic CFE,256,target_data_support,0.39020000000000005,0.36502249999999997,0.4181525,200
+genetic_cfe,Budget-matched genetic CFE,256,local_surrogate_fidelity,0.859242424242424,0.8520416666666665,0.8687159090909089,200
+genetic_cfe,Budget-matched genetic CFE,256,fidelity,0.859242424242424,0.8515643939393938,0.867583333333333,200
+genetic_cfe,Budget-matched genetic CFE,256,changed_set_dice,0.9454672081348583,0.9441605703298921,0.9472230839089528,200
+genetic_cfe,Budget-matched genetic CFE,256,constraint_validity,1.0,1.0,1.0,200
+genetic_cfe,Budget-matched genetic CFE,256,mean_target_logit_margin,5.937392964363099,5.719956537812949,6.244228957176207,200
+genetic_cfe,Budget-matched genetic CFE,256,generation_time_to_k_or_cap_seconds,0.1859395588800089,0.18475261406139076,0.1871154372974877,200
+genetic_cfe,Budget-matched genetic CFE,256,candidate_evaluations,256.0,256.0,256.0,200
+genetic_cfe,Budget-matched genetic CFE,256,rounds_used,4.0,4.0,4.0,200
+genetic_cfe,Budget-matched genetic CFE,512,valid_cfe_yield_at_k,1.0,1.0,1.0,200
+genetic_cfe,Budget-matched genetic CFE,512,coverage_at_1,1.0,1.0,1.0,200
+genetic_cfe,Budget-matched genetic CFE,512,full_k_success,1.0,1.0,1.0,200
+genetic_cfe,Budget-matched genetic CFE,512,robust_completeness_at_k,0.9010000000000002,0.8900000000000001,0.9160000000000001,200
+genetic_cfe,Budget-matched genetic CFE,512,robust_full_k_success,0.405,0.337375,0.4728749999999999,200
+genetic_cfe,Budget-matched genetic CFE,512,proximity,0.07450069885700941,0.07305423097824677,0.07578228802513332,200
+genetic_cfe,Budget-matched genetic CFE,512,sparsity,0.41480555555555554,0.40769444444444447,0.42295486111111114,200
+genetic_cfe,Budget-matched genetic CFE,512,group_sparsity,0.41480555555555554,0.4081458333333334,0.42270902777777775,200
+genetic_cfe,Budget-matched genetic CFE,512,diversity,0.08063063500449061,0.07932306885207072,0.08229176193801686,200
+genetic_cfe,Budget-matched genetic CFE,512,plausibility,0.630582445263399,0.6190931086811464,0.6449623666550472,200
+genetic_cfe,Budget-matched genetic CFE,512,plausibility_distance,0.630582445263399,0.6170741073350028,0.6419927395041294,200
+genetic_cfe,Budget-matched genetic CFE,512,plausibility_inlier_rate,0.021,0.0125,0.0322625,200
+genetic_cfe,Budget-matched genetic CFE,512,target_data_support,0.39730000000000004,0.3744425000000001,0.4134050000000001,200
+genetic_cfe,Budget-matched genetic CFE,512,local_surrogate_fidelity,0.8737878787878786,0.8643787878787877,0.8820492424242423,200
+genetic_cfe,Budget-matched genetic CFE,512,fidelity,0.8737878787878786,0.8652234848484848,0.8853181818181817,200
+genetic_cfe,Budget-matched genetic CFE,512,changed_set_dice,0.9237901149990865,0.9208117763304219,0.9265264735331732,200
+genetic_cfe,Budget-matched genetic CFE,512,constraint_validity,1.0,1.0,1.0,200
+genetic_cfe,Budget-matched genetic CFE,512,mean_target_logit_margin,6.686678496599198,6.431984054476023,6.957215555787086,200
+genetic_cfe,Budget-matched genetic CFE,512,generation_time_to_k_or_cap_seconds,0.40883595293002145,0.4068715381877835,0.41079469460213763,200
+genetic_cfe,Budget-matched genetic CFE,512,candidate_evaluations,512.0,512.0,512.0,200
+genetic_cfe,Budget-matched genetic CFE,512,rounds_used,8.0,8.0,8.0,200
+proposed_countergan,CounterGAN + iterative black-box search,64,valid_cfe_yield_at_k,0.89,0.8684749999999999,0.9097624999999999,200
+proposed_countergan,CounterGAN + iterative black-box search,64,coverage_at_1,1.0,1.0,1.0,200
+proposed_countergan,CounterGAN + iterative black-box search,64,full_k_success,0.7,0.647375,0.75,200
+proposed_countergan,CounterGAN + iterative black-box search,64,robust_completeness_at_k,0.8520000000000001,0.8201875000000001,0.8817625,200
+proposed_countergan,CounterGAN + iterative black-box search,64,robust_full_k_success,0.62,0.557375,0.6852499999999999,200
+proposed_countergan,CounterGAN + iterative black-box search,64,proximity,0.10905654273927212,0.1057322799069807,0.11251452563516795,200
+proposed_countergan,CounterGAN + iterative black-box search,64,sparsity,0.16583719135802472,0.1574074707892416,0.17492322806437394,200
+proposed_countergan,CounterGAN + iterative black-box search,64,group_sparsity,0.16583719135802472,0.15743830742945325,0.17356280864197532,200
+proposed_countergan,CounterGAN + iterative black-box search,64,diversity,0.034602210726588964,0.033716804943513125,0.03527711618458852,200
+proposed_countergan,CounterGAN + iterative black-box search,64,plausibility,0.44238746605363954,0.43101171758712503,0.452243741150059,200
+proposed_countergan,CounterGAN + iterative black-box search,64,plausibility_distance,0.44238746605363954,0.4319058750205716,0.4542069898217751,200
+proposed_countergan,CounterGAN + iterative black-box search,64,plausibility_inlier_rate,0.1555515873015873,0.11861741071428573,0.18782301587301584,200
+proposed_countergan,CounterGAN + iterative black-box search,64,target_data_support,0.5853138888888889,0.5597093055555555,0.6106129166666667,200
+proposed_countergan,CounterGAN + iterative black-box search,64,local_surrogate_fidelity,0.8604241307861996,0.8500273513204547,0.8726771329564432,200
+proposed_countergan,CounterGAN + iterative black-box search,64,fidelity,0.8604241307861996,0.8505577445542962,0.8697329804454803,200
+proposed_countergan,CounterGAN + iterative black-box search,64,changed_set_dice,0.9696681951936674,0.9676705119916268,0.9716653047366781,200
+proposed_countergan,CounterGAN + iterative black-box search,64,constraint_validity,1.0,1.0,1.0,200
+proposed_countergan,CounterGAN + iterative black-box search,64,mean_target_logit_margin,6.476328887343406,6.13385453261435,6.850708296254277,200
+proposed_countergan,CounterGAN + iterative black-box search,64,generation_time_to_k_or_cap_seconds,0.045510643159964274,0.04527289719671546,0.04580596435766699,200
+proposed_countergan,CounterGAN + iterative black-box search,64,candidate_evaluations,64.0,64.0,64.0,200
+proposed_countergan,CounterGAN + iterative black-box search,64,rounds_used,1.0,1.0,1.0,200
+proposed_countergan,CounterGAN + iterative black-box search,128,valid_cfe_yield_at_k,1.0,1.0,1.0,200
+proposed_countergan,CounterGAN + iterative black-box search,128,coverage_at_1,1.0,1.0,1.0,200
+proposed_countergan,CounterGAN + iterative black-box search,128,full_k_success,1.0,1.0,1.0,200
+proposed_countergan,CounterGAN + iterative black-box search,128,robust_completeness_at_k,0.9575,0.9402375,0.969525,200
+proposed_countergan,CounterGAN + iterative black-box search,128,robust_full_k_success,0.81,0.752375,0.847625,200
+proposed_countergan,CounterGAN + iterative black-box search,128,proximity,0.11059064334258437,0.10768199620302767,0.11411140772886574,200
+proposed_countergan,CounterGAN + iterative black-box search,128,sparsity,0.1699722222222222,0.1633333333333333,0.17780277777777775,200
+proposed_countergan,CounterGAN + iterative black-box search,128,group_sparsity,0.1699722222222222,0.16188958333333334,0.17722569444444444,200
+proposed_countergan,CounterGAN + iterative black-box search,128,diversity,0.04513071957044303,0.04330696573737078,0.047275677198078486,200
+proposed_countergan,CounterGAN + iterative black-box search,128,plausibility,0.4578256589917189,0.4457945577201962,0.46801545481033807,200
+proposed_countergan,CounterGAN + iterative black-box search,128,plausibility_distance,0.4578256589917189,0.44386346171621677,0.4686138680034145,200
+proposed_countergan,CounterGAN + iterative black-box search,128,plausibility_inlier_rate,0.138,0.1031625,0.18133749999999996,200
+proposed_countergan,CounterGAN + iterative black-box search,128,target_data_support,0.582,0.553095,0.606335,200
+proposed_countergan,CounterGAN + iterative black-box search,128,local_surrogate_fidelity,0.8646969696969695,0.854371212121212,0.8730378787878785,200
+proposed_countergan,CounterGAN + iterative black-box search,128,fidelity,0.8646969696969695,0.8552954545454545,0.8727272727272726,200
+proposed_countergan,CounterGAN + iterative black-box search,128,changed_set_dice,0.9692542854482866,0.9668489223116028,0.9710806319608131,200
+proposed_countergan,CounterGAN + iterative black-box search,128,constraint_validity,1.0,1.0,1.0,200
+proposed_countergan,CounterGAN + iterative black-box search,128,mean_target_logit_margin,6.639255919456481,6.284686020180583,6.981813108965754,200
+proposed_countergan,CounterGAN + iterative black-box search,128,generation_time_to_k_or_cap_seconds,0.05915913746987826,0.05687703542884082,0.062134583446706415,200
+proposed_countergan,CounterGAN + iterative black-box search,128,candidate_evaluations,83.84,80.0,87.208,200
+proposed_countergan,CounterGAN + iterative black-box search,128,rounds_used,1.31,1.257375,1.367625,200
+proposed_countergan,CounterGAN + iterative black-box search,256,valid_cfe_yield_at_k,1.0,1.0,1.0,200
+proposed_countergan,CounterGAN + iterative black-box search,256,coverage_at_1,1.0,1.0,1.0,200
+proposed_countergan,CounterGAN + iterative black-box search,256,full_k_success,1.0,1.0,1.0,200
+proposed_countergan,CounterGAN + iterative black-box search,256,robust_completeness_at_k,0.9600000000000001,0.9422125,0.9707625000000001,200
+proposed_countergan,CounterGAN + iterative black-box search,256,robust_full_k_success,0.8,0.755,0.852625,200
+proposed_countergan,CounterGAN + iterative black-box search,256,proximity,0.11067284943535924,0.10705750861112029,0.11458516983501613,200
+proposed_countergan,CounterGAN + iterative black-box search,256,sparsity,0.17127777777777775,0.16438611111111112,0.1791659722222222,200
+proposed_countergan,CounterGAN + iterative black-box search,256,group_sparsity,0.17127777777777775,0.16398402777777776,0.17999027777777776,200
+proposed_countergan,CounterGAN + iterative black-box search,256,diversity,0.04493029711768031,0.042664772579679267,0.0467175072345417,200
+proposed_countergan,CounterGAN + iterative black-box search,256,plausibility,0.45880469834012383,0.4467510534108952,0.4690373920467272,200
+proposed_countergan,CounterGAN + iterative black-box search,256,plausibility_distance,0.45880469834012383,0.4481169714166535,0.4711929544055713,200
+proposed_countergan,CounterGAN + iterative black-box search,256,plausibility_inlier_rate,0.1395,0.10771250000000002,0.17005,200
+proposed_countergan,CounterGAN + iterative black-box search,256,target_data_support,0.5827,0.5551025,0.6145499999999999,200
+proposed_countergan,CounterGAN + iterative black-box search,256,local_surrogate_fidelity,0.8584848484848483,0.8501363636363635,0.8678939393939392,200
+proposed_countergan,CounterGAN + iterative black-box search,256,fidelity,0.8584848484848483,0.8487803030303028,0.8668484848484846,200
+proposed_countergan,CounterGAN + iterative black-box search,256,changed_set_dice,0.9688204395702207,0.9672034051363204,0.9707767415401956,200
+proposed_countergan,CounterGAN + iterative black-box search,256,constraint_validity,1.0,1.0,1.0,200
+proposed_countergan,CounterGAN + iterative black-box search,256,mean_target_logit_margin,6.65585067152977,6.38783634917438,6.980500246688724,200
+proposed_countergan,CounterGAN + iterative black-box search,256,generation_time_to_k_or_cap_seconds,0.058721089725004276,0.05603525905236358,0.061814351116130754,200
+proposed_countergan,CounterGAN + iterative black-box search,256,candidate_evaluations,83.52,79.36,87.208,200
+proposed_countergan,CounterGAN + iterative black-box search,256,rounds_used,1.305,1.2473750000000001,1.362625,200
+proposed_countergan,CounterGAN + iterative black-box search,512,valid_cfe_yield_at_k,1.0,1.0,1.0,200
+proposed_countergan,CounterGAN + iterative black-box search,512,coverage_at_1,1.0,1.0,1.0,200
+proposed_countergan,CounterGAN + iterative black-box search,512,full_k_success,1.0,1.0,1.0,200
+proposed_countergan,CounterGAN + iterative black-box search,512,robust_completeness_at_k,0.9610000000000001,0.9522375000000001,0.9695,200
+proposed_countergan,CounterGAN + iterative black-box search,512,robust_full_k_success,0.78,0.732375,0.8276249999999999,200
+proposed_countergan,CounterGAN + iterative black-box search,512,proximity,0.11101841099560261,0.10648824301734566,0.11428562508616597,200
+proposed_countergan,CounterGAN + iterative black-box search,512,sparsity,0.17124999999999999,0.16400833333333334,0.18125624999999998,200
+proposed_countergan,CounterGAN + iterative black-box search,512,group_sparsity,0.17124999999999999,0.16045,0.18008749999999998,200
+proposed_countergan,CounterGAN + iterative black-box search,512,diversity,0.04464924201369286,0.04267394409002736,0.046445610887371,200
+proposed_countergan,CounterGAN + iterative black-box search,512,plausibility,0.4583411589316345,0.4454725632005618,0.4680979435484532,200
+proposed_countergan,CounterGAN + iterative black-box search,512,plausibility_distance,0.4583411589316345,0.44850092627403865,0.4691385274077893,200
+proposed_countergan,CounterGAN + iterative black-box search,512,plausibility_inlier_rate,0.1395,0.1097125,0.18081250000000001,200
+proposed_countergan,CounterGAN + iterative black-box search,512,target_data_support,0.5811,0.55595,0.6056249999999999,200
+proposed_countergan,CounterGAN + iterative black-box search,512,local_surrogate_fidelity,0.8643939393939393,0.8547613636363635,0.8747499999999998,200
+proposed_countergan,CounterGAN + iterative black-box search,512,fidelity,0.8643939393939393,0.8538598484848484,0.8764015151515151,200
+proposed_countergan,CounterGAN + iterative black-box search,512,changed_set_dice,0.9688576058433889,0.9666584237770297,0.9704182090829174,200
+proposed_countergan,CounterGAN + iterative black-box search,512,constraint_validity,1.0,1.0,1.0,200
+proposed_countergan,CounterGAN + iterative black-box search,512,mean_target_logit_margin,6.776802322864532,6.415549673467875,7.083462467059492,200
+proposed_countergan,CounterGAN + iterative black-box search,512,generation_time_to_k_or_cap_seconds,0.05787085511500209,0.05544548761037947,0.06125506051091463,200
+proposed_countergan,CounterGAN + iterative black-box search,512,candidate_evaluations,82.24,79.192,85.94399999999999,200
+proposed_countergan,CounterGAN + iterative black-box search,512,rounds_used,1.285,1.2200000000000002,1.3376249999999998,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,64,valid_cfe_yield_at_k,0.8439999999999999,0.8132125,0.883575,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,64,coverage_at_1,0.9550000000000001,0.935,0.982625,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,64,full_k_success,0.705,0.637375,0.762625,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,64,robust_completeness_at_k,0.6565,0.6192375,0.6998374999999999,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,64,robust_full_k_success,0.175,0.13237500000000002,0.215,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,64,proximity,0.07906683140616745,0.07441701009847028,0.08657012684193024,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,64,sparsity,0.5824542294349058,0.5639018878772679,0.5998087672116456,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,64,group_sparsity,0.5824542294349058,0.5602208104027876,0.6060719312776855,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,64,diversity,0.04652472403091466,0.04487470274395504,0.04804214534491513,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,64,plausibility,0.48150621423823337,0.47201508280449755,0.49249800647067254,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,64,plausibility_distance,0.48150621423823337,0.47184862442186526,0.4940485959776834,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,64,plausibility_inlier_rate,0.05162004360373926,0.040011204827780915,0.06684138551665723,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,64,target_data_support,0.5577615745097629,0.523295278745007,0.5900596661708528,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,64,local_surrogate_fidelity,0.8315001020402106,0.8182142722310799,0.843185069107851,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,64,fidelity,0.8315001020402106,0.8212237349858501,0.8435629427681459,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,64,changed_set_dice,0.9583922024543181,0.9548755415413801,0.9611438936353239,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,64,constraint_validity,1.0,1.0,1.0,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,64,mean_target_logit_margin,4.115076105562307,3.6750899842540665,4.61903073512857,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,64,generation_time_to_k_or_cap_seconds,0.23865507061001606,0.23535530776011013,0.24192651598244275,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,64,candidate_evaluations,64.0,64.0,64.0,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,64,rounds_used,1.0,1.0,1.0,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,128,valid_cfe_yield_at_k,0.9984999999999999,0.9955,1.0,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,128,coverage_at_1,1.0,1.0,1.0,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,128,full_k_success,0.995,0.982375,1.0,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,128,robust_completeness_at_k,0.7760000000000001,0.7559750000000001,0.7950249999999999,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,128,robust_full_k_success,0.195,0.1295,0.24262499999999995,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,128,proximity,0.07729018786922097,0.07279374584392644,0.08102987882355228,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,128,sparsity,0.643,0.6270555555555555,0.6606444444444445,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,128,group_sparsity,0.643,0.6282201388888888,0.6559034722222222,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,128,diversity,0.0684097417537123,0.06575321885710582,0.07136424041120336,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,128,plausibility,0.5474669872293003,0.5336321257826292,0.5567202942860199,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,128,plausibility_distance,0.5474669872293003,0.5377048692524355,0.5586468150252405,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,128,plausibility_inlier_rate,0.039999999999999994,0.028237500000000002,0.05328749999999999,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,128,target_data_support,0.5306000000000001,0.507935,0.5522825,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,128,local_surrogate_fidelity,0.8387722048066875,0.8254318181818181,0.849617685475444,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,128,fidelity,0.8387722048066875,0.8283026384535005,0.851090909090909,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,128,changed_set_dice,0.9499657944439239,0.9460511519295223,0.953705002164884,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,128,constraint_validity,1.0,1.0,1.0,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,128,mean_target_logit_margin,5.020320446491242,4.618419719278813,5.45429793934524,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,128,generation_time_to_k_or_cap_seconds,0.48626316337502884,0.48275209465984215,0.48947525549131204,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,128,candidate_evaluations,128.0,128.0,128.0,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,128,rounds_used,2.0,2.0,2.0,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,256,valid_cfe_yield_at_k,1.0,1.0,1.0,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,256,coverage_at_1,1.0,1.0,1.0,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,256,full_k_success,1.0,1.0,1.0,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,256,robust_completeness_at_k,0.7910000000000001,0.771925,0.8110250000000001,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,256,robust_full_k_success,0.19999999999999998,0.145,0.25,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,256,proximity,0.07487427921034395,0.07112383546680212,0.07908897855714894,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,256,sparsity,0.7076944444444444,0.6940611111111111,0.72045625,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,256,group_sparsity,0.7076944444444444,0.6952840277777776,0.7231354166666667,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,256,diversity,0.07477934665977955,0.07116003700857983,0.07861745362891816,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,256,plausibility,0.599074933855043,0.5818303705856411,0.6141064726229176,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,256,plausibility_distance,0.599074933855043,0.5841389006812208,0.6138838936835158,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,256,plausibility_inlier_rate,0.044,0.03045,0.057525,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,256,target_data_support,0.5226999999999999,0.5008249999999999,0.5456525000000001,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,256,local_surrogate_fidelity,0.8422727272727271,0.8324886363636362,0.8530454545454544,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,256,fidelity,0.8422727272727271,0.8324242424242423,0.8536098484848484,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,256,changed_set_dice,0.9368697280418246,0.9335153003293071,0.9423732142125254,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,256,constraint_validity,1.0,1.0,1.0,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,256,mean_target_logit_margin,6.609252293109893,6.123692613720895,7.087970658272505,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,256,generation_time_to_k_or_cap_seconds,0.9844993134499282,0.9796726766899871,0.9886355833847966,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,256,candidate_evaluations,256.0,256.0,256.0,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,256,rounds_used,4.0,4.0,4.0,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,512,valid_cfe_yield_at_k,1.0,1.0,1.0,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,512,coverage_at_1,1.0,1.0,1.0,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,512,full_k_success,1.0,1.0,1.0,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,512,robust_completeness_at_k,0.7725000000000002,0.7497125,0.7949999999999999,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,512,robust_full_k_success,0.18,0.12237500000000001,0.24262499999999995,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,512,proximity,0.06781073439866304,0.06440858505899087,0.0723412080234848,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,512,sparsity,0.7676666666666667,0.759213888888889,0.7776659722222222,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,512,group_sparsity,0.7676666666666667,0.7564270833333334,0.7782458333333332,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,512,diversity,0.07296099245548249,0.0701470557381399,0.07613760937703773,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,512,plausibility,0.6328865688015999,0.6155647392528999,0.6489676740701442,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,512,plausibility_distance,0.6328865688015999,0.6116586698350803,0.652913094463949,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,512,plausibility_inlier_rate,0.04,0.026999999999999996,0.051762499999999996,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,512,target_data_support,0.4958000000000001,0.47758500000000004,0.5136525,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,512,local_surrogate_fidelity,0.8472727272727272,0.8384545454545453,0.8582840909090907,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,512,fidelity,0.8472727272727272,0.8371022727272726,0.8585454545454544,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,512,changed_set_dice,0.9188851813239507,0.9140760523958674,0.9237474265049661,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,512,constraint_validity,1.0,1.0,1.0,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,512,mean_target_logit_margin,7.3351561206579206,6.536231318488717,7.8579223468005654,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,512,generation_time_to_k_or_cap_seconds,2.0136966084099592,2.005327292070916,2.0196579083747324,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,512,candidate_evaluations,512.0,512.0,512.0,200
+proposed_dp_eps16_sparse_diverse,Unified DP-CounterGAN epsilon=16 + counted sparse-diverse search,512,rounds_used,8.0,8.0,8.0,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,64,valid_cfe_yield_at_k,0.983,0.9689749999999999,0.9937625,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,64,coverage_at_1,1.0,1.0,1.0,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,64,full_k_success,0.96,0.93475,0.98,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,64,robust_completeness_at_k,0.8210000000000001,0.8035,0.8415,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,64,robust_full_k_success,0.315,0.257375,0.37262499999999993,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,64,proximity,0.09006910560652613,0.08582034416031092,0.09400873343041166,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,64,sparsity,0.5523869047619048,0.5363782242063493,0.5668272817460318,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,64,group_sparsity,0.5523869047619048,0.5345775297619049,0.5679011408730159,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,64,diversity,0.06135895904153585,0.05975907166069373,0.06272654672246426,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,64,plausibility,0.5142748987078662,0.5044536913450105,0.5260242692251835,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,64,plausibility_distance,0.5142748987078662,0.5016058161496632,0.5244410261559439,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,64,plausibility_inlier_rate,0.05916666666666666,0.04402916666666667,0.08134999999999999,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,64,target_data_support,0.6025666666666668,0.5679787500000001,0.6361970833333334,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,64,local_surrogate_fidelity,0.8438810965535101,0.8330300066312996,0.8549127816627815,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,64,fidelity,0.8438810965535101,0.8343678066027203,0.8551106885611194,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,64,changed_set_dice,0.9652324938842834,0.9629474725177766,0.967329782347145,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,64,constraint_validity,1.0,1.0,1.0,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,64,mean_target_logit_margin,5.510828290581703,5.039934639319777,5.940441912785173,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,64,generation_time_to_k_or_cap_seconds,0.24228817958999116,0.24006867688832018,0.24469912943534905,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,64,candidate_evaluations,64.0,64.0,64.0,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,64,rounds_used,1.0,1.0,1.0,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,128,valid_cfe_yield_at_k,1.0,1.0,1.0,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,128,coverage_at_1,1.0,1.0,1.0,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,128,full_k_success,1.0,1.0,1.0,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,128,robust_completeness_at_k,0.8330000000000001,0.8175000000000001,0.85455,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,128,robust_full_k_success,0.305,0.24975,0.3626249999999999,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,128,proximity,0.08662011755630374,0.08319815435120835,0.0899231659215875,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,128,sparsity,0.6197777777777778,0.6050208333333332,0.6325625,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,128,group_sparsity,0.6197777777777778,0.6067888888888889,0.6347756944444445,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,128,diversity,0.07534753559157252,0.07228887700103223,0.0776074147373438,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,128,plausibility,0.5632876564723736,0.5511779601840198,0.575590345440376,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,128,plausibility_distance,0.5632876564723736,0.5507560036716849,0.5754026321130269,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,128,plausibility_inlier_rate,0.045000000000000005,0.0325,0.06178749999999999,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,128,target_data_support,0.5958000000000001,0.5684125,0.6338524999999999,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,128,local_surrogate_fidelity,0.8386363636363636,0.8307424242424241,0.8486439393939393,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,128,fidelity,0.8386363636363636,0.8292348484848484,0.8488977272727272,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,128,changed_set_dice,0.954855150758444,0.9521669100087273,0.9572849826133528,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,128,constraint_validity,1.0,1.0,1.0,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,128,mean_target_logit_margin,6.21751426577568,5.783504144877194,6.646230858594179,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,128,generation_time_to_k_or_cap_seconds,0.4918141044098866,0.4879455558557645,0.49486377664917813,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,128,candidate_evaluations,128.0,128.0,128.0,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,128,rounds_used,2.0,2.0,2.0,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,256,valid_cfe_yield_at_k,1.0,1.0,1.0,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,256,coverage_at_1,1.0,1.0,1.0,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,256,full_k_success,1.0,1.0,1.0,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,256,robust_completeness_at_k,0.8285,0.8049000000000001,0.849075,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,256,robust_full_k_success,0.31,0.247375,0.35500000000000004,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,256,proximity,0.07974217287264765,0.0760680663944222,0.08224511839845217,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,256,sparsity,0.6915,0.6788131944444444,0.7032236111111111,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,256,group_sparsity,0.6915,0.6812708333333334,0.7025145833333334,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,256,diversity,0.07942856255918741,0.07586995012778788,0.08204159858915955,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,256,plausibility,0.6081885273116383,0.5941877951608432,0.6231141104161534,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,256,plausibility_distance,0.6081885273116383,0.5937531198760739,0.6227722586902583,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,256,plausibility_inlier_rate,0.043000000000000003,0.0272375,0.057500000000000016,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,256,target_data_support,0.572,0.546075,0.5978625,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,256,local_surrogate_fidelity,0.8456060606060606,0.8349204545454544,0.8562348484848484,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,256,fidelity,0.8456060606060606,0.8363749999999999,0.8571287878787877,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,256,changed_set_dice,0.9427471013767579,0.9390779181993595,0.9461677257217349,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,256,constraint_validity,1.0,1.0,1.0,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,256,mean_target_logit_margin,7.042895349860191,6.467311388671398,7.601298698417842,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,256,generation_time_to_k_or_cap_seconds,0.9959961027999953,0.9896354120915991,1.0018408520493982,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,256,candidate_evaluations,256.0,256.0,256.0,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,256,rounds_used,4.0,4.0,4.0,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,512,valid_cfe_yield_at_k,1.0,1.0,1.0,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,512,coverage_at_1,1.0,1.0,1.0,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,512,full_k_success,1.0,1.0,1.0,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,512,robust_completeness_at_k,0.8155000000000001,0.7959750000000001,0.8317625000000001,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,512,robust_full_k_success,0.22500000000000003,0.172375,0.2902499999999999,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,512,proximity,0.06941451774910093,0.06563484659418464,0.07262592326151207,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,512,sparsity,0.7645277777777778,0.7532951388888889,0.7749555555555555,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,512,group_sparsity,0.7645277777777778,0.7535118055555555,0.7731472222222223,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,512,diversity,0.07430436213500799,0.0707491083208006,0.07764115178608336,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,512,plausibility,0.62904208757821,0.6121460185298113,0.645430905033022,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,512,plausibility_distance,0.62904208757821,0.6143047484669752,0.6480912985805878,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,512,plausibility_inlier_rate,0.043000000000000003,0.030925,0.05626249999999999,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,512,target_data_support,0.5206,0.49654750000000003,0.5441525,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,512,local_surrogate_fidelity,0.843181818181818,0.8319621212121212,0.8544734848484847,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,512,fidelity,0.843181818181818,0.830526515151515,0.8503825757575756,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,512,changed_set_dice,0.9213743427140717,0.9167660024940547,0.9256207659559784,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,512,constraint_validity,1.0,1.0,1.0,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,512,mean_target_logit_margin,7.321490643620491,6.843287147805095,7.90918273590505,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,512,generation_time_to_k_or_cap_seconds,2.0377936850999774,2.0281270225879533,2.046388433371834,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,512,candidate_evaluations,512.0,512.0,512.0,200
+proposed_dp_eps2_sparse_diverse,Unified DP-CounterGAN epsilon=2 + counted sparse-diverse search,512,rounds_used,8.0,8.0,8.0,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,64,valid_cfe_yield_at_k,0.956,0.9339,0.9737625000000001,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,64,coverage_at_1,0.99,0.98,1.0,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,64,full_k_success,0.88,0.8247500000000001,0.9199999999999999,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,64,robust_completeness_at_k,0.7615000000000001,0.7305875000000002,0.789025,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,64,robust_full_k_success,0.23,0.182375,0.28262499999999996,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,64,proximity,0.0854425589369648,0.08079605816941879,0.08985454094567222,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,64,sparsity,0.5856108366627073,0.5640171385154591,0.6049511886765288,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,64,group_sparsity,0.5856108366627073,0.5665542818450131,0.601641534728971,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,64,diversity,0.053276977487364596,0.05173074870216375,0.054966834296196775,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,64,plausibility,0.5097163941561891,0.4985951533329966,0.5213984287227248,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,64,plausibility_distance,0.5097163941561891,0.5005244898469798,0.520278521778408,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,64,plausibility_inlier_rate,0.05325777453838679,0.037129245626822155,0.067743679138322,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,64,target_data_support,0.5576427437641723,0.5359288888888889,0.5840385770975056,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,64,local_surrogate_fidelity,0.8296181341008927,0.8189184513944366,0.8383912979922832,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,64,fidelity,0.8296181341008927,0.8184488217037477,0.841238955625655,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,64,changed_set_dice,0.9583889580381673,0.9552620665521515,0.9609307292265225,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,64,constraint_validity,1.0,1.0,1.0,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,64,mean_target_logit_margin,4.349541229186009,3.977631794567923,4.7622012325132985,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,64,generation_time_to_k_or_cap_seconds,0.2407995565799638,0.2374252101297368,0.24353347235782327,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,64,candidate_evaluations,64.0,64.0,64.0,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,64,rounds_used,1.0,1.0,1.0,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,128,valid_cfe_yield_at_k,1.0,1.0,1.0,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,128,coverage_at_1,1.0,1.0,1.0,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,128,full_k_success,1.0,1.0,1.0,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,128,robust_completeness_at_k,0.7635000000000001,0.733875,0.78705,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,128,robust_full_k_success,0.18,0.13,0.22999999999999998,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,128,proximity,0.08227147204801441,0.07738396440399811,0.08676216746028513,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,128,sparsity,0.6434722222222222,0.6277048611111111,0.6609944444444446,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,128,group_sparsity,0.6434722222222222,0.6248159722222222,0.6574534722222223,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,128,diversity,0.0664838353637606,0.06417943562846631,0.06990032588061876,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,128,plausibility,0.5557229567129317,0.5420039234872189,0.5686068421841306,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,128,plausibility_distance,0.5557229567129317,0.540483825702062,0.5698246919809369,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,128,plausibility_inlier_rate,0.05450000000000001,0.0425,0.0667625,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,128,target_data_support,0.5428000000000001,0.5171225,0.5701275,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,128,local_surrogate_fidelity,0.8303030303030301,0.819242424242424,0.8429734848484847,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,128,fidelity,0.8303030303030301,0.8183257575757574,0.8410681818181817,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,128,changed_set_dice,0.9493911164273933,0.946357629781863,0.9531636623442415,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,128,constraint_validity,1.0,1.0,1.0,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,128,mean_target_logit_margin,4.987872665822506,4.645612758427858,5.506498096577823,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,128,generation_time_to_k_or_cap_seconds,0.48776760316992296,0.4828826429938216,0.49198246364878856,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,128,candidate_evaluations,128.0,128.0,128.0,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,128,rounds_used,2.0,2.0,2.0,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,256,valid_cfe_yield_at_k,1.0,1.0,1.0,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,256,coverage_at_1,1.0,1.0,1.0,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,256,full_k_success,1.0,1.0,1.0,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,256,robust_completeness_at_k,0.7765000000000002,0.7507375000000002,0.7977875000000001,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,256,robust_full_k_success,0.195,0.14475000000000002,0.245,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,256,proximity,0.07775041881948709,0.07356951019074769,0.0821191535554826,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,256,sparsity,0.7072222222222223,0.686613888888889,0.7203229166666668,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,256,group_sparsity,0.7072222222222223,0.6939680555555555,0.7228319444444444,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,256,diversity,0.07387465505860746,0.06855241431086324,0.07824853572971187,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,256,plausibility,0.6022307247776442,0.5834533306020552,0.618578421646034,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,256,plausibility_distance,0.6022307247776442,0.585082933063364,0.6173739449754666,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,256,plausibility_inlier_rate,0.048999999999999995,0.034449999999999995,0.06726249999999999,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,256,target_data_support,0.5265000000000001,0.505265,0.5477975,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,256,local_surrogate_fidelity,0.8393939393939391,0.8268030303030302,0.8501022727272727,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,256,fidelity,0.8393939393939391,0.8295454545454546,0.8503181818181818,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,256,changed_set_dice,0.9370996231479464,0.9332605402860294,0.9414406227346377,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,256,constraint_validity,1.0,1.0,1.0,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,256,mean_target_logit_margin,6.158650971055031,5.6432227446883925,6.6596972638070575,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,256,generation_time_to_k_or_cap_seconds,0.9917020889901005,0.9872394887208649,0.9963247554043018,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,256,candidate_evaluations,256.0,256.0,256.0,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,256,rounds_used,4.0,4.0,4.0,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,512,valid_cfe_yield_at_k,1.0,1.0,1.0,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,512,coverage_at_1,1.0,1.0,1.0,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,512,full_k_success,1.0,1.0,1.0,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,512,robust_completeness_at_k,0.7845000000000001,0.76095,0.8087625000000002,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,512,robust_full_k_success,0.15500000000000003,0.1,0.19,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,512,proximity,0.06984717262908816,0.06679574248427525,0.07322482096892782,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,512,sparsity,0.7684166666666665,0.7576722222222222,0.7788944444444446,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,512,group_sparsity,0.7684166666666665,0.7581916666666667,0.7785034722222223,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,512,diversity,0.07087532400153576,0.0669840584155172,0.07436144584883005,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,512,plausibility,0.6348864856309009,0.6151433970315898,0.6506640491956239,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,512,plausibility_distance,0.6348864856309009,0.6164019177249067,0.6550368764931682,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,512,plausibility_inlier_rate,0.051000000000000004,0.0322375,0.06352499999999998,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,512,target_data_support,0.5098000000000001,0.48889,0.5280875,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,512,local_surrogate_fidelity,0.8512121212121211,0.843181818181818,0.8607651515151514,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,512,fidelity,0.8512121212121211,0.8403749999999999,0.8594166666666665,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,512,changed_set_dice,0.9199589922870182,0.9156362191399786,0.9234609735329695,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,512,constraint_validity,1.0,1.0,1.0,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,512,mean_target_logit_margin,6.90858717918396,6.17959631164372,7.532275619119406,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,512,generation_time_to_k_or_cap_seconds,2.020698108750066,2.012186803721593,2.028947869834573,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,512,candidate_evaluations,512.0,512.0,512.0,200
+proposed_dp_eps4_sparse_diverse,DP-CounterGAN epsilon=4 + full-budget sparse-diverse pruning/MMR,512,rounds_used,8.0,8.0,8.0,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,64,valid_cfe_yield_at_k,0.8714999999999999,0.8199750000000001,0.9032625,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,64,coverage_at_1,0.97,0.94,0.99,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,64,full_k_success,0.76,0.6950000000000001,0.8276249999999999,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,64,robust_completeness_at_k,0.675,0.6375,0.7232875000000001,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,64,robust_full_k_success,0.16,0.107375,0.20500000000000002,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,64,proximity,0.07586275563158931,0.07208650383417253,0.08057999092705523,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,64,sparsity,0.6024094115760783,0.5805070409316876,0.6197965998223673,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,64,group_sparsity,0.6024094115760783,0.5837332880754542,0.6239125745292899,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,64,diversity,0.050592282948473837,0.04914625474571902,0.0520780360914845,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,64,plausibility,0.4875834554729307,0.47579307366457224,0.5009362564773672,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,64,plausibility_distance,0.4875834554729307,0.4764341942053036,0.499428405682172,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,64,plausibility_inlier_rate,0.03791013729610221,0.026351642996379838,0.05342381943917031,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,64,target_data_support,0.5373551133726573,0.5138108798933361,0.559242821806199,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,64,local_surrogate_fidelity,0.8349058632176561,0.8239030929703719,0.8442374724999473,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,64,fidelity,0.8349058632176561,0.8239980976699476,0.8450967634219158,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,64,changed_set_dice,0.9555176335988658,0.9509180482420848,0.9585181845549086,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,64,constraint_validity,1.0,1.0,1.0,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,64,mean_target_logit_margin,3.729008113197162,3.4354989195328676,4.1389500989348615,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,64,generation_time_to_k_or_cap_seconds,0.23907886683002288,0.23629478318963915,0.24215633723004737,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,64,candidate_evaluations,64.0,64.0,64.0,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,64,rounds_used,1.0,1.0,1.0,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,128,valid_cfe_yield_at_k,0.9975,0.9927374999999999,1.0,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,128,coverage_at_1,1.0,1.0,1.0,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,128,full_k_success,0.99,0.975,1.0,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,128,robust_completeness_at_k,0.769,0.7482375,0.7925000000000001,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,128,robust_full_k_success,0.155,0.11,0.20262499999999994,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,128,proximity,0.07350948354229331,0.06921349649224431,0.07745136452652514,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,128,sparsity,0.6612767857142856,0.6467899801587302,0.6745005208333333,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,128,group_sparsity,0.6612767857142856,0.6464337301587302,0.6788356398809523,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,128,diversity,0.06596803693100811,0.06365380634646862,0.06819622110715136,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,128,plausibility,0.5460752838971721,0.5309412453694576,0.5599679562665707,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,128,plausibility_distance,0.5460752838971721,0.5336866768823902,0.5589727520178592,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,128,plausibility_inlier_rate,0.039,0.0272125,0.05628749999999999,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,128,target_data_support,0.5308,0.509235,0.55021,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,128,local_surrogate_fidelity,0.8368473193473193,0.8274243881118879,0.8466541375291374,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,128,fidelity,0.8368473193473193,0.825590909090909,0.8471238344988343,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,128,changed_set_dice,0.9468803331552629,0.9432901079580469,0.9496528403592918,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,128,constraint_validity,1.0,1.0,1.0,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,128,mean_target_logit_margin,4.590324786007404,4.190765839099884,4.993275927394628,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,128,generation_time_to_k_or_cap_seconds,0.48449911513997906,0.47968665054147913,0.488817881834196,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,128,candidate_evaluations,128.0,128.0,128.0,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,128,rounds_used,2.0,2.0,2.0,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,256,valid_cfe_yield_at_k,1.0,1.0,1.0,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,256,coverage_at_1,1.0,1.0,1.0,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,256,full_k_success,1.0,1.0,1.0,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,256,robust_completeness_at_k,0.7655000000000001,0.7421875000000001,0.7832875,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,256,robust_full_k_success,0.135,0.08475,0.17262499999999995,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,256,proximity,0.07034118270501494,0.06663099385867827,0.07458244528365321,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,256,sparsity,0.72125,0.7114125,0.7355868055555557,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,256,group_sparsity,0.72125,0.7060409722222223,0.7309708333333333,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,256,diversity,0.07151325272396207,0.06805645095207728,0.07523958016606047,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,256,plausibility,0.5883209154053717,0.5739791414580417,0.6032490594071721,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,256,plausibility_distance,0.5883209154053717,0.5763222039130015,0.6024949274331776,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,256,plausibility_inlier_rate,0.04200000000000001,0.03195,0.05750000000000001,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,256,target_data_support,0.508,0.49078499999999997,0.5298625,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,256,local_surrogate_fidelity,0.8403030303030301,0.8307575757575756,0.8494469696969696,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,256,fidelity,0.8403030303030301,0.8305189393939392,0.8513068181818181,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,256,changed_set_dice,0.9341218215571891,0.9305216046228483,0.938185681007472,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,256,constraint_validity,1.0,1.0,1.0,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,256,mean_target_logit_margin,5.8433213412761695,5.446218480691313,6.331829187691212,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,256,generation_time_to_k_or_cap_seconds,0.9841509000301175,0.9785236837700029,0.9899591970737622,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,256,candidate_evaluations,256.0,256.0,256.0,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,256,rounds_used,4.0,4.0,4.0,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,512,valid_cfe_yield_at_k,1.0,1.0,1.0,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,512,coverage_at_1,1.0,1.0,1.0,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,512,full_k_success,1.0,1.0,1.0,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,512,robust_completeness_at_k,0.7585000000000001,0.7344499999999999,0.7790249999999999,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,512,robust_full_k_success,0.14,0.09975,0.18000000000000002,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,512,proximity,0.06260832880623639,0.0596527665432077,0.06642530534113757,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,512,sparsity,0.7784444444444445,0.7676819444444444,0.788748611111111,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,512,group_sparsity,0.7784444444444445,0.7673263888888889,0.7890104166666667,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,512,diversity,0.06664830459281802,0.06341011254256591,0.06964816804230213,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,512,plausibility,0.6078596915513699,0.5880539199210308,0.623646978245321,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,512,plausibility_distance,0.6078596915513699,0.5867717311601023,0.6222755588776733,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,512,plausibility_inlier_rate,0.044,0.0312375,0.058074999999999974,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,512,target_data_support,0.4872,0.4613475,0.49971,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,512,local_surrogate_fidelity,0.8439393939393938,0.8318181818181816,0.8539053030303028,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,512,fidelity,0.8439393939393938,0.8345871212121211,0.8542499999999998,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,512,changed_set_dice,0.9149733761595795,0.9118523186613949,0.9196989323652112,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,512,constraint_validity,1.0,1.0,1.0,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,512,mean_target_logit_margin,6.363293281793594,5.794194215595723,6.90843179488182,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,512,generation_time_to_k_or_cap_seconds,2.0117120025300754,1.9986966630036511,2.0228255375888087,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,512,candidate_evaluations,512.0,512.0,512.0,200
+proposed_dp_eps8_sparse_diverse,Unified DP-CounterGAN epsilon=8 + counted sparse-diverse search,512,rounds_used,8.0,8.0,8.0,200
+uniform_random,Uniform constrained random,64,valid_cfe_yield_at_k,0.895,0.8596374999999999,0.9217625,200
+uniform_random,Uniform constrained random,64,coverage_at_1,0.99,0.975,1.0,200
+uniform_random,Uniform constrained random,64,full_k_success,0.7549999999999999,0.692375,0.7926249999999999,200
+uniform_random,Uniform constrained random,64,robust_completeness_at_k,0.752,0.7242375000000001,0.78515,200
+uniform_random,Uniform constrained random,64,robust_full_k_success,0.16,0.10737500000000001,0.20762499999999995,200
+uniform_random,Uniform constrained random,64,proximity,0.08766297622374734,0.08652958140759824,0.08899607583454677,200
+uniform_random,Uniform constrained random,64,sparsity,0.16110269994241083,0.15572611803980851,0.1673126917202066,200
+uniform_random,Uniform constrained random,64,group_sparsity,0.16110269994241083,0.15444039346227909,0.16665006377551023,200
+uniform_random,Uniform constrained random,64,diversity,0.10647455049716696,0.10524602705394202,0.10757262043145542,200
+uniform_random,Uniform constrained random,64,plausibility,0.6287134982586724,0.6197872590079094,0.6396294840877924,200
+uniform_random,Uniform constrained random,64,plausibility_distance,0.6287134982586724,0.6172330603915113,0.6404223148190024,200
+uniform_random,Uniform constrained random,64,plausibility_inlier_rate,0.01813605442176871,0.0072807823129251706,0.027130187074829917,200
+uniform_random,Uniform constrained random,64,target_data_support,0.3742477891156463,0.34993218537414966,0.3939755782312925,200
+uniform_random,Uniform constrained random,64,local_surrogate_fidelity,0.8474847839626163,0.8352982874291371,0.8564282347829145,200
+uniform_random,Uniform constrained random,64,fidelity,0.8474847839626163,0.8369234508193867,0.8564804650740611,200
+uniform_random,Uniform constrained random,64,changed_set_dice,0.966906367787004,0.9656222866130499,0.9680475131020163,200
+uniform_random,Uniform constrained random,64,constraint_validity,1.0,1.0,1.0,200
+uniform_random,Uniform constrained random,64,mean_target_logit_margin,4.79487412121223,4.6308107939528265,4.946352477213102,200
+uniform_random,Uniform constrained random,64,generation_time_to_k_or_cap_seconds,0.04585777950999272,0.04456125764360547,0.048563594571844754,200
+uniform_random,Uniform constrained random,64,candidate_evaluations,64.0,64.0,64.0,200
+uniform_random,Uniform constrained random,64,rounds_used,1.0,1.0,1.0,200
+uniform_random,Uniform constrained random,128,valid_cfe_yield_at_k,0.9935,0.9836625,1.0,200
+uniform_random,Uniform constrained random,128,coverage_at_1,1.0,1.0,1.0,200
+uniform_random,Uniform constrained random,128,full_k_success,0.99,0.975,1.0,200
+uniform_random,Uniform constrained random,128,robust_completeness_at_k,0.8275000000000002,0.8079750000000001,0.8427625000000001,200
+uniform_random,Uniform constrained random,128,robust_full_k_success,0.155,0.10237500000000001,0.20262499999999997,200
+uniform_random,Uniform constrained random,128,proximity,0.09054786302149295,0.0892658272990957,0.09192640732601286,200
+uniform_random,Uniform constrained random,128,sparsity,0.19038888888888883,0.18469652777777776,0.19619722222222225,200
+uniform_random,Uniform constrained random,128,group_sparsity,0.19038888888888883,0.18473124999999999,0.1950423611111111,200
+uniform_random,Uniform constrained random,128,diversity,0.11346110723912717,0.1116602733694017,0.1151846638629213,200
+uniform_random,Uniform constrained random,128,plausibility,0.6462652929448477,0.6375871402233346,0.6589503666022453,200
+uniform_random,Uniform constrained random,128,plausibility_distance,0.6462652929448477,0.6371989112162907,0.6589924604703397,200
+uniform_random,Uniform constrained random,128,plausibility_inlier_rate,0.018000000000000002,0.009237500000000001,0.027500000000000004,200
+uniform_random,Uniform constrained random,128,target_data_support,0.3789,0.35703750000000006,0.40248749999999994,200
+uniform_random,Uniform constrained random,128,local_surrogate_fidelity,0.8454597254597253,0.8379531209531209,0.8562385716135715,200
+uniform_random,Uniform constrained random,128,fidelity,0.8454597254597253,0.83432511007511,0.8559271238021237,200
+uniform_random,Uniform constrained random,128,changed_set_dice,0.9644953092951637,0.9629850146003263,0.9657869614634773,200
+uniform_random,Uniform constrained random,128,constraint_validity,1.0,1.0,1.0,200
+uniform_random,Uniform constrained random,128,mean_target_logit_margin,5.104234112501144,4.920902909874917,5.313365241855383,200
+uniform_random,Uniform constrained random,128,generation_time_to_k_or_cap_seconds,0.08850714869494822,0.08793139219897865,0.08901557096245837,200
+uniform_random,Uniform constrained random,128,candidate_evaluations,128.0,128.0,128.0,200
+uniform_random,Uniform constrained random,128,rounds_used,2.0,2.0,2.0,200
+uniform_random,Uniform constrained random,256,valid_cfe_yield_at_k,0.999,0.996475,1.0,200
+uniform_random,Uniform constrained random,256,coverage_at_1,1.0,1.0,1.0,200
+uniform_random,Uniform constrained random,256,full_k_success,0.995,0.98,1.0,200
+uniform_random,Uniform constrained random,256,robust_completeness_at_k,0.8380000000000001,0.8195,0.8535750000000001,200
+uniform_random,Uniform constrained random,256,robust_full_k_success,0.13,0.09,0.18,200
+uniform_random,Uniform constrained random,256,proximity,0.09217834673821926,0.090262406562455,0.09361878845095635,200
+uniform_random,Uniform constrained random,256,sparsity,0.20974305555555553,0.2051829861111111,0.21629201388888888,200
+uniform_random,Uniform constrained random,256,group_sparsity,0.20974305555555553,0.2042689236111111,0.21402239583333332,200
+uniform_random,Uniform constrained random,256,diversity,0.11872416019439697,0.11687363373953848,0.12080601063743233,200
+uniform_random,Uniform constrained random,256,plausibility,0.6598723443875507,0.6463044387563736,0.6712474895772694,200
+uniform_random,Uniform constrained random,256,plausibility_distance,0.6598723443875507,0.6496327264776552,0.671014460130902,200
+uniform_random,Uniform constrained random,256,plausibility_inlier_rate,0.016999999999999998,0.010237500000000002,0.025574999999999973,200
+uniform_random,Uniform constrained random,256,target_data_support,0.3929,0.374075,0.41477250000000004,200
+uniform_random,Uniform constrained random,256,local_surrogate_fidelity,0.8430594405594404,0.8326467074592073,0.8553626165501165,200
+uniform_random,Uniform constrained random,256,fidelity,0.8430594405594404,0.8310670163170161,0.8516175699300699,200
+uniform_random,Uniform constrained random,256,changed_set_dice,0.9615360485317704,0.9602103810473542,0.9625383834334084,200
+uniform_random,Uniform constrained random,256,constraint_validity,1.0,1.0,1.0,200
+uniform_random,Uniform constrained random,256,mean_target_logit_margin,5.346730865240097,5.115342922955752,5.548607707172632,200
+uniform_random,Uniform constrained random,256,generation_time_to_k_or_cap_seconds,0.178832120244997,0.17807512582738752,0.17964376741002389,200
+uniform_random,Uniform constrained random,256,candidate_evaluations,256.0,256.0,256.0,200
+uniform_random,Uniform constrained random,256,rounds_used,4.0,4.0,4.0,200
+uniform_random,Uniform constrained random,512,valid_cfe_yield_at_k,1.0,1.0,1.0,200
+uniform_random,Uniform constrained random,512,coverage_at_1,1.0,1.0,1.0,200
+uniform_random,Uniform constrained random,512,full_k_success,1.0,1.0,1.0,200
+uniform_random,Uniform constrained random,512,robust_completeness_at_k,0.8360000000000003,0.8217375,0.8510000000000001,200
+uniform_random,Uniform constrained random,512,robust_full_k_success,0.155,0.11499999999999999,0.195,200
+uniform_random,Uniform constrained random,512,proximity,0.09320805575698615,0.09169482841249556,0.09480593470018357,200
+uniform_random,Uniform constrained random,512,sparsity,0.21077777777777773,0.20599305555555553,0.21683611111111112,200
+uniform_random,Uniform constrained random,512,group_sparsity,0.21077777777777773,0.20595416666666663,0.21625416666666666,200
+uniform_random,Uniform constrained random,512,diversity,0.12053289875388146,0.1188295641997829,0.12301328935194761,200
+uniform_random,Uniform constrained random,512,plausibility,0.6668779074511504,0.6569681704221684,0.6792450394371661,200
+uniform_random,Uniform constrained random,512,plausibility_distance,0.6668779074511504,0.6559128009906668,0.6780357286307996,200
+uniform_random,Uniform constrained random,512,plausibility_inlier_rate,0.016999999999999998,0.010237500000000002,0.027,200
+uniform_random,Uniform constrained random,512,target_data_support,0.39570000000000005,0.37793750000000004,0.4160675,200
+uniform_random,Uniform constrained random,512,local_surrogate_fidelity,0.8336363636363635,0.8224810606060605,0.8443939393939393,200
+uniform_random,Uniform constrained random,512,fidelity,0.8336363636363635,0.8221856060606059,0.8461628787878787,200
+uniform_random,Uniform constrained random,512,changed_set_dice,0.961896056646475,0.9603836550942938,0.9633792210808055,200
+uniform_random,Uniform constrained random,512,constraint_validity,1.0,1.0,1.0,200
+uniform_random,Uniform constrained random,512,mean_target_logit_margin,5.2784769296646115,5.0808295917809,5.49014759978652,200
+uniform_random,Uniform constrained random,512,generation_time_to_k_or_cap_seconds,0.36527450268000394,0.36335530459965115,0.3670922873312643,200
+uniform_random,Uniform constrained random,512,candidate_evaluations,512.0,512.0,512.0,200
+uniform_random,Uniform constrained random,512,rounds_used,8.0,8.0,8.0,200
+wachter_style,Custom Wachter-style gradient,64,valid_cfe_yield_at_k,0.030500000000000003,0.026500000000000003,0.037524999999999996,200
+wachter_style,Custom Wachter-style gradient,64,coverage_at_1,0.305,0.242375,0.3652499999999999,200
+wachter_style,Custom Wachter-style gradient,64,full_k_success,0.0,0.0,0.0,200
+wachter_style,Custom Wachter-style gradient,64,robust_completeness_at_k,0.011,0.007,0.015262499999999997,200
+wachter_style,Custom Wachter-style gradient,64,robust_full_k_success,0.0,0.0,0.0,200
+wachter_style,Custom Wachter-style gradient,64,proximity,0.021638866181996078,0.02009241936852284,0.02275264337479878,200
+wachter_style,Custom Wachter-style gradient,64,sparsity,0.8353942652329748,0.8128524492234169,0.8561357526881719,200
+wachter_style,Custom Wachter-style gradient,64,group_sparsity,0.8353942652329748,0.8076784647550775,0.8595325567502986,200
+wachter_style,Custom Wachter-style gradient,64,diversity,0.0,0.0,0.0,200
+wachter_style,Custom Wachter-style gradient,64,plausibility,0.39248092758670305,0.36616246114381806,0.41489381943639736,200
+wachter_style,Custom Wachter-style gradient,64,plausibility_distance,0.39248092758670305,0.36768384704967455,0.4259051344158564,200
+wachter_style,Custom Wachter-style gradient,64,plausibility_inlier_rate,0.26344086021505375,0.17243279569892472,0.370524193548387,200
+wachter_style,Custom Wachter-style gradient,64,target_data_support,0.35161290322580646,0.2692741935483871,0.41137096774193543,200
+wachter_style,Custom Wachter-style gradient,64,local_surrogate_fidelity,0.8364143920595533,0.8204068444995863,0.859335711331679,200
+wachter_style,Custom Wachter-style gradient,64,fidelity,0.8364143920595533,0.8137360421836228,0.8581198304383788,200
+wachter_style,Custom Wachter-style gradient,64,changed_set_dice,0.4405395188722332,0.4100088949571618,0.46901197225171487,200
+wachter_style,Custom Wachter-style gradient,64,constraint_validity,1.0,1.0,1.0,200
+wachter_style,Custom Wachter-style gradient,64,mean_target_logit_margin,1.1938445809066938,0.9738590465950709,1.4306255052422963,200
+wachter_style,Custom Wachter-style gradient,64,generation_time_to_k_or_cap_seconds,0.048650512900026116,0.04841385318129107,0.04892063209164428,200
+wachter_style,Custom Wachter-style gradient,64,candidate_evaluations,64.0,64.0,64.0,200
+wachter_style,Custom Wachter-style gradient,64,rounds_used,1.0,1.0,1.0,200
+wachter_style,Custom Wachter-style gradient,128,valid_cfe_yield_at_k,0.07599999999999998,0.07149999999999998,0.08126249999999997,200
+wachter_style,Custom Wachter-style gradient,128,coverage_at_1,0.76,0.71,0.8202499999999998,200
+wachter_style,Custom Wachter-style gradient,128,full_k_success,0.0,0.0,0.0,200
+wachter_style,Custom Wachter-style gradient,128,robust_completeness_at_k,0.05449999999999999,0.048499999999999995,0.06026249999999998,200
+wachter_style,Custom Wachter-style gradient,128,robust_full_k_success,0.0,0.0,0.0,200
+wachter_style,Custom Wachter-style gradient,128,proximity,0.037090668363303055,0.03622297738334932,0.038002665386490164,200
+wachter_style,Custom Wachter-style gradient,128,sparsity,0.04531063321385903,0.03844310035842295,0.05477200318598168,200
+wachter_style,Custom Wachter-style gradient,128,group_sparsity,0.04531063321385903,0.03877937076861809,0.056147202309836705,200
+wachter_style,Custom Wachter-style gradient,128,diversity,0.0,0.0,0.0,200
+wachter_style,Custom Wachter-style gradient,128,plausibility,0.422045284960322,0.400628253988312,0.4380730117611298,200
+wachter_style,Custom Wachter-style gradient,128,plausibility_distance,0.422045284960322,0.4060288961321407,0.4380139931911925,200
+wachter_style,Custom Wachter-style gradient,128,plausibility_inlier_rate,0.11648745519713262,0.07283602150537635,0.15838261648745516,200
+wachter_style,Custom Wachter-style gradient,128,target_data_support,0.3305017921146953,0.28668279569892474,0.362171146953405,200
+wachter_style,Custom Wachter-style gradient,128,local_surrogate_fidelity,0.8873449131513647,0.8777748483595257,0.8963404673283706,200
+wachter_style,Custom Wachter-style gradient,128,fidelity,0.8873449131513647,0.8764535084091536,0.8980955334987593,200
+wachter_style,Custom Wachter-style gradient,128,changed_set_dice,0.9487789500573411,0.943101029815469,0.9554090751637182,200
+wachter_style,Custom Wachter-style gradient,128,constraint_validity,1.0,1.0,1.0,200
+wachter_style,Custom Wachter-style gradient,128,mean_target_logit_margin,2.9056555584340114,2.679850210224856,3.2759354778696985,200
+wachter_style,Custom Wachter-style gradient,128,generation_time_to_k_or_cap_seconds,0.05637553934998778,0.05611485445212384,0.05668411316911033,200
+wachter_style,Custom Wachter-style gradient,128,candidate_evaluations,128.0,128.0,128.0,200
+wachter_style,Custom Wachter-style gradient,128,rounds_used,1.0,1.0,1.0,200
+wachter_style,Custom Wachter-style gradient,256,valid_cfe_yield_at_k,0.10099999999999998,0.09949999999999998,0.10326249999999998,200
+wachter_style,Custom Wachter-style gradient,256,coverage_at_1,0.99,0.975,1.0,200
+wachter_style,Custom Wachter-style gradient,256,full_k_success,0.0,0.0,0.0,200
+wachter_style,Custom Wachter-style gradient,256,robust_completeness_at_k,0.10049999999999998,0.09849999999999998,0.10299999999999998,200
+wachter_style,Custom Wachter-style gradient,256,robust_full_k_success,0.0,0.0,0.0,200
+wachter_style,Custom Wachter-style gradient,256,proximity,0.05928887533328059,0.05777843478442721,0.06064460456034891,200
+wachter_style,Custom Wachter-style gradient,256,sparsity,0.0327607709750567,0.028950396825396834,0.03924603174603175,200
+wachter_style,Custom Wachter-style gradient,256,group_sparsity,0.0327607709750567,0.026009070294784588,0.03739370748299321,200
+wachter_style,Custom Wachter-style gradient,256,diversity,0.0006513210792778706,0.0,0.0013198960897968888,200
+wachter_style,Custom Wachter-style gradient,256,plausibility,0.486680173550439,0.4735375047874953,0.5036129835326427,200
+wachter_style,Custom Wachter-style gradient,256,plausibility_distance,0.486680173550439,0.4715157632555764,0.5010397223538707,200
+wachter_style,Custom Wachter-style gradient,256,plausibility_inlier_rate,0.07642857142857143,0.04581632653061224,0.10704081632653062,200
+wachter_style,Custom Wachter-style gradient,256,target_data_support,0.31712244897959185,0.26851479591836735,0.37007397959183674,200
+wachter_style,Custom Wachter-style gradient,256,local_surrogate_fidelity,0.9042346938775511,0.892925235478807,0.9121070447409735,200
+wachter_style,Custom Wachter-style gradient,256,fidelity,0.9042346938775511,0.8930631868131869,0.9140594583987443,200
+wachter_style,Custom Wachter-style gradient,256,changed_set_dice,0.9943385796928716,0.9930561439807488,0.9961095799525157,200
+wachter_style,Custom Wachter-style gradient,256,constraint_validity,1.0,1.0,1.0,200
+wachter_style,Custom Wachter-style gradient,256,mean_target_logit_margin,6.969892567420493,6.785570457960878,7.176252459394688,200
+wachter_style,Custom Wachter-style gradient,256,generation_time_to_k_or_cap_seconds,0.07158017908999681,0.071195633053116,0.07193398373161698,200
+wachter_style,Custom Wachter-style gradient,256,candidate_evaluations,256.0,256.0,256.0,200
+wachter_style,Custom Wachter-style gradient,256,rounds_used,1.0,1.0,1.0,200
+wachter_style,Custom Wachter-style gradient,512,valid_cfe_yield_at_k,0.10149999999999998,0.09999999999999998,0.10326249999999998,200
+wachter_style,Custom Wachter-style gradient,512,coverage_at_1,1.0,1.0,1.0,200
+wachter_style,Custom Wachter-style gradient,512,full_k_success,0.0,0.0,0.0,200
+wachter_style,Custom Wachter-style gradient,512,robust_completeness_at_k,0.10099999999999998,0.09899999999999998,0.10299999999999998,200
+wachter_style,Custom Wachter-style gradient,512,robust_full_k_success,0.0,0.0,0.0,200
+wachter_style,Custom Wachter-style gradient,512,proximity,0.07281908184289933,0.07095973247615621,0.07502075251890346,200
+wachter_style,Custom Wachter-style gradient,512,sparsity,0.04277777777777778,0.035951388888888894,0.05184027777777778,200
+wachter_style,Custom Wachter-style gradient,512,group_sparsity,0.04277777777777778,0.03358333333333334,0.05058333333333333,200
+wachter_style,Custom Wachter-style gradient,512,diversity,0.0004274058248847723,6.039961962960662e-05,0.0009816117223817855,200
+wachter_style,Custom Wachter-style gradient,512,plausibility,0.5309605361001397,0.5183982439071898,0.5465278223927866,200
+wachter_style,Custom Wachter-style gradient,512,plausibility_distance,0.5309605361001397,0.5174514865648998,0.5474897316878009,200
+wachter_style,Custom Wachter-style gradient,512,plausibility_inlier_rate,0.055,0.025,0.085,200
+wachter_style,Custom Wachter-style gradient,512,target_data_support,0.3235,0.282475,0.35710000000000003,200
+wachter_style,Custom Wachter-style gradient,512,local_surrogate_fidelity,0.9253846153846155,0.9184519230769231,0.9318317307692309,200
+wachter_style,Custom Wachter-style gradient,512,fidelity,0.9253846153846155,0.9177740384615386,0.930971153846154,200
+wachter_style,Custom Wachter-style gradient,512,changed_set_dice,0.9951506644628096,0.9935165665512778,0.996278912999309,200
+wachter_style,Custom Wachter-style gradient,512,constraint_validity,1.0,1.0,1.0,200
+wachter_style,Custom Wachter-style gradient,512,mean_target_logit_margin,10.374793672561644,10.184278287589551,10.562690085828304,200
+wachter_style,Custom Wachter-style gradient,512,generation_time_to_k_or_cap_seconds,0.10095044830999542,0.10041639268760275,0.10177103191298818,200
+wachter_style,Custom Wachter-style gradient,512,candidate_evaluations,512.0,512.0,512.0,200
+wachter_style,Custom Wachter-style gradient,512,rounds_used,1.0,1.0,1.0,200

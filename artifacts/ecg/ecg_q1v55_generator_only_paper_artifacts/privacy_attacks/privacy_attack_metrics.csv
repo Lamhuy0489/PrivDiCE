@@ -1,0 +1,6 @@
+variant,attack_definition,attack_rows_per_group,mia_auc,mia_advantage,exact_match_leakage,dcr_mean,nndr_mean,attribute_inversion_feature,attribute_inversion_normalized_mae
+seed11_countergan,loss-threshold MIA; orientation chosen on attack labels,1000,0.615595,0.23119,0.0,0.08234092572217307,0.9551937838954064,post_rr,0.13689930737018585
+seed11_dp_eps16,loss-threshold MIA; orientation chosen on attack labels,1000,0.5995919999999999,0.1991839999999998,0.0,0.07982691748704696,0.9621404408695393,post_rr,0.13600283861160278
+seed11_dp_eps8,loss-threshold MIA; orientation chosen on attack labels,1000,0.575777,0.15155399999999997,0.0,0.08096674575739571,0.9589605739827207,post_rr,0.16855166852474213
+seed11_dp_eps4,loss-threshold MIA; orientation chosen on attack labels,1000,0.538997,0.0779939999999999,0.0,0.09088215903536695,0.9616880020143308,post_rr,0.14564497768878937
+seed11_dp_eps2,loss-threshold MIA; orientation chosen on attack labels,1000,0.532853,0.06570600000000004,0.0,0.08921839557551199,0.9526365219489019,post_rr,0.16374190151691437

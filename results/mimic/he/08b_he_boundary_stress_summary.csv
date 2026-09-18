@@ -1,0 +1,2 @@
+dataset,population,selection,minimum_abs_plaintext_logit,mean_abs_logit_error,max_abs_logit_error,label_agreement
+mimic,512,smallest absolute plaintext CFE logits; selected before HE evaluation,0.10027741598140649,3.318508897716453e-05,7.73084121257206e-05,1.0

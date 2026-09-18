@@ -1,0 +1,7 @@
+population,profile_name,poly_modulus_degree,slot_count,slot_utilization,coeff_mod_bit_sizes,coeff_mod_total_bits,tc128_max_coeff_mod_bits,global_scale_bits,feature_ciphertexts_uploaded,logit_ciphertexts_downloaded,max_abs_logit_error_median,plaintext_he_label_agreement_median,all_repetitions_pass_gate,security_validation
+32,square_n8192_scale29,8192,4096,0.0078125,"[36, 29, 29, 29, 29, 29, 36]",217,218,29,23,1,0.005703753263463618,1.0,True,SEAL TC128 default validation; total modulus bits within bound
+64,square_n8192_scale29,8192,4096,0.015625,"[36, 29, 29, 29, 29, 29, 36]",217,218,29,23,1,0.005971435560581995,1.0,True,SEAL TC128 default validation; total modulus bits within bound
+128,square_n8192_scale29,8192,4096,0.03125,"[36, 29, 29, 29, 29, 29, 36]",217,218,29,23,1,0.006973713052387698,1.0,True,SEAL TC128 default validation; total modulus bits within bound
+256,square_n8192_scale29,8192,4096,0.0625,"[36, 29, 29, 29, 29, 29, 36]",217,218,29,23,1,0.008925615148769328,1.0,True,SEAL TC128 default validation; total modulus bits within bound
+512,square_n8192_scale29,8192,4096,0.125,"[36, 29, 29, 29, 29, 29, 36]",217,218,29,23,1,0.009099138503049886,1.0,True,SEAL TC128 default validation; total modulus bits within bound
+1024,square_n8192_scale29,8192,4096,0.25,"[36, 29, 29, 29, 29, 29, 36]",217,218,29,23,1,0.011993627580237476,1.0,True,SEAL TC128 default validation; total modulus bits within bound

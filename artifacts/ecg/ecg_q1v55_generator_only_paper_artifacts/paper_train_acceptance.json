@@ -1,0 +1,87 @@
+{
+  "accepted": true,
+  "checks": {
+    "t4": true,
+    "one_classifier_seed": true,
+    "one_generator_training_seed": true,
+    "five_generator_checkpoints": true,
+    "epsilon_panel_complete": true,
+    "one_canonical_classifier": true,
+    "dp_composition_within_requested_epsilon": "True",
+    "dp_delta_composition_within_requested_delta": "True",
+    "dp_accountant_internals_present": "True",
+    "joint_seed_release_composition_reported": "True",
+    "all_handoff_files_present": true,
+    "all_checksums_reproducible": true
+  },
+  "manifest": {
+    "protocol": "Q1_V55_GENERATOR_ONLY_ONE_SEED_PAPER",
+    "stage": "paper_train",
+    "dataset": "ecg",
+    "gpu": "Tesla T4",
+    "source_csv_sha256": "ffa8482f426ca0fdb6055f745610e88befe7e0cb36889a0bd2678dfe7bca5a9b",
+    "source_rows": 113846,
+    "processed_inputs": 20,
+    "classifier_seeds": [
+      55
+    ],
+    "canonical_classifier_seed": 55,
+    "generator_training_seeds": [
+      11
+    ],
+    "variants": [
+      "countergan",
+      "dp_eps16",
+      "dp_eps8",
+      "dp_eps4",
+      "dp_eps2"
+    ],
+    "gan_schedule": {
+      "epochs": 300,
+      "batch_size": 256,
+      "steps_per_epoch": 20,
+      "secure_rng": true,
+      "warmup_epochs": 30,
+      "ramp_epochs": 180,
+      "classification_weight_start": 8.0,
+      "classification_weight_end": 12.0,
+      "proximity_weight_start": 0.04,
+      "proximity_weight_end": 0.2,
+      "sparsity_weight_start": 0.01,
+      "sparsity_weight_end": 0.1,
+      "group_sparsity_weight_start": 0.0,
+      "group_sparsity_weight_end": 0.15,
+      "diversity_weight_start": 0.0,
+      "diversity_weight_end": 0.08,
+      "direction_balance_weighting": true
+    },
+    "K": 10,
+    "paper_budgets": [
+      64,
+      128,
+      256,
+      512
+    ],
+    "paper_queries_per_direction": 100,
+    "method_search_seeds": [
+      11
+    ],
+    "files_sha256": {
+      "preprocessor_and_split.joblib": "11c592d1da67aed0ded91cd680f79d9d2c3222259264faed09567c65c559c250",
+      "plaintext_cfe_pipeline.py": "8ec46bda01c6aee128e12574f160212d66a0b61cb880463547a1ae25eef9fca6",
+      "privacy_accounting.csv": "94896cc132bc669bdd9a6b0a8423fc905e507faa7abcdef09585ddc2358d7e28",
+      "dp_multi_checkpoint_release_composition.csv": "46e7fe7c90c65e6d4966a374d2eb95316363df92605cf0e3f64bd23ce29ae7c2",
+      "classifier_metrics_by_seed.csv": "ba2917b668cb1b23d3567309963001571edd8ff5e5a1b067d36e71458c13bcf4",
+      "dataset_accounting.csv": "0b7bba18a22d3a5f71e0e10c38a2509ab15f6c43c3b669efc559dc28ea3f6685",
+      "feature_encoding_contract.csv": "97dbb78f7f58b8cfe748178eeeca89f745f3af2e343eb64563ae8bc13a83cf1a",
+      "feature_constraint_table.csv": "2c89ce65bac797dcd3c3bf04503b049f9d7a62c76ee9f343c8174bbb56fa8bb7",
+      "classifier_seed55.pt": "8908f7af123cafc3fe7d3f740acf5b02fbf27c25eb243ab37c0e9d5ea8c02e1a",
+      "generator_seed11_countergan.pt": "af50b246d1f43b33ba44b55845820f0a96fd1429c7a15a0e5a706530ce0763a6",
+      "generator_seed11_dp_eps16.pt": "9f8e9e53fc2e9dc1d8c25b2d8c436eafdf401ee4fbbbd071ed63cdc06f7c1a40",
+      "generator_seed11_dp_eps8.pt": "f4663fc842299d07b354d52c0dedb0c4151aa082289e2a9685c5b603647461f0",
+      "generator_seed11_dp_eps4.pt": "6b9856768317d81e3809d6f8c7f98a7d6ef6ad431faa2d3c0e37dbae9a0cebbd",
+      "generator_seed11_dp_eps2.pt": "80dd2a66e5b51560b980a9f29a8f17c53c8ccad0cbf06e7a8a4387f34193509e"
+    }
+  },
+  "outer_cfe_evaluation_performed": false
+}

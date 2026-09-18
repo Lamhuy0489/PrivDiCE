@@ -1,0 +1,28 @@
+{
+  "protocol": "Q1_V55_OFFICIAL_DICE_EXTENSION_PAPER",
+  "dataset": "heartplus",
+  "run_mode": "paper",
+  "accepted": true,
+  "checks": {
+    "source_accepted": true,
+    "source_paper_numbers": true,
+    "all_source_checksums_match": true,
+    "exact_direction_counts": true,
+    "exact_result_rows": true,
+    "one_row_per_query_method": true,
+    "both_official_methods_present": true,
+    "no_implementation_errors": true,
+    "timeouts_retained": true,
+    "no_cf_retained": true,
+    "no_mlp_retraining": true,
+    "no_gan_retraining": true,
+    "no_dp_accountant_change": true,
+    "equal_compute_budget_not_claimed": true
+  },
+  "n_queries": 200,
+  "queries_per_direction": 100,
+  "n_result_rows": 400,
+  "K": 10,
+  "margin": 0.1,
+  "wall_time_seconds": 4321.2364350590005
+}

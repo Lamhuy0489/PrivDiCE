@@ -1,0 +1,2 @@
+dataset,population,selection,minimum_abs_plaintext_logit,mean_abs_logit_error,max_abs_logit_error,label_agreement
+heartplus,1024,smallest absolute plaintext CFE logits; selected before HE evaluation,0.1000293609674041,0.0005120358637848256,0.003382180906654278,1.0

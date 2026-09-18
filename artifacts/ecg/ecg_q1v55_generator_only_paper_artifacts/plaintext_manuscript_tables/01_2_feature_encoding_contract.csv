@@ -1,0 +1,21 @@
+raw_predictor,encoding,processed_inputs,input_count
+age,quantile scalar,age,1
+gender,one-hot drop-first; reference=F; levels=2,gender_M,1
+pre_rr,quantile scalar,pre_rr,1
+post_rr,quantile scalar,post_rr,1
+power_lf,quantile scalar,power_lf,1
+power_vlf,quantile scalar,power_vlf,1
+var,quantile scalar,var,1
+std,quantile scalar,std,1
+hjorth_comp,quantile scalar,hjorth_comp,1
+peak_freq,quantile scalar,peak_freq,1
+mad,quantile scalar,mad,1
+rms,quantile scalar,rms,1
+spectral_entropy,quantile scalar,spectral_entropy,1
+power_vhf,quantile scalar,power_vhf,1
+total_power,quantile scalar,total_power,1
+max,quantile scalar,max,1
+hjorth_mob,quantile scalar,hjorth_mob,1
+iqr,quantile scalar,iqr,1
+energy,quantile scalar,energy,1
+p2p,quantile scalar,p2p,1

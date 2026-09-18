@@ -1,0 +1,14 @@
+{
+  "protocol": "Q1_V55_HE_POPULATION_PAPER",
+  "dataset": "ecg",
+  "source_acceptance_protocol": "Q1_V55_GENERATOR_ONLY_ONE_SEED_PAPER",
+  "source_accepted": true,
+  "source_paper_numbers": true,
+  "source_training_manifest_protocol_verbatim": "Q1_V55_GENERATOR_ONLY_ONE_SEED_PAPER",
+  "original_training_manifest_sha256": "e3fd4e76a2ac2525263d4ec59b0a9755cf539963c1bd299501fcb68c3029978e",
+  "classifier_sha256": "8908f7af123cafc3fe7d3f740acf5b02fbf27c25eb243ab37c0e9d5ea8c02e1a",
+  "frozen_release_sha256": "51cb2d78309493d609edc9f0aa47c3a7736a9ce0a8d7f50e5a2f0fb578ea522a",
+  "all_original_handoff_checksums_match": true,
+  "mimic_legacy_manifest_label_disclosed": true,
+  "source_was_modified": false
+}

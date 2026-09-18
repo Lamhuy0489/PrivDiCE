@@ -1,0 +1,29 @@
+{
+  "attack": "holdout explanation-linkage simulation",
+  "reference": "Goethals, Sorensen & Martens (2023), DOI 10.1145/3608482",
+  "quasi_identifiers": [
+    "Sex",
+    "AgeCategory",
+    "Race",
+    "BMI",
+    "Smoking",
+    "predicted_label"
+  ],
+  "sensitive_attribute": "Diabetic",
+  "numeric_discretization": "development-fit equal-frequency quartile bins",
+  "auxiliary_population": "untouched outer test; evaluation only",
+  "one_map": "released CFE signature maps to exactly one auxiliary row",
+  "one_anonymity": "released CFE belongs to a singleton released QI class",
+  "one_diversity": "released CFE belongs to a QI class with one sensitive value",
+  "limitation": "simulation only; no supplied direct identifiers and no external population registry",
+  "zero_release_semantics": "explicit row with released_cfes=0; linkage rates are undefined (NaN), not zero risk",
+  "bin_edges": {
+    "BMI": [
+      "-inf",
+      24.329999923706055,
+      27.3700008392334,
+      31.25,
+      "inf"
+    ]
+  }
+}

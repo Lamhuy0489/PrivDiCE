@@ -1,0 +1,135 @@
+% Compact TikZ replacement for figures/framework.png.
+% Same visual grammar as the raster framework, with implementation detail
+% kept in the manuscript rather than crowded inside nodes.
+\definecolor{pdNavy}{HTML}{334E68}
+\definecolor{pdTeal}{HTML}{4F766F}
+\definecolor{pdPlum}{HTML}{6D5A72}
+\definecolor{pdAmber}{HTML}{A66A2C}
+\definecolor{pdInk}{HTML}{25313C}
+\begin{tikzpicture}[
+  font=\sffamily,
+  >=Latex,
+  box/.style={draw=#1, fill=#1!3, rounded corners=.7mm,
+              line width=.55pt, align=center, text width=14mm,
+              minimum height=7.5mm, inner sep=.7mm,
+              font=\fontsize{5.2}{5.8}\selectfont},
+  smallbox/.style={draw=#1, fill=#1!3, rounded corners=.7mm,
+                   line width=.55pt, align=center, text width=11mm,
+                   minimum height=7.5mm, inner sep=.65mm,
+                   font=\fontsize{5.0}{5.6}\selectfont},
+  widebox/.style={draw=#1, fill=#1!3, rounded corners=.7mm,
+                  line width=.55pt, align=center, text width=21.5mm,
+                  minimum height=7.5mm, inner sep=.7mm,
+                  font=\fontsize{5.2}{5.8}\selectfont},
+  decision/.style={diamond, draw=pdAmber, fill=pdAmber!5,
+                   line width=.55pt, aspect=1.8, align=center,
+                   inner sep=.45mm, font=\fontsize{5.2}{5.8}\selectfont},
+  flow/.style={-Latex, draw=#1, line width=.65pt},
+  handoff/.style={-Latex, dashed, draw=#1, line width=.55pt},
+  loop/.style={-Latex, dashed, draw=pdNavy, line width=.55pt},
+  label/.style={font=\fontsize{4.9}{5.4}\selectfont,
+                fill=white, inner sep=.35mm}
+]
+
+% Overall title and two primary panels.
+\node[font=\bfseries\fontsize{8.5}{9.5}\selectfont, text=pdInk]
+  at (6.65,7.82) {Workflow of PrivDiCE};
+
+\fill[pdPlum!2, rounded corners=1.3mm] (0,.72) rectangle (3.25,7.42);
+\draw[pdPlum, rounded corners=1.3mm, line width=.65pt]
+  (0,.72) rectangle (3.25,7.42);
+\fill[pdPlum!7] (.02,6.84) rectangle (3.23,7.40);
+\node[font=\bfseries\fontsize{6.4}{7.1}\selectfont,
+      text=pdPlum] at (1.625,7.12) {Offline training};
+
+\fill[pdNavy!1, rounded corners=1.3mm] (3.42,.72) rectangle (13.30,7.42);
+\draw[pdNavy, rounded corners=1.3mm, line width=.65pt]
+  (3.42,.72) rectangle (13.30,7.42);
+\fill[pdNavy!5] (3.44,6.84) rectangle (13.28,7.40);
+\node[font=\bfseries\fontsize{6.4}{7.1}\selectfont,
+      text=pdNavy] at (8.36,7.12)
+  {Online encrypted counterfactual search};
+
+% Offline: predictor is trained and frozen before DP-CounterGAN.
+\node[widebox=pdPlum] (data) at (1.625,6.18)
+  {Sensitive development data};
+\node[widebox=pdPlum] (prep) at (1.625,5.15)
+  {Split data; fit preprocessing and constraints};
+\node[widebox=pdNavy] (mlp) at (1.625,4.00)
+  {Train and freeze polynomial MLP $f_{\theta}$};
+\node[widebox=pdTeal] (gan) at (1.625,2.82)
+  {DP--SGD training of $G_{\phi},D_{\psi}$; RDP accounting};
+
+\node[smallbox=pdAmber] (serverartifact) at (.82,1.35)
+  {Server:\\frozen $f_{\theta}$};
+\node[smallbox=pdPlum] (clientartifact) at (2.43,1.35)
+  {Client:\\$G_{\phi}$ + contract};
+
+\draw[flow=pdPlum] (data) -- (prep);
+\draw[flow=pdNavy] (prep) -- (mlp);
+\draw[flow=pdTeal] (mlp) -- (gan);
+\draw[handoff=pdAmber] (mlp.west) -- (.20,4.00) -- (.20,1.86)
+  -| (serverartifact.north);
+\draw[handoff=pdPlum] (gan.east) -- (3.05,2.82) -- (3.05,1.86)
+  -| (clientartifact.north);
+
+% Online client domain.
+\fill[pdNavy!2, rounded corners=.9mm] (3.57,2.65) rectangle (13.15,6.65);
+\draw[pdNavy!75, rounded corners=.9mm, line width=.45pt]
+  (3.57,2.65) rectangle (13.15,6.65);
+\node[font=\bfseries\fontsize{5.9}{6.6}\selectfont,
+      text=pdNavy, anchor=west] at (3.76,6.39) {Client};
+
+\node[smallbox=pdNavy] (factual) at (4.35,5.35)
+  {Factual $\mathbf{x}$\\and target $y^{*}$};
+\node[smallbox=pdNavy] (encode) at (5.98,5.35)
+  {Encode and initialize};
+\node[box=pdNavy] (propose) at (7.78,5.35)
+  {Generate and\\refine population\\$P$ using $G_{\phi}$};
+\node[widebox=pdNavy] (project) at (9.98,5.35)
+  {Apply constraints,\\projection, and\\sparsification};
+\node[box=pdNavy] (encrypt) at (12.05,5.35)
+  {Pack and encrypt\\population\\with CKKS};
+
+\draw[flow=pdNavy] (factual) -- (encode);
+\draw[flow=pdNavy] (encode) -- (propose);
+\draw[flow=pdNavy] (propose) -- (project);
+\draw[flow=pdNavy] (project) -- (encrypt);
+
+\node[widebox=pdNavy] (archive) at (9.55,3.55)
+  {Decrypt logits; update valid archive and elites};
+\node[decision] (stop) at (7.25,3.55) {$K$ reached\\or cap?};
+\node[box=pdPlum] (result) at (4.72,3.55)
+  {Return up to $K$ valid CFEs};
+
+\draw[flow=pdNavy] (archive) -- (stop);
+\draw[flow=pdPlum] (stop) -- node[label,above] {yes} (result);
+\draw[loop] (stop.north) -- (7.25,4.48) -- (7.78,4.48)
+  -- (propose.south);
+\node[label, anchor=east] at (7.16,4.48) {no: next round};
+
+% Honest-but-curious prediction server. It evaluates only ciphertexts.
+\fill[pdTeal!2, rounded corners=.9mm] (3.57,.90) rectangle (13.15,2.42);
+\draw[pdTeal!80, rounded corners=.9mm, line width=.45pt]
+  (3.57,.90) rectangle (13.15,2.42);
+\node[font=\bfseries\fontsize{5.9}{6.6}\selectfont,
+      text=pdTeal, anchor=west] at (3.76,2.17)
+  {Honest-but-curious prediction server};
+\node[font=\fontsize{5.2}{5.9}\selectfont, text=pdTeal,
+      align=left, anchor=west] at (3.78,1.49)
+  {Public evaluation context\\Secret key remains with client};
+\node[box=pdTeal] (servereval) at (12.05,1.50)
+  {Encrypted evaluation\\using frozen\\$f_{\theta}^{\mathrm{CKKS}}$};
+
+% Vertical request and orthogonal response; no diagonal crossings.
+\draw[flow=pdTeal] (encrypt.south) -- (servereval.north);
+\draw[flow=pdTeal] (servereval.west) -- ++(-.40,0) -| (archive.south);
+
+\node[draw=pdNavy!80, fill=pdNavy!2, rounded corners=.7mm,
+      line width=.5pt, align=center, text width=101mm,
+      minimum height=4.5mm, inner sep=.65mm,
+      font=\fontsize{5.6}{6.3}\selectfont]
+  at (6.65,.28)
+  {DP protects generator training; CKKS protects remote candidate evaluation.};
+
+\end{tikzpicture}
