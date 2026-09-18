@@ -1,4 +1,4 @@
-# MIMIC-IV input is not redistributed
+# MIMIC-IV results are public, but the experimental input is not redistributed
 
 The experiment used a 12,671-row derived ICU mortality extract from [MIMIC-IV v2.2](https://physionet.org/content/mimiciv/2.2/) (DOI [10.13026/6mm1-ek67](https://doi.org/10.13026/6mm1-ek67)). MIMIC-IV is credentialed health data governed by the PhysioNet Credentialed Health Data License and its data-use agreement.
 

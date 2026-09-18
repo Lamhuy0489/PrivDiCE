@@ -1,6 +1,6 @@
-# Canonical run manifest
+# Experimental runs used in the manuscript
 
-These are the nine accepted runs used by the one-seed manuscript. `Local notebook` identifies the checked-in source snapshot. `Canonical output` identifies the acceptance record and, where redistribution is allowed, the fully extracted artifact directory. External account identifiers requested for removal are omitted; the account-neutral kernel slug and local notebook remain recorded.
+The manuscript draws on nine accepted runs: one plaintext CFE experiment, one Official DiCE extension, and one CKKS benchmark for each dataset. `Local notebook` identifies the checked-in source snapshot. `Canonical output` identifies the acceptance record and, where redistribution is allowed, the extracted artifact directory. Account-neutral kernel slugs are retained when an external account link is not part of the public record.
 
 | Dataset | Stage | Kaggle kernel | Local notebook | Canonical output | Kaggle visibility at audit |
 | --- | --- | --- | --- | --- | --- |
@@ -8,13 +8,13 @@ These are the nine accepted runs used by the one-seed manuscript. `Local noteboo
 | Leipzig ECG | Official DiCE | `leipzig-ecg-v5-5-official-dice-extension-paper-sav` | `notebooks/ecg/official_dice/leipzig-ecg-v5-5-official-dice-extension-paper-sav.ipynb` | `results/ecg/official_dice/official_dice_extension_acceptance.json`; `artifacts/ecg/ecg_official_dice_extension_paper_artifacts/` | Public in downloaded metadata |
 | Leipzig ECG | HE | `leipzig-ecg-v5-5-he-population-paper` | `notebooks/ecg/he/leipzig-ecg-v5-5-he-population-paper.ipynb` | `results/ecg/he/12_he_acceptance.json`; `artifacts/ecg/ecg_q1_v55_he_population_paper_artifacts/` | Public in downloaded metadata |
 | Heart+ | Plaintext | `heart-q1-v5-5-gen-only-one-seed-paper-t4` | `notebooks/heartplus/plaintext/heart-q1-v5-5-gen-only-one-seed-paper-t4.ipynb` | `results/heartplus/plaintext/v55_paper_acceptance.json`; `artifacts/heartplus/heartplus_q1v55_generator_only_paper_artifacts/` | Public in downloaded metadata |
-| Heart+ | Official DiCE | `heart-v5-5-official-dice-extension-paper` | `notebooks/heartplus/official_dice/heart-v5-5-official-dice-extension-paper.ipynb` (executed 20-second paper version) | `results/heartplus/official_dice/official_dice_extension_acceptance.json`; `artifacts/heartplus/heartplus_official_dice_extension_paper_artifacts/` | Private in downloaded metadata; local record complete |
+| Heart+ | Official DiCE | `heart-v5-5-official-dice-extension-paper` | `notebooks/heartplus/official_dice/heart-v5-5-official-dice-extension-paper.ipynb` (executed 20-second paper version) | `results/heartplus/official_dice/official_dice_extension_acceptance.json`; `artifacts/heartplus/heartplus_official_dice_extension_paper_artifacts/` | Private in saved metadata; local record available |
 | Heart+ | HE | `heart-v5-5-he-population-paper` | `notebooks/heartplus/he/heart-v5-5-he-population-paper.ipynb` | `results/heartplus/he/12_he_acceptance.json`; `artifacts/heartplus/heartplus_q1_v55_he_population_paper_artifacts/` | Public in downloaded metadata |
 | MIMIC-IV | Plaintext | [buiquocviet/mimic-iv-q1-v5-5-gen-only-one-seed-paper-t4](https://www.kaggle.com/code/buiquocviet/mimic-iv-q1-v5-5-gen-only-one-seed-paper-t4) | `notebooks/mimic/plaintext/mimic-iv-q1-v5-5-gen-only-one-seed-paper-t4.ipynb` | `results/mimic/plaintext/v55_paper_acceptance.json`; aggregate tables only | Public |
-| MIMIC-IV | Official DiCE | [buiquocviet/mimic-iv-v5-5-official-dice-extension-paper](https://www.kaggle.com/code/buiquocviet/mimic-iv-v5-5-official-dice-extension-paper) | `notebooks/mimic/official_dice/mimic-iv-v5-5-official-dice-extension-paper.ipynb` | `results/mimic/official_dice/official_dice_extension_acceptance.json`; aggregate tables only | **Private; action required** |
+| MIMIC-IV | Official DiCE | [buiquocviet/mimic-iv-v5-5-official-dice-extension-paper](https://www.kaggle.com/code/buiquocviet/mimic-iv-v5-5-official-dice-extension-paper) | `notebooks/mimic/official_dice/mimic-iv-v5-5-official-dice-extension-paper.ipynb` | `results/mimic/official_dice/official_dice_extension_acceptance.json`; aggregate tables only | Private in saved metadata; local aggregate record available |
 | MIMIC-IV | HE | [buiquocviet/mimic-iv-v5-5-he-population-paper](https://www.kaggle.com/code/buiquocviet/mimic-iv-v5-5-he-population-paper) | `notebooks/mimic/he/mimic-iv-v5-5-he-population-paper.ipynb` | `results/mimic/he/12_he_acceptance.json`; aggregate tables only | Public |
 
-## Acceptance summary
+## Each run contributes a distinct part of the evidence
 
 - Plaintext: three `Q1_V55_GENERATOR_ONLY_ONE_SEED_PAPER` artifacts; generator seed `[11]`, search seed `[11]`, 100 factuals/direction, both directions, 8,800 per-factual rows/dataset.
 - Official DiCE: three `Q1_V55_OFFICIAL_DICE_EXTENSION_PAPER` artifacts; 200 exact factuals and 400 method rows/dataset; no MLP/GAN retraining; timeout/no-CF retained.

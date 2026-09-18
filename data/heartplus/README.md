@@ -1,4 +1,4 @@
-# Heart+ input
+# Heart+ keeps exact duplicate groups within a single data split
 
 `Heart+` is the study name for a merged heart-risk cohort, not a standalone clinical registry. The file combines processed 2020 and 2022 tables derived from the CDC Behavioral Risk Factor Surveillance System (BRFSS).
 

@@ -1,4 +1,4 @@
-# Result-table manifest
+# The result tables separate utility, external baselines, and encrypted execution
 
 Each dataset has three independently accepted result groups:
 

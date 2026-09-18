@@ -1,4 +1,4 @@
-# Data manifest
+# Data availability follows the source licenses
 
 This directory intentionally distinguishes redistributable inputs from access-controlled clinical data.
 

@@ -1,4 +1,4 @@
-# Extracted artifact directories
+# Saved outputs support review beyond the notebook interface
 
 The ECG and Heart+ subdirectories contain the fully extracted outputs for the accepted plaintext, Official DiCE, and HE paper runs. Their aggregate manuscript tables are also copied selectively under `results/` for direct inspection.
 

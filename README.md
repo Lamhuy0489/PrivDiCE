@@ -1,80 +1,79 @@
-# PrivDiCE reproducibility package
+# PrivDiCE: reproducibility materials for peer review
 
-This repository accompanies **“PrivDiCE: Privacy-Preserving Actionable Counterfactual Explanations with Differential Privacy and Homomorphic Encryption.”** It contains the manuscript source, exact one-training-seed experiment code, canonical aggregate results, source notebooks, public-data inputs, and machine-readable acceptance records used for the reported tables.
+This repository provides the code, experimental records, and manuscript source for **“PrivDiCE: Privacy-Preserving Actionable Counterfactual Explanations with Differential Privacy and Homomorphic Encryption.”** The release is organized so that reported values can be traced to saved tables and acceptance records without rerunning model training.
 
-## Scope of the released evidence
+For a first review, consult the following files in order:
 
-The manuscript is based on one fixed training run per dataset:
+1. [`ManuScript.tex`](ManuScript.tex) for the article;
+2. [`docs/REPRODUCIBILITY_AUDIT.md`](docs/REPRODUCIBILITY_AUDIT.md) for the scope and known limitations of the release;
+3. [`docs/RUN_MANIFEST.md`](docs/RUN_MANIFEST.md) for the nine accepted experimental runs;
+4. [`results/`](results/) for the tables used to verify the manuscript's reported values.
 
-- classifier training seed: `55`;
-- CounterGAN/DP-CounterGAN training seed: `11`;
-- outer counterfactual search seed: `11`;
-- 200 factuals per dataset: 100 in each prediction direction;
-- MIA, memorization, and attribute attacks: 10 attacker/resampling seeds, **not** 10 generator-training runs;
-- CKKS timing: 3 fixed candidate-cohort seeds × 5 repetitions = 15 timing runs per population.
+## The release supports the manuscript's one-training-seed claims
 
-Accordingly, the plaintext CFE tables are one-generator-training-seed results. Factual-level bootstrap intervals and paired tests quantify uncertainty within this frozen run; they do not establish between-training-run variability.
+The manuscript reports one fixed training run for each dataset. The classifier seed is `55`, the CounterGAN/DP-CounterGAN training seed is `11`, and the outer counterfactual search seed is `11`. Each dataset contributes 200 factual instances, with 100 evaluated in each prediction direction.
 
-## Repository map
+Privacy attacks use 10 attacker or resampling seeds. CKKS timing uses three fixed candidate cohorts and five timing repetitions per cohort. These repetitions estimate attack and timing variability; they are not additional generator-training runs. Likewise, factual-level bootstrap intervals and paired tests quantify variation within the frozen run, not variation across independent model retraining.
 
-| Path | Contents |
+## Each manuscript claim is linked to a saved record
+
+| Path | Role in the evidence chain |
 | --- | --- |
-| `ManuScript.tex`, `ref.bib`, `figures/`, `images/` | Paper source and figures |
-| `src/` | Frozen pipeline, privacy-attack, HE benchmark, and notebook-builder code |
-| `notebooks/` | Kaggle notebook source snapshots and kernel metadata |
-| `results/<dataset>/plaintext/` | Canonical aggregate plaintext tables and acceptance JSON |
-| `results/<dataset>/official_dice/` | Full-cohort Official DiCE aggregate results and audit |
-| `results/<dataset>/he/` | CKKS timing, communication, correctness, and acceptance tables |
-| `artifacts/` | Fully extracted output directories where redistribution is permitted |
-| `data/` | Publicly redistributable ECG and Heart+ inputs; MIMIC-IV is intentionally excluded |
-| `docs/EXPERIMENTAL_SUPPLEMENT_ONE_SEED.md` | Audited public rendering of the one-seed supplement derived from `Bổ sung.md` |
-| `docs/REPRODUCIBILITY_AUDIT.md` | Release audit, limitations, and manuscript-to-artifact mapping |
-| `docs/RUN_MANIFEST.md` | All nine canonical runs, local files, output records, and available public links |
-| `tools/audit_release.py` | Integrity and headline-number audit |
+| `ManuScript.tex`, `ref.bib`, `figures/`, `images/` | Article source, references, and figures |
+| `src/` | Frozen plaintext, privacy-attack, and CKKS benchmark implementations |
+| `notebooks/` | Nine Kaggle notebook snapshots and their saved kernel metadata |
+| `results/<dataset>/plaintext/` | Aggregate counterfactual results and plaintext acceptance record |
+| `results/<dataset>/official_dice/` | Full-cohort Official DiCE results and failure accounting |
+| `results/<dataset>/he/` | CKKS latency, communication, error, and agreement tables |
+| `artifacts/` | Extracted run outputs for ECG and Heart+, where redistribution is permitted |
+| `data/` | Redistributable ECG and Heart+ inputs and the MIMIC-IV access contract |
+| `docs/EXPERIMENTAL_SUPPLEMENT_ONE_SEED.md` | Audited public rendering of the one-seed experimental supplement |
+| `tools/audit_release.py` | Automated checks of acceptance records and headline values |
 
-## Canonical Kaggle runs
+## Nine accepted runs form the experimental record
 
-| Dataset | Plaintext paper | Official DiCE extension | HE population benchmark |
+| Dataset | Plaintext experiment | Official DiCE extension | CKKS benchmark |
 | --- | --- | --- | --- |
 | Leipzig ECG | [local notebook](notebooks/ecg/plaintext/leipzig-ecg-q1-v5-5-gen-only-one-seed-paper-t4.ipynb) | [local notebook](notebooks/ecg/official_dice/leipzig-ecg-v5-5-official-dice-extension-paper-sav.ipynb) | [local notebook](notebooks/ecg/he/leipzig-ecg-v5-5-he-population-paper.ipynb) |
 | Heart+ | [local notebook](notebooks/heartplus/plaintext/heart-q1-v5-5-gen-only-one-seed-paper-t4.ipynb) | [local notebook](notebooks/heartplus/official_dice/heart-v5-5-official-dice-extension-paper.ipynb) | [local notebook](notebooks/heartplus/he/heart-v5-5-he-population-paper.ipynb) |
-| MIMIC-IV | [one-seed plaintext](https://www.kaggle.com/code/buiquocviet/mimic-iv-q1-v5-5-gen-only-one-seed-paper-t4) | [Official DiCE](https://www.kaggle.com/code/buiquocviet/mimic-iv-v5-5-official-dice-extension-paper)¹ | [CKKS/HE](https://www.kaggle.com/code/buiquocviet/mimic-iv-v5-5-he-population-paper) |
+| MIMIC-IV | [Kaggle notebook](https://www.kaggle.com/code/buiquocviet/mimic-iv-q1-v5-5-gen-only-one-seed-paper-t4) | [Kaggle notebook](https://www.kaggle.com/code/buiquocviet/mimic-iv-v5-5-official-dice-extension-paper)¹ | [Kaggle notebook](https://www.kaggle.com/code/buiquocviet/mimic-iv-v5-5-he-population-paper) |
 
-¹ The downloaded Kaggle metadata reports the MIMIC-IV Official DiCE notebook as private. Its code snapshot and aggregate results are present here, but the Kaggle owner must make the notebook public before a reviewer can open the external link. The Heart+ external account link is intentionally omitted; its complete local record is checked in.
+¹ The saved metadata marks the MIMIC-IV Official DiCE notebook as private. Its source snapshot, aggregate tables, and acceptance record are included locally, so the numerical record remains reviewable even when the external page is unavailable.
 
-Kaggle's kernel pull API returned source-only `.ipynb` files with cleared execution counts and outputs. Eight checked-in notebooks are therefore labeled source snapshots. The original Heart+ Official DiCE 20-second notebook was also available as a manually saved executed notebook and is checked in with its cell outputs. For every run, the canonical output record remains the audited CSV/JSON tables in `results/` and, where licensing permits, the fully extracted output directories in `artifacts/`.
+Eight notebooks downloaded through the Kaggle API are source snapshots because the API copy did not retain executed outputs. The manually saved Heart+ Official DiCE notebook does retain its cell outputs. The canonical evidence is therefore the CSV/JSON material under `results/` and the extracted ECG/Heart+ outputs under `artifacts/`, rather than the rendered notebook interface alone.
 
-## Data provenance and redistribution
+## Data availability follows the original access conditions
 
-| Dataset | Released here? | Source and status |
+| Dataset | Included | Source and release condition |
 | --- | --- | --- |
 | Leipzig ECG | Yes | [PhysioNet v1.0.0](https://physionet.org/content/leipzig-heart-center-ecg/1.0.0/), DOI [10.13026/7a4j-vn37](https://doi.org/10.13026/7a4j-vn37), ODC Attribution 1.0 |
-| Heart+ | Yes | Derived from CDC BRFSS 2020/2022 processed tables; detailed provenance and checksum are in `data/heartplus/README.md` |
-| MIMIC-IV | No | [MIMIC-IV v2.2](https://physionet.org/content/mimiciv/2.2/), DOI [10.13026/6mm1-ek67](https://doi.org/10.13026/6mm1-ek67); credentialed access and DUA apply |
+| Heart+ | Yes | Derived from processed CDC BRFSS 2020/2022 tables; provenance and checksum are recorded in [`data/heartplus/README.md`](data/heartplus/README.md) |
+| MIMIC-IV | No | [MIMIC-IV v2.2](https://physionet.org/content/mimiciv/2.2/), DOI [10.13026/6mm1-ek67](https://doi.org/10.13026/6mm1-ek67); credentialed access and a data-use agreement apply |
 
-The MIMIC-IV CSV, trained checkpoints, row-level counterfactuals, and complete output archive are deliberately not committed. Public aggregate tables that do not disclose patient rows are retained. An authorized user can place the exact extract locally as described in `data/mimic/README.md`.
+The repository does not redistribute the MIMIC-IV extract, row-level counterfactuals, trained checkpoints, or complete run archive. It retains only aggregate tables that do not disclose patient rows. Authorized users can reconstruct the expected local input by following [`data/mimic/README.md`](data/mimic/README.md).
 
-## Reproduce and audit
+## Reported values can be checked without retraining the models
 
-The original runs used Kaggle Tesla T4 notebooks for plaintext training and CPU-only Kaggle sessions for CKKS. Core versions were PyTorch `2.10.0+cu128`, Opacus `1.6.0`, Python `3.12.13`, and TenSEAL `0.3.16`. See `requirements.txt` and the notebook install cells for the remaining dependencies.
+The plaintext runs used Kaggle Tesla T4 sessions. CKKS measurements used CPU-only Kaggle sessions with four logical and two physical CPU cores. Core software versions were Python `3.12.13`, PyTorch `2.10.0+cu128`, Opacus `1.6.0`, and TenSEAL `0.3.16`.
 
-Run the release audit from the repository root:
+From the repository root, run:
 
 ```bash
 python3 tools/audit_release.py
 shasum -a 256 -c SHA256SUMS.txt
 ```
 
-The audit checks all nine acceptance records, seed contracts, factual/result counts, input checksums, primary manuscript metrics, HE timing/correctness, notebook-output status, and Kaggle visibility metadata.
+The first command verifies the nine acceptance records, seed contracts, factual counts, headline metrics, CKKS correctness, and notebook status. The second verifies every tracked file against the release checksum manifest.
 
-## Important interpretation limits
+## Comparisons must be read within their access and compute conditions
 
-- CFE validity is `Valid-CFE Yield@10`: valid and feasible returned CFEs divided by `K=10`; missing slots remain failures.
-- Official DiCE uses the same cohort, targets, margin, and constraints, but native `sample_size`/`maxiterations` and timeouts. It is a matched-outcome comparison, not an equal-compute comparison.
-- HE label agreement evaluates numerical equivalence of CKKS and the frozen plaintext graph. It is not CFE utility.
-- Reported composed HE search cost multiplies measured latency per encrypted population round by frozen search-round counts; it is not a directly observed full-cohort encrypted end-to-end run.
-- MIMIC-IV lacks a patient identifier in the supplied experimental extract, so its split is stratified by row rather than patient-disjoint.
+- Counterfactual validity is reported as `Valid-CFE Yield@10`: the number of valid, feasible CFEs divided by `K=10`. Missing slots remain failures.
+- Official DiCE uses the same factual cohort, target labels, margin, and constraints as the proposed method, but follows its native `sample_size`, `maxiterations`, and timeout controls. It is a matched-outcome comparison, not an equal-candidate-budget comparison.
+- DiCE-style and Wachter-style baselines use backward access to the predictor, whereas the forward-only search methods use counted candidate evaluations. Their access conditions are therefore reported separately.
+- HE label agreement measures numerical consistency between CKKS and the frozen plaintext predictor. It does not measure counterfactual utility.
+- Composed HE search cost is calculated from measured latency per encrypted population round and the frozen number of search rounds. It is an estimate of end-to-end search cost, not a directly timed full-cohort encrypted run.
+- The supplied MIMIC-IV extract has no patient identifier; its split is stratified by row rather than patient-disjoint.
 
-## Citation and licensing
+## Citation and reuse remain subject to dataset licenses
 
-Citation metadata is provided in `CITATION.cff`. Dataset-specific licenses and attribution requirements remain in force. No single repository-wide license is asserted over third-party data; users must follow each source license and the MIMIC-IV credentialed-data agreement.
+Citation metadata is provided in [`CITATION.cff`](CITATION.cff). Dataset licenses and attribution requirements continue to apply. In particular, no repository-wide permission overrides the MIMIC-IV credentialed-data agreement or the licenses of the ECG and BRFSS-derived inputs.

@@ -1,4 +1,4 @@
-# Leipzig ECG input
+# Leipzig ECG is released with a subject-disjoint split contract
 
 The released feature table was constructed from the [Leipzig Heart Center ECG Database v1.0.0](https://physionet.org/content/leipzig-heart-center-ecg/1.0.0/) (DOI [10.13026/7a4j-vn37](https://doi.org/10.13026/7a4j-vn37)), distributed under the Open Data Commons Attribution License v1.0.
 
