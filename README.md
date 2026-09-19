@@ -21,7 +21,7 @@ Privacy attacks use 10 attacker or resampling seeds. CKKS timing uses three fixe
 | --- | --- |
 | `ManuScript.tex`, `ref.bib`, `figures/`, `images/` | Article source, references, and figures |
 | `src/` | Frozen plaintext, privacy-attack, and CKKS benchmark implementations |
-| `notebooks/` | Nine Kaggle notebook snapshots and their saved kernel metadata |
+| `notebooks/` | Nine executed Kaggle notebook snapshots and their saved kernel metadata |
 | `results/<dataset>/plaintext/` | Aggregate counterfactual results and plaintext acceptance record |
 | `results/<dataset>/official_dice/` | Full-cohort Official DiCE results and failure accounting |
 | `results/<dataset>/he/` | CKKS latency, communication, error, and agreement tables |
@@ -34,13 +34,13 @@ Privacy attacks use 10 attacker or resampling seeds. CKKS timing uses three fixe
 
 | Dataset | Plaintext experiment | Official DiCE extension | CKKS benchmark |
 | --- | --- | --- | --- |
-| Leipzig ECG | [local notebook](notebooks/ecg/plaintext/leipzig-ecg-q1-v5-5-gen-only-one-seed-paper-t4.ipynb) | [local notebook](notebooks/ecg/official_dice/leipzig-ecg-v5-5-official-dice-extension-paper-sav.ipynb) | [local notebook](notebooks/ecg/he/leipzig-ecg-v5-5-he-population-paper.ipynb) |
-| Heart+ | [local notebook](notebooks/heartplus/plaintext/heart-q1-v5-5-gen-only-one-seed-paper-t4.ipynb) | [local notebook](notebooks/heartplus/official_dice/heart-v5-5-official-dice-extension-paper.ipynb) | [local notebook](notebooks/heartplus/he/heart-v5-5-he-population-paper.ipynb) |
-| MIMIC-IV | [Kaggle notebook](https://www.kaggle.com/code/buiquocviet/mimic-iv-q1-v5-5-gen-only-one-seed-paper-t4) | [Kaggle notebook](https://www.kaggle.com/code/buiquocviet/mimic-iv-v5-5-official-dice-extension-paper)¹ | [Kaggle notebook](https://www.kaggle.com/code/buiquocviet/mimic-iv-v5-5-he-population-paper) |
+| Leipzig ECG | [Kaggle](https://www.kaggle.com/code/lamhuy8904/leipzig-ecg-q1-v5-5-gen-only-one-seed-paper-t4) · [executed snapshot](notebooks/ecg/plaintext/leipzig-ecg-q1-v5-5-gen-only-one-seed-paper-t4.ipynb) | [Kaggle](https://www.kaggle.com/code/lamhuy8904/leipzig-ecg-v5-5-official-dice-extension-paper-sav) · [executed snapshot](notebooks/ecg/official_dice/leipzig-ecg-v5-5-official-dice-extension-paper-sav.ipynb) | [Kaggle](https://www.kaggle.com/code/lamhuy8904/leipzig-ecg-v5-5-he-population-paper) · [executed snapshot](notebooks/ecg/he/leipzig-ecg-v5-5-he-population-paper.ipynb) |
+| Heart+ | [Kaggle](https://www.kaggle.com/code/huylmhuhu/heart-q1-v5-5-gen-only-one-seed-paper-t4) · [executed snapshot](notebooks/heartplus/plaintext/heart-q1-v5-5-gen-only-one-seed-paper-t4.ipynb) | [Kaggle](https://www.kaggle.com/code/huylmhuhu/heart-v5-5-official-dice-extension-paper)¹ · [executed snapshot](notebooks/heartplus/official_dice/heart-v5-5-official-dice-extension-paper.ipynb) | [Kaggle](https://www.kaggle.com/code/huylmhuhu/heart-v5-5-he-population-paper) · [executed snapshot](notebooks/heartplus/he/heart-v5-5-he-population-paper.ipynb) |
+| MIMIC-IV | [Kaggle](https://www.kaggle.com/code/buiquocviet/mimic-iv-q1-v5-5-gen-only-one-seed-paper-t4) · [executed snapshot](notebooks/mimic/plaintext/mimic-iv-q1-v5-5-gen-only-one-seed-paper-t4.ipynb) | [Kaggle](https://www.kaggle.com/code/buiquocviet/mimic-iv-v5-5-official-dice-extension-paper)¹ · [executed snapshot](notebooks/mimic/official_dice/mimic-iv-v5-5-official-dice-extension-paper.ipynb) | [Kaggle](https://www.kaggle.com/code/buiquocviet/mimic-iv-v5-5-he-population-paper) · [executed snapshot](notebooks/mimic/he/mimic-iv-v5-5-he-population-paper.ipynb) |
 
-¹ The saved metadata marks the MIMIC-IV Official DiCE notebook as private. Its source snapshot, aggregate tables, and acceptance record are included locally, so the numerical record remains reviewable even when the external page is unavailable.
+¹ The saved metadata marks the Heart+ and MIMIC-IV Official DiCE pages as private at audit time. Their executed snapshots, aggregate tables, and acceptance records are included locally, so the numerical record remains reviewable even when an external page is unavailable.
 
-Eight notebooks downloaded through the Kaggle API are source snapshots because the API copy did not retain executed outputs. The manually saved Heart+ Official DiCE notebook does retain its cell outputs. The canonical evidence is therefore the CSV/JSON material under `results/` and the extracted ECG/Heart+ outputs under `artifacts/`, rather than the rendered notebook interface alone.
+All nine checked-in notebooks are manually saved executed versions: every code cell retains its execution count and the saved cell outputs, and none contains an error output. The machine-readable CSV/JSON material under `results/` and the extracted ECG/Heart+ outputs under `artifacts/` remain the canonical numerical evidence.
 
 ## Data availability follows the original access conditions
 

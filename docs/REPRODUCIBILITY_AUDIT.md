@@ -36,8 +36,8 @@ The recomputed values match the supplement and manuscript at the reported precis
 
 ## The release has explicit limitations rather than hidden substitutions
 
-1. Eight notebooks obtained through the Kaggle API are source snapshots and must not be described as executed-output notebooks. The accepted numerical outputs are preserved in `results/` and, for ECG and Heart+, in `artifacts/`.
-2. The saved metadata marks the Heart+ and MIMIC-IV Official DiCE notebooks as private. Their local source snapshots, aggregate tables, and acceptance records remain available for review.
+1. All nine checked-in notebooks are manually saved executed copies: every code cell retains its execution count and outputs, and the accepted copies contain no error output. The aggregate numerical record is also preserved in `results/` and, for ECG and Heart+, in `artifacts/`.
+2. The saved metadata marks the Heart+ and MIMIC-IV Official DiCE notebooks as private. Their executed local copies, aggregate tables, and acceptance records remain available for review.
 3. MIMIC-IV input records, row-level outputs, checkpoints, and the complete run archive are excluded because the source is governed by credentialed access and a data-use agreement.
 4. Ten privacy-attack seeds and 15 CKKS timing repetitions do not replace independent generator retraining. The current manuscript is correctly described as a one-training-seed study.
 5. The reported encrypted search time is a composed estimate based on measured round latency and frozen search rounds; it is not presented as a directly timed full-cohort encrypted run.

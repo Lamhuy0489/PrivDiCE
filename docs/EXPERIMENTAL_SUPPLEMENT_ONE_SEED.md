@@ -80,8 +80,8 @@ Heart+ không có DOI riêng. Nên trích dẫn nguồn survey CDC và ghi thêm
 
 | Dataset | Plaintext seed 11 | Plaintext seed 22 | Plaintext seed 33 | HE paper | Merge full3 + HE |
 | --- | --- | --- | --- | --- | --- |
-| Leipzig ECG | `leipzig-ecg-q1-v5-5-gen-only-one-seed-paper-t4` | `leipzig-v55-ms-s22-paper-t4` | `leipzig-v55-ms-s33-paper-t4` | `leipzig-ecg-v5-5-he-population-paper` | `leipzig-ecg-v5-5-full3-he-merge-tables` |
-| Heart+ | `heart-q1-v5-5-gen-only-one-seed-paper-t4` | `heart-v55-ms-s22-paper-t4` | `heart-v55-ms-s33-paper-t4` | `heart-v5-5-he-population-paper` | `heart-v5-5-full3-he-merge-tables` |
+| Leipzig ECG | [one-seed paper](https://www.kaggle.com/code/lamhuy8904/leipzig-ecg-q1-v5-5-gen-only-one-seed-paper-t4) | `leipzig-v55-ms-s22-paper-t4` | `leipzig-v55-ms-s33-paper-t4` | [HE population paper](https://www.kaggle.com/code/lamhuy8904/leipzig-ecg-v5-5-he-population-paper) | `leipzig-ecg-v5-5-full3-he-merge-tables` |
+| Heart+ | [one-seed paper](https://www.kaggle.com/code/huylmhuhu/heart-q1-v5-5-gen-only-one-seed-paper-t4) | `heart-v55-ms-s22-paper-t4` | `heart-v55-ms-s33-paper-t4` | [HE population paper](https://www.kaggle.com/code/huylmhuhu/heart-v5-5-he-population-paper) | `heart-v5-5-full3-he-merge-tables` |
 | MIMIC-IV | [one-seed paper](https://www.kaggle.com/code/buiquocviet/mimic-iv-q1-v5-5-gen-only-one-seed-paper-t4) | [seed 22 paper](https://www.kaggle.com/code/buiquocviet/mimic-v55-ms-s22-paper-t4) | [seed 33 paper — public cross-account](https://www.kaggle.com/code/meanalways/mimic-v55-ms-s33-paper-t4) | [HE population paper](https://www.kaggle.com/code/buiquocviet/mimic-iv-v5-5-he-population-paper) | [full3 + HE merge](https://www.kaggle.com/code/buiquocviet/mimic-iv-v5-5-full3-he-merge-tables) |
 
 Ba notebook merge đều đã `COMPLETE`. Mỗi notebook nhận đúng bốn output, kiểm checksum/acceptance, kiểm query manifest và baseline invariance, rồi chỉ ghép và in bảng; không train lại MLP/GAN, không sinh lại CFE, không chạy lại attack và không chạy lại CKKS.
@@ -90,8 +90,8 @@ Official DiCE full-cohort là nhánh baseline độc lập, không phải một 
 
 | Dataset | Official DiCE full-cohort extension |
 | --- | --- |
-| Leipzig ECG | `leipzig-ecg-v5-5-official-dice-extension-paper-sav` |
-| Heart+ | `heart-v5-5-official-dice-extension-paper` |
+| Leipzig ECG | [leipzig-ecg-v5-5-official-dice-extension-paper-sav](https://www.kaggle.com/code/lamhuy8904/leipzig-ecg-v5-5-official-dice-extension-paper-sav) |
+| Heart+ | [heart-v5-5-official-dice-extension-paper](https://www.kaggle.com/code/huylmhuhu/heart-v5-5-official-dice-extension-paper) |
 | MIMIC-IV | [mimic-iv-v5-5-official-dice-extension-paper](https://www.kaggle.com/code/buiquocviet/mimic-iv-v5-5-official-dice-extension-paper) |
 
 ### 0.4 Khác biệt chính với bản đầu tiên
@@ -970,9 +970,9 @@ Phần này đọc trực tiếp ba artifact `Q1_V55_HE_POPULATION_PAPER` có `a
 
 | Dataset | HE paper kernel | Trạng thái lúc cập nhật | Final paper numbers |
 | --- | --- | --- | --- |
-| Leipzig ECG | `leipzig-ecg-v5-5-he-population-paper` | COMPLETE + accepted | Có |
-| Heart+ | `heart-v5-5-he-population-paper` | COMPLETE + accepted | Có |
-| MIMIC-IV | buiquocviet/mimic-iv-v5-5-he-population-paper | COMPLETE + accepted | Có |
+| Leipzig ECG | [leipzig-ecg-v5-5-he-population-paper](https://www.kaggle.com/code/lamhuy8904/leipzig-ecg-v5-5-he-population-paper) | COMPLETE + accepted | Có |
+| Heart+ | [heart-v5-5-he-population-paper](https://www.kaggle.com/code/huylmhuhu/heart-v5-5-he-population-paper) | COMPLETE + accepted | Có |
+| MIMIC-IV | [mimic-iv-v5-5-he-population-paper](https://www.kaggle.com/code/buiquocviet/mimic-iv-v5-5-he-population-paper) | COMPLETE + accepted | Có |
 
 ### 9.1 Cấu hình mật mã và đóng gói
 

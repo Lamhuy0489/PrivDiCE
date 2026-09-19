@@ -226,38 +226,33 @@ def audit_data() -> None:
     supplement = ROOT / "docs/EXPERIMENTAL_SUPPLEMENT_ONE_SEED.md"
     supplement_text = supplement.read_text()
     require("paper một seed" in supplement_text and "seed 11" in supplement_text,
-            "public one-seed supplement retains the audited scope after identifier redaction")
+            "public one-seed supplement retains the audited experimental scope")
 
 
 def audit_notebooks() -> None:
     notebooks = sorted((ROOT / "notebooks").glob("*/*/*.ipynb"))
     metadata = sorted((ROOT / "notebooks").glob("*/*/kernel-metadata.json"))
     require(len(notebooks) == 9 and len(metadata) == 9,
-            "nine notebook snapshots and nine metadata files")
+            "nine executed notebook copies and nine metadata files")
 
-    total_outputs = 0
-    executed_cells = 0
-    for path in notebooks:
-        notebook = json.loads(path.read_text())
-        for cell in notebook.get("cells", []):
-            if cell.get("cell_type") == "code":
-                executed_cells += int(cell.get("execution_count") is not None)
-                total_outputs += len(cell.get("outputs", []))
-    executed_notebooks = []
-    source_only_notebooks = []
+    fully_executed_notebooks = []
+    incomplete_notebooks = []
+    notebooks_with_errors = []
     for path in notebooks:
         notebook = json.loads(path.read_text())
         code = [cell for cell in notebook.get("cells", []) if cell.get("cell_type") == "code"]
-        if any(cell.get("execution_count") is not None or cell.get("outputs") for cell in code):
-            executed_notebooks.append(path)
+        has_saved_outputs = sum(len(cell.get("outputs", [])) for cell in code) > 0
+        if code and all(cell.get("execution_count") is not None for cell in code) and has_saved_outputs:
+            fully_executed_notebooks.append(path)
         else:
-            source_only_notebooks.append(path)
-    require(len(executed_notebooks) == 1
-            and executed_notebooks[0].name == "heart-v5-5-official-dice-extension-paper.ipynb",
-            "executed Heart+ Official DiCE paper notebook is preserved")
-    if source_only_notebooks:
-        warned(f"{len(source_only_notebooks)} Kaggle snapshots are source-only; "
-               "use results/ and artifacts/ for outputs")
+            incomplete_notebooks.append(path)
+        if any(output.get("output_type") == "error"
+               for cell in code for output in cell.get("outputs", [])):
+            notebooks_with_errors.append(path)
+    require(len(fully_executed_notebooks) == 9 and not incomplete_notebooks,
+            "all nine paper notebooks retain execution counts and saved outputs")
+    require(not notebooks_with_errors,
+            "no accepted paper notebook contains an error output")
 
     private = []
     for path in metadata:
